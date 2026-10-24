@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+<LinearLayout android:background="#020406" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
         <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/dp10">
-            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:background="@drawable/__f8__bt_keyboard_input_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp88" android:layout_marginTop="@dimen/dp10">
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:background="@drawable/neon_list_surface" android:layout_width="fill_parent" android:layout_height="@dimen/dp72" android:layout_marginTop="@dimen/dp10">
                 <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/__f8__search_icon" android:layout_marginStart="@dimen/dp30" />
                 <SearchView android:id="@id/search_view_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="textFilter" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" android:searchIcon="@null" />
             </LinearLayout>
-            <ExpandableListView android:id="@id/contact_list_id" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp10" android:listSelector="@android:color/transparent" android:childDivider="@drawable/__f8__contacts_divider" android:divider="@drawable/__f8__contacts_divider" android:fastScrollEnabled="false" />
+            <ExpandableListView android:background="#020406" android:id="@id/contact_list_id" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp10" android:listSelector="@android:color/transparent" android:childDivider="@drawable/__f8__contacts_divider" android:divider="@drawable/__f8__contacts_divider" android:fastScrollEnabled="false" />
         </LinearLayout>
         <RelativeLayout android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/noContacts" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />

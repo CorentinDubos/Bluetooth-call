@@ -2561,3 +2561,17 @@
     :goto_1
     return-void
 .end method
+
+    .method public openGpsPage(Landroid/view/View;)V
+        .locals 2
+
+        new-instance p1, Landroid/content/Intent;
+
+        const-class v0, Lcom/hzbhd/bluetooth/a2dp/GpsInfoActivity;
+
+        invoke-direct {p1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+        invoke-virtual {p0, p1}, Lcom/hzbhd/bluetooth/a2dp/A2dpMainActivity;->startActivity(Landroid/content/Intent;)V
+
+        return-void
+    .end method
