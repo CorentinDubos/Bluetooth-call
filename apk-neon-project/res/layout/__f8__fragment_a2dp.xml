@@ -19,7 +19,7 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a2dp_controls" android:layout_width="fill_parent" android:layout_height="@dimen/dp104" android:layout_alignParentBottom="true" android:layout_marginBottom="@dimen/dp16">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/a2dp_controls" android:layout_width="fill_parent" android:layout_height="@dimen/dp104" android:layout_alignParentBottom="true" android:layout_marginBottom="@dimen/dp16">
         <ImageButton android:id="@id/a2dp_prev_btn_id" android:background="@drawable/neon_music_control" android:src="?down_btn_opt_prev" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp82" android:layout_height="@dimen/dp82" android:contentDescription="@string/image_desc" />
         <ImageButton android:id="@id/a2dp_play_pause_btn_id" android:background="@drawable/neon_music_play_control" android:src="?selector_music_play_btn" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp102" android:layout_height="@dimen/dp102" android:layout_marginStart="@dimen/dp42" android:layout_marginEnd="@dimen/dp42" android:contentDescription="@string/image_desc" />
         <ImageButton android:id="@id/a2dp_next_btn_id" android:background="@drawable/neon_music_control" android:src="?down_btn_opt_next" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp82" android:layout_height="@dimen/dp82" android:contentDescription="@string/image_desc" />
