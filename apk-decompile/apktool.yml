@@ -1,0 +1,178 @@
+version: 2.10.0
+apkFileName: bluetooth-call-original.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  tag: null
+sdkInfo:
+packageInfo:
+  forcedPackageId: null
+  renameManifestPackage: null
+versionInfo:
+  versionCode: null
+  versionName: null
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/hzbhd/config/device/Device.kt: 8
+  com/hzbhd/config/device/common/MyDevice4G.kt: 8
+  com/hzbhd/config/device/common/MyDeviceDefault.kt: 8
+  com/hzbhd/config/device/kc1c0101/MyDevice.kt: 8
+  com/hzbhd/config/device/kc1g0101/MyDevice.kt: 8
+  com/hzbhd/config/device/kc1g0102/MyDevice.kt: 8
+  com/hzbhd/mediaScanner/ID3Info.aidl: 8
+  com/hzbhd/mediaScanner/MediaObjectName.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IAtvCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IAudioCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IAutoTestCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IAuxVideoCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IBlackoutCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IBluetoothCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/ICameraCallback.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IDTVCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IDeviceYHCallback.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IDiscBackCameraChangeInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IMediaScannerCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IMiscOperationCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IMpegPlayerCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IParkCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/IRadioCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/ISWCCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/ISettingCallBackInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/callback/ISurgingPowerCallback.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/CanTypeAllEntity.aidl: 0
+  com/hzbhd/midwareproxy/binder/service/IAtvInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IAuxVideoInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IBlackoutManager.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IBluetoothInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ICameraInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ICanbusAirService.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ICanbusCarInfoService.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ICanbusInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ICanbusRadarService.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IDTVInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IDeviceYHInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IDspInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ILcdShowInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IMediaScannerInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IMiscOperationInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IMiscOperationInterface.aidl.bak: 8
+  com/hzbhd/midwareproxy/binder/service/IMpegPlayerInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IParkInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IRadioInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/IServiceHeartBeat.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ISettingInterface.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ISourceSwitchManager.aidl: 8
+  com/hzbhd/midwareproxy/binder/service/ISurgingPwerInterface.aidl: 8
+  com/hzbhd/midwareproxy/bluetooth/HfpErrorInfo.aidl: 0
+  com/hzbhd/midwareproxy/bluetooth/HfpPhoneNumberInfo.aidl: 0
+  com/hzbhd/midwareproxy/bluetooth/HfpStatusInfo.aidl: 0
+  com/hzbhd/midwareproxy/canbus/aidl/ICanbusAirChangeCallback.aidl: 8
+  com/hzbhd/midwareproxy/canbus/aidl/ICanbusInfoChangeCallback.aidl: 8
+  com/hzbhd/midwareproxy/canbus/uiSet/AirPageUiSet.aidl: 8
+  com/hzbhd/midwareproxy/dualscreen/IDualScreenInterface.aidl: 8
+  com/hzbhd/midwareproxy/iPod/ArtworkCountData.aidl: 0
+  com/hzbhd/midwareproxy/iPod/ArtworkFormats.aidl: 0
+  com/hzbhd/midwareproxy/iPod/AudioDataBuffer.aidl: 0
+  com/hzbhd/midwareproxy/iPod/DBiTunesInfo.aidl: 0
+  com/hzbhd/midwareproxy/iPod/DateTime.aidl: 0
+  com/hzbhd/midwareproxy/iPod/EventNotification.aidl: 0
+  com/hzbhd/midwareproxy/iPod/FourBytesStatus.aidl: 0
+  com/hzbhd/midwareproxy/iPod/PlayStatus.aidl: 0
+  com/hzbhd/midwareproxy/iPod/PlayStatusNotification.aidl: 0
+  com/hzbhd/midwareproxy/iPod/PlayingTrackInfo.aidl: 0
+  com/hzbhd/midwareproxy/iPod/RemoteEvent.aidl: 0
+  com/hzbhd/midwareproxy/iPod/RemoteEventMask.aidl: 0
+  com/hzbhd/midwareproxy/iPod/TimeOffsetArray.aidl: 0
+  com/hzbhd/midwareproxy/iPod/TrackArtworkData.aidl: 0
+  com/hzbhd/midwareproxy/iPod/TrackCapabilities.aidl: 0
+  com/hzbhd/midwareproxy/iPod/TrackInformation.aidl: 0
+  com/hzbhd/midwareproxy/iPod/TrackInformationMask.aidl: 0
+  com/hzbhd/midwareproxy/iPod/aidl/AuthenticationListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/AuthenticationStateListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/DigitalAudioEventListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/DisplayRemoteLingoRetListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/ExtendedInterfaceRetListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/GeneralLingoRetListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/ICarPlayiAP2Listener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/aidl/IIPodService.aidl: 8
+  com/hzbhd/midwareproxy/iPod/iap2/BitSet.aidl: 0
+  com/hzbhd/midwareproxy/iPod/iap2/INowPlayingInfoListener.aidl: 8
+  com/hzbhd/midwareproxy/iPod/iap2/MediaItemAttributesIDs.aidl: 0
+  com/hzbhd/midwareproxy/iPod/iap2/MediaItemIDs.aidl: 0
+  com/hzbhd/midwareproxy/iPod/iap2/MediaItemPropertiesIDs.aidl: 0
+  com/hzbhd/midwareproxy/iPod/iap2/PlaybackAttributesIDs.aidl: 0
+  com/hzbhd/midwareproxy/location/ILocAidlInterface.aidl: 8
+  com/hzbhd/midwareproxy/location/LocationCallback.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/IAVOffService.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/INMEACallback.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/IOnDrResponseListener.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/IRemoteDrListener.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/IRemoteDrService.aidl: 8
+  com/hzbhd/midwareproxy/misc/aidl/IVolumeService.aidl: 8
+  com/hzbhd/midwareproxy/radio/aidl/BgRadioStationInfo.aidl: 0
+  com/hzbhd/midwareproxy/radio/aidl/IRDSInfoChangeListener.aidl: 8
+  com/hzbhd/midwareproxy/radio/aidl/IRadioInfoChangeListener.aidl: 8
+  com/hzbhd/midwareproxy/radio/aidl/IRadioManager.aidl: 8
+  com/hzbhd/midwareproxy/speechrecognition/aidl/ISpeechCallback.aidl: 8
+  com/hzbhd/midwareproxy/speechrecognition/aidl/ISpeechSettingsAIDL.aidl: 8
+  com/hzbhd/midwareproxy/speechrecognition/aidl/SpeechRecognitionInterface.aidl: 8
+  com/hzbhd/midwareproxy/utils/LocationHelper.java.bak: 8
+  nfore/android/bt/servicemanager/BleCallback.aidl: 8
+  nfore/android/bt/servicemanager/IA2dpCallback.aidl: 8
+  nfore/android/bt/servicemanager/IHfpCallback.aidl: 8
+  nfore/android/bt/servicemanager/IHidCallback.aidl: 8
+  nfore/android/bt/servicemanager/IHspCallback.aidl: 8
+  nfore/android/bt/servicemanager/IMapCallback.aidl: 8
+  nfore/android/bt/servicemanager/INfServiceCommand.aidl: 8
+  nfore/android/bt/servicemanager/IPanCallback.aidl: 8
+  nfore/android/bt/servicemanager/IPbapCallback.aidl: 8
+  nfore/android/bt/servicemanager/IServiceCallback.aidl: 8
+  nfore/android/bt/servicemanager/ISppCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiA2dpCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiHfpCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiHidCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiHspCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiMapCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiPanCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiPbapCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiServiceCallback.aidl: 8
+  nfore/android/bt/servicemanager/UiServiceCommand.aidl: 8
+  nfore/android/bt/servicemanager/UiSppCallback.aidl: 8
+doNotCompress:
+- resources.arsc
+- META-INF/android.arch.core_runtime.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/android.arch.lifecycle_livedata.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- lib/arm64-v8a/libBugly-ext.so
+- lib/armeabi-v7a/libBugly-ext.so
+- lib/armeabi/libBugly-ext.so
+- lib/x86/libBugly-ext.so
+- lib/x86_64/libBugly-ext.so
+- png
+- webp
+- jpg
