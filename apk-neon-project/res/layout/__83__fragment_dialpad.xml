@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp20" android:paddingTop="@dimen/dp11" android:visibility="gone" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:layout_marginTop="@dimen/dp19" android:layout_marginStart="@dimen/dp2">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp8">
+            <ImageButton android:id="@id/dialpad_dial_btn_id" android:background="@drawable/selector_dialpad_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:src="@drawable/dial_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            <ImageButton android:id="@id/dialpad_back_btn_id" android:background="@drawable/selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/unpair_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+        </LinearLayout>
+        <Button android:id="@id/btn_key_listener_change_common" android:background="@drawable/__49__btn_key_listener_change" android:visibility="gone" android:layout_width="@dimen/dp160" android:layout_height="@dimen/dp86" android:layout_marginLeft="@dimen/dp40" android:layout_marginTop="@dimen/dp0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/callfragment_id" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.hzbhd.bluetooth.call.CallFragment" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/call_fragment" android:visibility="visible" android:layout_width="@dimen/dp510" android:layout_height="@dimen/dp300" android:layout_marginStart="@dimen/dp500">
+        <com.hzbhd.bluetooth.widget.CircularImageView android:layout_gravity="start" android:id="@id/call_quick_contact_photo_id_1" android:background="@drawable/__83__call_view_quick_contact_photo" android:visibility="visible" android:layout_width="@dimen/dp282" android:layout_height="@dimen/dp282" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/dp60" android:textColor="#ffffffff" android:gravity="center" android:id="@id/caller_number_id_dialpad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp50" android:text="\ 18200766172" />
+        <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:id="@id/call_type_text_id_dialpad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_dial_call_title" android:layout_below="@id/caller_number_id_dialpad" android:layout_marginStart="@dimen/dp30" />
+        <TextView android:textSize="@dimen/dp36" android:textColor="#ffb5bdc8" android:gravity="center" android:id="@id/call_time_text_id_dialpad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/caller_number_id_dialpad" android:paddingStart="@dimen/dp8" android:layout_toEndOf="@id/call_type_text_id_dialpad" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/calling_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:layout_below="@id/call_type_text_id_dialpad">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/call_change_small_btn_id_dialpad" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__83__redial_icon" android:contentDescription="@string/image_desc" />
+            <ImageButton android:id="@id/mute_call_btn_id_dialpad" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__83__call_mute_call" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp20" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/dail_num_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:layout_marginStart="@dimen/dp35">
+        <include layout="?dialpad_dial" />
+    </LinearLayout>
+</RelativeLayout>

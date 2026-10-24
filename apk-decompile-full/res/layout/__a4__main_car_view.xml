@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/__a4__main_mid2_img_carbg" android:layout_width="fill_parent" android:layout_height="674.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hzbhd.common._a4.CarLogoRelativeLayout android:id="@id/car_main_bg" android:background="@drawable/__a4__car_0" android:layout_width="580.0dip" android:layout_height="400.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/gps1" android:background="@drawable/__a4__zhi_nan_zhen_bg" android:layout_width="264.0dip" android:layout_height="264.0dip" android:layout_marginTop="40.0dip" android:layout_marginStart="40.0dip">
+        <TextView android:id="@id/zhinanzhen" android:background="@drawable/__a4__zhi_nan_zhen_zhen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/gps1" android:layout_alignStart="@id/gps1">
+        <TextView android:textSize="32.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/jingdu" android:layout_width="264.0dip" android:layout_height="wrap_content" android:text="@string/longitude" />
+        <TextView android:textSize="32.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/weidu" android:layout_width="264.0dip" android:layout_height="wrap_content" android:text="@string/latitude" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="264.0dip" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="264.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="32.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/altitude" />
+            <TextView android:textSize="32.0dip" android:textColor="@android:color/white" android:id="@id/altitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0" android:lines="1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gps2" android:background="@drawable/__a4__speed_bg" android:layout_width="290.0dip" android:layout_height="290.0dip" android:layout_marginTop="40.0dip" android:layout_marginEnd="40.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="25.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/speed_tv_num1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0.0" />
+        <TextView android:id="@id/gps_speed" android:background="@drawable/__a4__speed_line" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="32.0dip" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/speed_tv_num2" android:layout_width="290.0dip" android:layout_height="wrap_content" android:text="@string/current_speed" android:layout_below="@id/gps1" android:layout_marginEnd="40.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

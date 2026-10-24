@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp895" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp32">
+        <LinearLayout android:orientation="vertical" android:id="@id/add_device_btn_layout_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp2">
+            <RelativeLayout android:id="@id/add_device_btn_id" android:background="@drawable/__h6__calllog_list_item_btn" android:focusable="true" android:layout_width="@dimen/dp800" android:layout_height="@dimen/dp100" android:layout_marginLeft="@dimen/dp20">
+                <ImageView android:id="@id/add_device_icon_id" android:layout_width="@dimen/dp82" android:layout_height="@dimen/dp74" android:layout_marginLeft="@dimen/dp19" android:src="@drawable/__h6__kp_btphone_top_icon_1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" style="?call_log_primary_text_color" />
+                <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="@dimen/dp19" android:src="@drawable/progress_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            </RelativeLayout>
+            <ImageView android:background="@drawable/__h6__kp_btphone_top_cutoff1" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" android:layout_marginLeft="@dimen/dp20" />
+        </LinearLayout>
+        <ListView android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:paddingLeft="@dimen/dp19" android:paddingRight="@dimen/dp50" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_marginTop="@dimen/dp2" android:divider="@drawable/__h6__kp_btphone_top_cutoff2" android:layout_weight="1.0" android:fadeScrollbars="false" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="@dimen/dp465" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp1150" android:layout_alignParentBottom="true">
+        <com.hzbhd.bluetooth.widget._97.DeviceView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/show_number_input" android:background="@drawable/__h6__selector_mid" android:layout_width="@dimen/dp182" android:layout_height="@dimen/dp182" android:layout_marginRight="@dimen/dp610" android:src="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

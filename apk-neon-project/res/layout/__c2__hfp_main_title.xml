@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/__c2__public_top_bg_1" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menubar_button_eq_n54" android:background="@drawable/__c2__selector_eq" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentStart="true" />
+    <ImageView android:background="@drawable/__c2__top_bar_line" android:layout_width="2.0dip" android:layout_height="46.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/menubar_button_eq_n54" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="20.0dip" android:textColor="@color/__c2__selector_list_type_text" android:gravity="center" android:id="@id/bt_call_tv_n54" android:background="@drawable/__c2__launcher_apps_bg_p" android:layout_width="128.0dip" android:layout_height="46.0dip" android:text="@string/bt_phone" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/white_n54" android:gravity="center" android:id="@id/bt_music_tv_n54" android:background="@drawable/__c2__selector_item" android:clickable="true" android:layout_width="128.0dip" android:layout_height="46.0dip" android:text="@string/bt_music" />
+    </LinearLayout>
+    <ImageView android:id="@id/fragment_back_n54" android:background="@drawable/__c2__selector_back" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+    <ImageView android:background="@drawable/__c2__top_bar_line" android:layout_width="2.0dip" android:layout_height="46.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/fragment_back_n54" />
+</RelativeLayout>

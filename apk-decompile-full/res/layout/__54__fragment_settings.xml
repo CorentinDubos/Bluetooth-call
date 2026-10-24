@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/top_container_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp25" android:layout_marginTop="@dimen/dp5">
+        <TextView android:layout_width="@dimen/dp130" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp15" android:text="@string/bluetooth_item_n54" style="@style/ButtonTextStyle_n54" />
+        <EditText android:id="@id/bt_name_edit_id" android:background="@null" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:maxLength="8" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone|flagNoExtractUi" style="@style/ButtonTextStyle_n54" />
+        <TextView android:layout_gravity="right|center" android:id="@id/bt_connect_state_n54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 已连接 " style="@style/ButtonTextStyle_n54" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/__54__pincode_content" android:layout_width="@dimen/dp530" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp15" android:text="@string/pincode_item_n54" style="@style/ButtonTextStyle_n54" />
+            <EditText android:id="@id/bt_pincose_edit_id" android:background="@android:color/transparent" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:focusable="false" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:maxLength="4" android:layout_weight="1.0" android:inputType="number" android:imeOptions="actionDone|flagNoExtractUi" style="@style/ButtonTextStyle_n54" />
+            <Button android:id="@id/btn_pincode_set_n54" android:background="@drawable/__54__selector_pincode" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp48" />
+            <Button android:id="@id/btn_pincode_delete_n54" android:background="@drawable/__54__selector_pincode_delete" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp48" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp190">
+            <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp400" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp46">
+                        <ImageButton android:id="@id/btn_key_1_n54" android:background="@drawable/__54__selector_key_1" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" />
+                        <ImageButton android:id="@id/btn_key_2_n54" android:background="@drawable/__54__selector_key_2" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                        <ImageButton android:id="@id/btn_key_3_n54" android:background="@drawable/__54__selector_key_3" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp46">
+                        <ImageButton android:id="@id/btn_key_4_n54" android:background="@drawable/__54__selector_key_4" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" />
+                        <ImageButton android:id="@id/btn_key_5_n54" android:background="@drawable/__54__selector_key_5" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                        <ImageButton android:id="@id/btn_key_6_n54" android:background="@drawable/__54__selector_key_6" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp46">
+                        <ImageButton android:id="@id/btn_key_7_n54" android:background="@drawable/__54__selector_key_7" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" />
+                        <ImageButton android:id="@id/btn_key_8_n54" android:background="@drawable/__54__selector_key_8" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                        <ImageButton android:id="@id/btn_key_9_n54" android:background="@drawable/__54__selector_key_9" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" android:layout_marginLeft="@dimen/dp5" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp46">
+                        <ImageButton android:id="@id/btn_key_0_n54" android:background="@drawable/__54__selector_key_0" android:layout_width="@dimen/dp128" android:layout_height="@dimen/dp46" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp260" android:layout_height="@dimen/dp36" android:layout_alignParentRight="true">
+                            <TextView android:gravity="right|center" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:text="@string/phonebook_sync_item_n54" android:layout_weight="1.0" style="@style/ButtonTextStyle_checkbox_n54" />
+                            <Button android:gravity="center" android:id="@id/setting_phonebook_sync_text_id" android:background="@android:color/transparent" android:layout_width="@dimen/dp100" android:layout_height="@dimen/dp36" android:layout_marginRight="@dimen/dp10" android:singleLine="true" android:drawableRight="@drawable/__54__selector_phonebook_sync" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/ButtonTextStyle_checkbox_n54" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/dp150" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp15">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5">
+                    <com.hzbhd.common._54.ui.MarqueeText android:textSize="@dimen/dp20" android:textColor="@color/gray2_n54" android:layout_width="@dimen/dp120" android:layout_height="wrap_content" android:text="@string/auto_connect_item" style="@style/marquee_text_n54" />
+                    <Button android:id="@id/auto_connect_item_switch_id" android:layout_width="@dimen/dp106" android:layout_height="@dimen/dp56" android:src="@drawable/__54__switch_on_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5">
+                    <com.hzbhd.common._54.ui.MarqueeText android:textSize="@dimen/dp20" android:textColor="@color/gray2_n54" android:layout_width="@dimen/dp120" android:layout_height="wrap_content" android:text="@string/auto_answer_item" style="@style/marquee_text_n54" />
+                    <Button android:id="@id/auto_answer_item_switch_id" android:layout_width="@dimen/dp106" android:layout_height="@dimen/dp56" android:src="@drawable/__54__switch_on_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/_283_fragment_bottom_image" />
+    <RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.5" />
+    <LinearLayout android:orientation="vertical" android:id="@id/leftLayout" android:layout_width="@dimen/dp655" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/dz_call_display" android:layout_width="fill_parent" android:layout_height="@dimen/dp75" android:layout_marginTop="@dimen/dp16" android:layout_marginBottom="@dimen/dp10" android:layout_marginStart="@dimen/dp23" android:layout_marginEnd="@dimen/dp16">
+            <ImageView android:id="@id/dailpad_icon" android:visibility="gone" android:layout_width="@dimen/dp78" android:layout_height="@dimen/dp78" android:layout_marginLeft="@dimen/dp10" android:src="@drawable/__12__dailpad_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp42" android:gravity="center" android:id="@id/digits" android:layout_width="@dimen/dp450" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" style="@style/DialNumberTextStyle" />
+            <ImageButton android:id="@id/dialpad_clear_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/backspace" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            <Button android:id="@id/btn_key_del_common" android:background="@drawable/__a6__delete_number_click" android:visibility="visible" android:layout_width="@dimen/dp58" android:layout_height="@dimen/dp39" android:layout_marginLeft="@dimen/dp516" android:layout_marginTop="@dimen/dp3" android:layout_centerVertical="true" style="@style/KeyImageButtonStyle_N98" />
+            <ImageView android:background="@drawable/__98__bt_keyboard_input_bg2" android:layout_width="@dimen/dp436" android:layout_height="@dimen/dp2" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_width="wrap_content" android:layout_height="fill_parent" layout="?dialpad_dial" />
+            <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/callRelative" android:background="@drawable/_a6_call_bg" android:layout_width="@dimen/dp113" android:layout_height="@dimen/dp243" android:layout_marginLeft="@dimen/dp14" android:layout_marginBottom="@dimen/dp16">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp32" android:src="@drawable/__a6__call_phone_click" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp8">
+                <ImageButton android:id="@id/dialpad_dial_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:src="@drawable/__12__dial_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+                <ImageButton android:id="@id/dialpad_back_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/unpair_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/viewline" android:background="@color/__a6__white" android:layout_width="@dimen/dp2" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp16" android:layout_marginBottom="@dimen/dp16" android:layout_toRightOf="@id/leftLayout" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/viewline" android:paddingStart="@dimen/dp16">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp26" android:layout_marginBottom="@dimen/dp10" android:layout_marginStart="@dimen/dp16">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dz_call_icon_records" />
+            <TextView android:textSize="@dimen/dp32" android:textColor="@color/__a6__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部记录" android:layout_marginStart="@dimen/dp10" />
+        </LinearLayout>
+        <View android:background="@color/__a6__white" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" />
+        <ListView android:id="@id/listView" android:layout_marginTop="@dimen/dp10" android:layout_marginBottom="@dimen/dp10" style="@style/_a6_listview" />
+    </LinearLayout>
+</RelativeLayout>

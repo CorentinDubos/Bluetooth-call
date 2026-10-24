@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/dp24" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/et_search" android:background="@drawable/__ea__ikw_hp_bt_list_kuang_n" android:layout_width="@dimen/dp1247" android:layout_height="@dimen/dp78" android:maxLines="1" android:singleLine="true" android:maxLength="32" android:drawablePadding="@dimen/dp16" android:drawableStart="@drawable/_c6_bt_s" android:paddingStart="@dimen/dp26" android:paddingEnd="@dimen/dp26" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/iv_scan" android:background="@drawable/_c6_progress_small_1" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:layout_centerInParent="true" android:contentDescription="@string/image_desc" />
+        <TextView android:textSize="@dimen/dp32" android:id="@id/tv_noContacts" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContacts" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

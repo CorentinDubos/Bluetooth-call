@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_title">אפליקציות</string>
+    <string name="atv_title">ATV</string>
+    <string name="aux_title">AUX</string>
+    <string name="auxin">AUX</string>
+    <string name="bluetooth_title">מכשיר טלפון</string>
+    <string name="bluetooth_title_2">בלוטות</string>
+    <string name="bluetooth_title_3">טלפון</string>
+    <string name="browser_title">דפדפן</string>
+    <string name="bt_music_title">BT מוסיקה</string>
+    <string name="car_info_title">מידע</string>
+    <string name="car_logo_title">לוגו</string>
+    <string name="colorled_title">צבעוני</string>
+    <string name="disc">דיסק</string>
+    <string name="driving_pattern_1">נוֹחַ</string>
+    <string name="driving_pattern_10">מסלול מירוצים</string>
+    <string name="driving_pattern_3">תְנוּעָה</string>
+    <string name="driving_pattern_8">חסכון בדלק</string>
+    <string name="driving_pattern_9">מכונית מקורית</string>
+    <string name="dtv">DTV</string>
+    <string name="dtv_title">DTV</string>
+    <string name="dvd_title">דיסק</string>
+    <string name="dvr">רשם וידיאו</string>
+    <string name="dvr_title">DVR</string>
+    <string name="eq_title">אקולייזר</string>
+    <string name="fcarema_title">F.Carema</string>
+    <string name="light_title">אור הסביבה</string>
+    <string name="link">Link</string>
+    <string name="music">מוסיקה</string>
+    <string name="music_title">מוזיקה</string>
+    <string name="navi_title">נאווי</string>
+    <string name="picture_title">תמונה</string>
+    <string name="radio_title">רדיו</string>
+    <string name="radio_title_1">רדיו</string>
+    <string name="settings_title">הגדרות</string>
+    <string name="smart_title">כוח אינטליגנטי</string>
+    <string name="src_list_bt_music">הזרמת מדיה</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="swc_title">SWC</string>
+    <string name="video">וידאו</string>
+    <string name="video_title">וידאו</string>
+</resources>

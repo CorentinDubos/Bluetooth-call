@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/__97__left_menu_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RadioButton android:id="@id/hfp_dialpad_btn_id" android:background="@drawable/__97__selector_left_dial_btn" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <RadioButton android:id="@id/hfp_pb_btn_id" android:background="@drawable/__97__selector_left_pb_btn" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <RadioButton android:id="@id/hfp_calllog_btn_id" android:background="@drawable/__97__selector_left_calllog_btn" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <RadioButton android:id="@id/hfp_device_btn_id" android:background="@drawable/__97__selector_left_device_btn" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <RadioButton android:id="@id/hfp_setting_btn_id" android:background="@drawable/__97__selector_left_setting_btn" android:button="@null" style="@style/LeftImageButtonStyle" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id" android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

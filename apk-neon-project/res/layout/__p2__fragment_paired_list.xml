@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/add_device_btn_layout_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/__38__bt_calllog_show_down_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dp114" />
+        <RelativeLayout android:id="@id/add_device_btn_id" android:background="@drawable/__38__bt_calllog_show_up_bg" android:layout_width="@dimen/dp862" android:layout_height="@dimen/dp90" android:layout_centerInParent="true">
+            <ImageView android:id="@id/add_device_icon_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:src="@drawable/__38__add_device_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" style="?call_log_primary_text_color" />
+            <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="@dimen/dp19" android:src="@drawable/progress_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/__p2__left_layout" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp2" android:divider="@null" android:layout_weight="1.0" android:fadeScrollbars="false" />
+            <RelativeLayout android:gravity="center" android:id="@id/rl_dialog" android:background="@drawable/__p2__dialog_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/iv_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__dialog_progress" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

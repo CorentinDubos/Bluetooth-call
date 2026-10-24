@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fragment_call_rl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dailpad_icon_before_num" android:visibility="gone" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:layout_marginTop="@dimen/dp82" android:src="@drawable/__49__dailpad_icon" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp120" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/dailpad_icon_coming_call" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dp30" android:src="@drawable/__65__coming_call" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp310" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/dail_num_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/dp400" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/__p2__white" android:ellipsize="end" android:gravity="center" android:id="@id/caller_number_id" android:paddingLeft="@dimen/dp32" android:paddingRight="@dimen/dp32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp32" android:maxLines="1" android:singleLine="true" />
+            <TextView android:textColor="@color/__p2__white" android:ellipsize="end" android:gravity="center" android:id="@id/caller_text_id" android:paddingLeft="@dimen/dp32" android:paddingRight="@dimen/dp32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24" android:maxLines="2" />
+            <TextView android:textColor="@color/__p2__white" android:ellipsize="end" android:gravity="center" android:id="@id/call_type_text_id" android:paddingLeft="@dimen/dp32" android:paddingRight="@dimen/dp32" android:layout_width="@dimen/dp400" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:maxLines="1" android:singleLine="true" android:maxLength="11" />
+            <TextView android:textColor="@color/__p2__white" android:ellipsize="end" android:gravity="center" android:id="@id/call_time_text_id" android:paddingLeft="@dimen/dp32" android:paddingRight="@dimen/dp32" android:layout_width="@dimen/dp400" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:maxLines="1" android:singleLine="true" android:maxLength="11" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_wait_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp64" android:src="@drawable/__p2__wait_phone" />
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp40">
+                <ImageButton android:id="@id/call_change_small_btn_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__jiqi" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/mute_call_btn_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__not_volum_click" android:layout_weight="1.0" />
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__add_volum_click" android:layout_weight="1.0" />
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__sub_volum_click" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/__p2__dialpad_dial_two" />
+    </LinearLayout>
+    <RelativeLayout android:visibility="gone" android:layout_width="@dimen/dp368" android:layout_height="@dimen/dp368" android:layout_marginStart="@dimen/dp550" android:layout_alignParentEnd="true">
+        <com.hzbhd.bluetooth.widget.CircularImageView android:id="@id/call_quick_contact_photo_id" android:background="@drawable/__0g__call_view_quick_contact_photo" android:visibility="visible" android:layout_width="@dimen/dp206" android:layout_height="@dimen/dp242" android:layout_marginTop="@dimen/dp57" android:scaleType="centerInside" android:layout_marginEnd="@dimen/dp78" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/incall_btn_view_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/handup_call_small_btn_id" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__65__call_handup_icon" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp25" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bg" android:layout_width="@dimen/dp880" android:layout_height="@dimen/dp102" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/dialcall_btn_view_id" android:visibility="gone" android:layout_width="@dimen/dp1024" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp186" android:layout_marginEnd="@dimen/dp100">
+            <ImageButton android:layout_gravity="right" android:id="@id/handup_call_big_btn_id" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__65__call_handup_icon" android:contentDescription="@string/image_desc" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/incomingcall_btn_view_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp200" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp100" />
+    </LinearLayout>
+</RelativeLayout>

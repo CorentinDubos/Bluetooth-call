@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:paddingRight="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <SearchView android:id="@id/search_view_id" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp48" android:divider="@null" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" android:searchIcon="@drawable/__91__search" />
+            </LinearLayout>
+            <ExpandableListView android:theme="@style/ListViewFastScrollThumb" android:scrollbarStyle="outsideInset" android:id="@id/contact_list_id" android:paddingRight="@dimen/dp8" android:scrollbars="none" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp16" android:listSelector="@android:color/transparent" android:divider="@null" android:fastScrollEnabled="false" android:fadeScrollbars="false" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/noContacts" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

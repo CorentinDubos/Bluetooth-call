@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a2dp_title_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp89" android:layout_marginBottom="@dimen/dp100" android:text="@string/unknown_track_name" android:singleLine="true" android:layout_above="@id/a2dp_album_view_id" style="@style/id3_info_major" />
+    <com.hzbhd.bluetooth.widget.FY1ImageView android:id="@id/a2dp_album_view_id" android:layout_width="@dimen/dp214" android:layout_height="@dimen/dp214" android:layout_marginLeft="@dimen/dp89" android:src="@drawable/__97__bt_bg" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a2dp_album_title_view_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp80" android:layout_marginTop="@dimen/dp19" android:layout_toRightOf="@id/a2dp_album_view_id" android:layout_below="@id/a2dp_title_tv_id">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_icon" android:contentDescription="@string/image_desc" />
+        <TextView android:id="@id/a2dp_album_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp5" android:text="@string/unknown_album_name" android:singleLine="true" style="@style/id3_info_minor" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a2dp_info_title_view_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp80" android:layout_marginTop="@dimen/dp19" android:layout_toRightOf="@id/a2dp_album_view_id" android:layout_below="@id/a2dp_album_title_view_id">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/artistor_icon" android:contentDescription="@string/image_desc" />
+        <TextView android:id="@id/a2dp_artis_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp5" android:text="@string/unknown_artist_name" android:singleLine="true" style="@style/id3_info_minor" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?a2dp_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp200" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/a2dp_more_btn_id" android:visibility="gone" android:src="@drawable/a2dp_bottom_more" android:contentDescription="@string/image_desc" style="@style/MoreButtonStyle" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageButton android:id="@id/a2dp_prev_btn_id" android:background="#00000000" android:src="?down_btn_opt_prev" android:layout_alignParentLeft="true" android:contentDescription="@string/image_desc" style="@style/__97__BottomImageButtonStyle" />
+            <ImageButton android:id="@id/a2dp_play_pause_btn_id" android:background="#00000000" android:src="?selector_music_play_btn" android:layout_centerHorizontal="true" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp130" style="@style/__97__BottomImageButtonStyle" />
+            <ImageButton android:id="@id/a2dp_next_btn_id" android:background="#00000000" android:src="?down_btn_opt_next" android:layout_alignParentRight="true" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp130" style="@style/__97__BottomImageButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

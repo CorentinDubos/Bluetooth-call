@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView style="@style/_283_fragment_bottom_image" />
+    <RelativeLayout android:background="@drawable/dz_bt_call_icon" android:layout_width="@dimen/dp748" android:layout_height="@dimen/dp399" android:layout_centerInParent="true">
+        <com.hzbhd.bluetooth.ui._a6.DialPadViews android:id="@id/inputDialPadViews" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/imageAvatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dz_bt_avatar" android:layout_above="@id/linear" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dataLinear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp30" android:layout_marginBottom="@dimen/dp32" android:layout_above="@id/linear" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dp64" android:layout_toEndOf="@id/imageAvatar">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dz_bt_calling_icon_phone" />
+                <TextView android:textColor="@android:color/white" android:gravity="left" android:id="@id/caller_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="叶培杰" android:layout_marginStart="@dimen/dp16" />
+            </LinearLayout>
+            <TextView android:textColor="@android:color/white" android:gravity="left" android:id="@id/caller_number_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp26" android:text="\ 18200766172" />
+            <TextView android:textColor="@android:color/white" android:id="@id/call_type_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_dial_call_title" />
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textColor="@android:color/white" android:gravity="left" android:id="@id/call_time_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/linear" android:layout_width="fill_parent" android:layout_height="@dimen/dp107" android:layout_alignParentBottom="true">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/answer_call_btn_id" android:background="@drawable/_a6_hfp_call" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp62" />
+            <Button android:id="@id/btn_key_dail_common" android:background="@drawable/_a6_hfp_call" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/call_change_small_btn_id" android:background="@null" android:layout_width="@dimen/dp64" android:layout_height="@dimen/dp63" android:src="@drawable/__a6__btn_key_switch" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/_a6_htp_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/_a6_hfp_input" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/mute_call_btn_id" android:background="@null" android:layout_width="@dimen/dp66" android:layout_height="@dimen/dp65" android:src="@drawable/_a6_hfp_no_voice" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/handup_call_small_btn_id" android:background="@null" android:layout_width="@dimen/dp84" android:layout_height="@dimen/dp31" android:src="@drawable/_a6_hfp_handup" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/dp500" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp500" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dp180" android:layout_marginBottom="@dimen/dp15">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dialcall_btn_view_id" android:visibility="gone" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp120" android:layout_marginLeft="@dimen/dp200" android:layout_centerVertical="true">
+                    <ImageButton android:id="@id/handup_call_big_btn_id" android:background="@drawable/__98__btn_key_handup" android:visibility="gone" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp120" style="@style/KeyImageButtonStyle_N98" />
+                </LinearLayout>
+            </RelativeLayout>
+            <Button android:id="@id/btn_key_listener_change_common" android:background="@drawable/__12__btn_key_listener_change" android:visibility="gone" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp120" style="@style/KeyImageButtonStyle_N98" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:layout_alignParentRight="true">
+            <RelativeLayout android:gravity="center" android:id="@id/incomingcall_btn_view_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp180" android:layout_marginBottom="@dimen/dp15">
+                <ImageButton android:id="@id/handup_call_btn_id" android:background="@drawable/__98__btn_key_handup" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp120" android:layout_marginLeft="@dimen/dp200" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" style="@style/CallImageButtonStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.hzbhd.bluetooth.widget.CircularImageView android:id="@id/call_quick_contact_photo_id" android:background="@drawable/__12__call_view_quick_contact_photo" android:visibility="gone" android:layout_width="@dimen/call_view_quick_contact_photo_size" android:layout_height="@dimen/call_view_quick_contact_photo_size" android:layout_marginTop="@dimen/dp_10" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/incall_btn_view_id" android:layout_width="@dimen/dp500" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dp180" android:layout_marginBottom="@dimen/dp15">
+                <Button android:background="@drawable/__98__btn_key_dail" android:visibility="invisible" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp120" android:layout_centerVertical="true" style="@style/KeyImageButtonStyle_N98" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

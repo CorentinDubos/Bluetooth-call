@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.hzbhd.midwareproxy.CommonUI.N49_statusBar android:id="@id/bt_contacts_navi_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" test:sourceType="PHONE" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:background="@drawable/__65__contacts_number_list_search" android:paddingRight="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="@dimen/dp78" android:layout_marginTop="@dimen/dp0">
+                <SearchView android:id="@id/search_view_id" android:layout_width="0.0px" android:layout_height="@dimen/dp78" android:layout_marginTop="@dimen/dp5" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/dp1024" android:layout_height="fill_parent">
+                <ExpandableListView android:theme="@style/ListViewFastScrollThumb" android:scrollbarStyle="outsideInset" android:id="@id/contact_list_id" android:paddingRight="@dimen/dp0" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="@dimen/dp1024" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp10" android:listSelector="@android:color/transparent" android:divider="@null" android:fastScrollEnabled="true" android:layout_marginStart="@dimen/dp0" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp120">
+            <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContacts" android:singleLine="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__f8__calllog_list_item_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dp90" android:layout_marginLeft="@dimen/calllog_list_item_left_right_padding" android:layout_marginRight="@dimen/calllog_list_item_left_right_padding">
+        <ImageView android:layout_gravity="start|center" android:id="@id/call_type_icon_id" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/call_log_icon_margin" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/call_log_inner_margin" android:paddingBottom="@dimen/call_log_inner_margin" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/text_padding_right" android:paddingEnd="@dimen/text_padding_right" android:layout_marginStart="@dimen/call_log_inner_margin">
+            <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/dp75" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/call_log_divider" android:background="#55ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" android:layout_marginLeft="@dimen/calllog_list_item_left_right_padding" android:layout_marginRight="@dimen/calllog_list_item_left_right_padding" />
+</view>

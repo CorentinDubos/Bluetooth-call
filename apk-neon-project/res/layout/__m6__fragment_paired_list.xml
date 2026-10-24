@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="@dimen/dp110" android:layout_height="@dimen/dp110" android:src="@drawable/daz_bt4_base_img_bt" />
+        <ImageView android:id="@id/add_device_btn_id" android:layout_width="@dimen/dp254" android:layout_height="@dimen/dp96" android:src="@drawable/__m6__search_bluetooth" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/daz_bt4_left_ic_n" android:layout_width="@dimen/dp254" android:layout_height="@dimen/dp96">
+            <TextView android:textSize="@dimen/dp26" android:textColor="@color/__a6__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_m6_devices_name" />
+            <TextView android:textSize="@dimen/dp24" android:id="@id/tv_devices_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/pired_device_btn_connect_n54" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp94" android:src="@drawable/__m6__connect" />
+            <ImageView android:id="@id/pired_device_btn_disconnect_n54" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp94" android:src="@drawable/__m6__disconnect" android:layout_marginStart="@dimen/dp14" />
+            <ImageView android:id="@id/pired_device_btn_delete_n54" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/__m6__shape_gray_line" android:layout_width="@dimen/dp655" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp10" android:layout_marginEnd="@dimen/dp20">
+        <LinearLayout android:orientation="horizontal" android:id="@id/add_device_btn_layout_id" android:background="@drawable/__m1__paired_list_top_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp70">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/add_device_icon_id" android:layout_width="@dimen/dp52" android:layout_height="@dimen/dp52" android:src="@drawable/__65__add_device_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp150" />
+                <TextView android:textSize="@dimen/dp35" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp50" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/transparent" android:fadeScrollbars="false" />
+        </LinearLayout>
+        <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@drawable/progress_1" android:layout_centerInParent="true" android:contentDescription="@string/image_desc" />
+    </RelativeLayout>
+</LinearLayout>

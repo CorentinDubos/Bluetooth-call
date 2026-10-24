@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="@dimen/dp300" android:layout_marginTop="@dimen/dp160"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_keypad_line1" android:layout_width="fill_parent" android:layout_height="@dimen/dp70">
+        <Button android:id="@id/btn_key_1_common" android:background="@drawable/__82__btn_key_1" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_2_common" android:background="@drawable/__82__btn_key_2" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_3_common" android:background="@drawable/__82__btn_key_3" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_del_common" android:background="@drawable/__82__btn_key_del" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_keypad_line2" android:layout_width="fill_parent" android:layout_height="@dimen/dp70" android:layout_marginTop="@dimen/dp2">
+        <Button android:id="@id/btn_key_4_common" android:background="@drawable/__82__btn_key_4" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_5_common" android:background="@drawable/__82__btn_key_5" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_6_common" android:background="@drawable/__82__btn_key_6" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_dail_common" android:background="@drawable/__82__btn_key_dail" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_keypad_line3" android:layout_width="fill_parent" android:layout_height="@dimen/dp70" android:layout_marginTop="@dimen/dp2">
+        <Button android:id="@id/btn_key_7_common" android:background="@drawable/__82__btn_key_7" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_8_common" android:background="@drawable/__82__btn_key_8" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_9_common" android:background="@drawable/__82__btn_key_9" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_hanpup_common" android:background="@drawable/__82__btn_key_handup" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_keypad_line4" android:layout_width="fill_parent" android:layout_height="@dimen/dp70" android:layout_marginTop="@dimen/dp2">
+        <Button android:id="@id/ib_key_star_common" android:background="@drawable/__82__btn_key_star" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_0_common" android:background="@drawable/__82__btn_key_0" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/ib_key_well_common" android:background="@drawable/__82__btn_key_well" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+        <Button android:id="@id/btn_key_mute_call" android:background="@drawable/__82__call_mute_call" android:visibility="gone" android:layout_width="@dimen/dp246" android:layout_height="@dimen/dp70" android:layout_marginLeft="@dimen/dp2" />
+    </LinearLayout>
+</LinearLayout>

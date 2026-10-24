@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/dialcall_btn_view_id" android:background="@drawable/__f8__bt_popup_bg" android:paddingBottom="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/dp156" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/handup_call_big_btn_id" android:src="@drawable/__f8__call_hand_up" android:scaleType="fitXY" android:contentDescription="@string/image_desc" style="@style/__nf8__CallImageButtonStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/incomingcall_btn_view_id" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dp156" android:layout_alignParentBottom="true">
+        <ImageView android:visibility="gone" android:layout_width="@dimen/dp122" android:layout_height="@dimen/dp122" android:layout_marginTop="@dimen/dp39" android:src="@drawable/__f8__bt_call_icon" android:scaleType="fitXY" android:layout_marginStart="@dimen/dp78" />
+        <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:background="@drawable/__f8__bt_popup_bg" android:paddingBottom="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/dp156" android:layout_centerHorizontal="true">
+            <ImageButton android:id="@id/answer_call_btn_id" android:src="@drawable/__f8__call_answer" android:scaleType="fitXY" android:contentDescription="@string/image_desc" style="@style/__nf8__CallImageButtonStyle" />
+            <ImageButton android:id="@id/handup_call_btn_id" android:src="@drawable/__f8__call_hand_up" android:scaleType="fitXY" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp78" style="@style/__nf8__CallImageButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/dp156" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp39">
+            <TextView android:textSize="@dimen/dp30" android:textColor="#ffffffff" android:id="@id/caller_incoming_number_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:text="\ 18200766172" style="@style/CallInfoStyle" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp39" android:layout_marginTop="@dimen/dp4">
+                <TextView android:textSize="@dimen/dp25" android:id="@id/caller_incoming_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="叶培杰" style="@style/CallInfoStyle" />
+                <TextView android:textSize="@dimen/dp25" android:textColor="#ffffffff" android:gravity="center" android:id="@id/call_incoming_time_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp117" style="@style/CallInfoStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/incall_btn_view_id" android:background="@drawable/__f8__bt_popup_bg" android:paddingBottom="@dimen/dp13" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dp156" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/call_change_small_btn_id" android:src="@drawable/__f8__call_switch" android:scaleType="fitXY" android:contentDescription="@string/image_desc" style="@style/__nf8__CallImageButtonStyle" />
+        <ImageButton android:id="@id/mute_call_btn_id" android:src="@drawable/__f8__call_mute_switch" android:scaleType="fitXY" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/avtive_call_btn_margin" style="@style/__nf8__CallImageButtonStyle" />
+        <ImageButton android:id="@id/handup_call_small_btn_id" android:src="@drawable/__f8__call_hand_up" android:scaleType="fitXY" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/avtive_call_btn_margin" style="@style/__nf8__CallImageButtonStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/call_number_view" android:visibility="visible" android:layout_width="@dimen/dp313" android:layout_height="@dimen/dp156" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp39">
+        <TextView android:textSize="@dimen/dp30" android:textColor="#ffffffff" android:gravity="center" android:id="@id/caller_number_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:text="\ 18200766172" android:singleLine="true" style="@style/CallInfoStyle" />
+        <TextView android:textSize="@dimen/dp25" android:gravity="center" android:id="@id/caller_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:text="叶培杰" android:layout_below="@id/caller_number_id" style="@style/CallInfoStyle" />
+        <TextView android:textSize="@dimen/dp20" android:textColor="#ffffffff" android:gravity="center" android:id="@id/call_time_text_id" android:layout_width="fill_parent" android:layout_height="@dimen/dp31" android:layout_marginTop="@dimen/dp13" android:lines="1" android:layout_marginStart="@dimen/dp78" android:layout_toEndOf="@id/caller_number_id" style="@style/CallInfoStyle" />
+    </RelativeLayout>
+</RelativeLayout>

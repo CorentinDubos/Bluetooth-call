@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/top_bg" android:layout_width="fill_parent" android:layout_height="53.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_top_bar_title" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dp295" android:layout_height="wrap_content" android:layout_alignParentLeft="true" class="com.hzbhd.common.ui.TopBar$RelativeLayoutClickable">
+        <ImageView android:id="@id/iv_title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:src="@drawable/selector_top_bar_home" android:layout_alignParentLeft="true" />
+        <com.hzbhd.common.ui.BlaupunktTextView android:textSize="@dimen/dp38" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_title" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_title_icon" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_action_btn" android:layout_width="wrap_content" android:layout_height="@dimen/top_bar_height" android:layout_toRightOf="@id/rl_top_bar_title" />
+    <RelativeLayout android:id="@id/rl_top_bar_right_state" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/top_bar_button_divider_width" android:layout_toRightOf="@id/ll_action_btn">
+        <com.hzbhd.common.ui.Clock android:gravity="center" android:id="@id/clock_top_bar_time" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/iv_top_bar_bt_status" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_top_bar_shuffle_mode" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shuffle_all_tracks" android:layout_toLeftOf="@id/clock_top_bar_time" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_top_bar_repeat_mode" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/repeat_folder" android:layout_toLeftOf="@id/iv_top_bar_shuffle_mode" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_top_bar_sxm_signal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sxm_signal_level_0" android:layout_toLeftOf="@id/clock_top_bar_time" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_topbar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0px" android:src="@drawable/selector_top_bar_back" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__b1__selector_pared_list" android:paddingLeft="@dimen/dp19" android:paddingRight="@dimen/dp19" android:layout_width="fill_parent" android:layout_height="@dimen/dp104">
+        <ImageView android:layout_gravity="left|center" android:id="@id/call_type_icon_id" android:visibility="gone" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/call_log_list_type_photo_size" android:layout_height="@dimen/call_log_list_type_photo_size" android:layout_marginLeft="@dimen/call_log_icon_margin" android:src="@drawable/ic_contact_picture_holo_dark" android:contentDescription="@string/image_desc" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/text_padding_right" android:paddingRight="@dimen/text_padding_right" android:layout_width="@dimen/dip0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/call_log_inner_margin" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dp25" android:textColor="@android:color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/call_log_divider" android:background="@drawable/__12__division" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginLeft="@dimen/calllog_list_item_left_right_padding" android:layout_alignParentBottom="true" />
+</view>

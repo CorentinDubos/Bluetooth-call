@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/dp30" android:layout_width="fill_parent" android:layout_height="@dimen/dp75">
+        <ImageView android:id="@id/dailpad_icon" android:visibility="invisible" android:layout_width="@dimen/dp78" android:layout_height="@dimen/dp78" android:layout_marginLeft="@dimen/dp10" android:src="@drawable/__12__dailpad_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+        <TextView android:textSize="@dimen/dp52" android:textColor="@android:color/white" android:gravity="left|center" android:id="@id/digits" android:layout_width="@dimen/dp365" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+        <ImageView android:background="@drawable/__t1__swc_split_line" android:layout_width="@dimen/dp1140" android:layout_height="wrap_content" android:layout_below="@id/digits" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="?dialpad_dial" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp8">
+            <ImageButton android:id="@id/dialpad_dial_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:src="@drawable/__12__dial_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            <ImageButton android:id="@id/dialpad_back_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/unpair_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

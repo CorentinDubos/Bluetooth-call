@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/__m2__key_pad_frame_bg" android:paddingBottom="@dimen/dp10" android:divider="?android:dividerHorizontal" android:showDividers="end" style="@style/__M2__FrameBgStyle">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:paddingRight="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="@dimen/dp70">
+                <SearchView android:id="@id/search_view_id" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp7" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" />
+            </LinearLayout>
+            <ExpandableListView android:theme="@style/ListViewFastScrollThumb" android:scrollbarStyle="outsideInset" android:id="@id/contact_list_id" android:paddingRight="@dimen/dp8" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp19" android:layout_marginRight="@dimen/dp0" android:listSelector="@drawable/constats_item" android:divider="@null" android:fastScrollEnabled="true" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/noContacts" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

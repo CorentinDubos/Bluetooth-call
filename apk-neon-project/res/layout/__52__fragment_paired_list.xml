@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_device_btn_layout_id" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/add_device_btn_id" android:background="@drawable/selector_add_device_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dp80">
+            <ImageView android:id="@id/add_device_icon_id" android:layout_width="@dimen/dp37" android:layout_height="@dimen/dp42" android:layout_marginLeft="@dimen/dp19" android:src="@drawable/add_device_icon" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" style="@style/__01__call_log_primary_text_color" />
+            <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="@dimen/dp19" android:src="@drawable/progress_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/__52__listview_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <ListView android:scrollbarThumbVertical="@drawable/__52__list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/__52__list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:paddingTop="@dimen/dp2" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp18" android:divider="@null" android:fadeScrollbars="false" />
+    </LinearLayout>
+</LinearLayout>

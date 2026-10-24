@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:hzbhd="http://schemas.android.com/res/com.blaupunkt.hzbhd.ui">
+    <com.hzbhd.common.ui.Keyboard android:id="@id/keyboard_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" hzbhd:keyboard_mode="mode_goto" />
+</RelativeLayout>

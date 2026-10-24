@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_list_name">
+        <item>@string/bluetooth_item</item>
+        <item>@string/pincode_item</item>
+        <item>@string/auto_connect_item</item>
+        <item>@string/auto_answer_item</item>
+        <item>@string/phonebook_sync_item</item>
+    </string-array>
+    <integer-array name="setting_list_value">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="setting_microphone_name">
+        <item>@string/internal_item</item>
+        <item>@string/external_item</item>
+    </string-array>
+    <integer-array name="setting_microphone_value">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+</resources>

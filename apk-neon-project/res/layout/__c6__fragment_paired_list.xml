@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp16" android:layout_marginBottom="@dimen/dp30"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_device_btn_id" android:background="@drawable/_c6_bt_pair_list_p" android:layout_width="@dimen/dp705" android:layout_height="@dimen/dp55">
+        <ImageView android:id="@id/add_device_icon_id" android:layout_width="@dimen/dp38" android:layout_height="@dimen/dp27" android:src="@drawable/_c6_bt_s" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp26" />
+        <TextView android:textSize="@dimen/dp20" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp16" />
+        <ImageView android:id="@id/scanning_pb_id" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:src="@drawable/_c6_progress_small_1" android:contentDescription="@string/image_desc" android:layout_marginEnd="@dimen/dp32" />
+    </LinearLayout>
+    <ListView android:id="@id/device_list_id" android:scrollbars="none" android:layout_width="@dimen/dp705" android:layout_height="fill_parent" android:divider="@color/transparent" android:overScrollMode="never" />
+</LinearLayout>

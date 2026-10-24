@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/et_search" android:background="@drawable/__m6__shape_gray_line_2" android:layout_width="@dimen/dp744" android:layout_height="@dimen/dp64" android:layout_marginTop="@dimen/dp10" android:layout_marginBottom="@dimen/dp5" android:hint="点击输入需要查找的文字" android:maxLines="1" android:singleLine="true" />
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/daz_bt02_right_img_fengex" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/_m6_iv_scan" android:focusable="false" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:src="@drawable/progress_1" android:layout_centerInParent="true" android:contentDescription="@string/image_desc" />
+        <TextView android:id="@id/_m6_tv_noContacts" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContacts" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

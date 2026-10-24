@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__e3__selector_contacts_list_item_btn" android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp68">
+        <ImageView android:layout_gravity="start|center" android:id="@id/call_type_icon_id" android:visibility="gone" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/call_log_list_type_photo_size" android:layout_height="@dimen/call_log_list_type_photo_size" android:src="@drawable/ic_contact_picture_holo_dark" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/call_log_icon_margin" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dp25" android:textColor="@android:color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/dp8" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/call_log_divider" android:background="@drawable/__e3__contacts_item_division" android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp0" />
+</view>

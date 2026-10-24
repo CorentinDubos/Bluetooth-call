@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/dp1247" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp36" android:layout_marginStart="@dimen/dp42" android:layout_marginEnd="@dimen/dp42">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/dp90">
+            <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_item" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/dp32" android:textColor="@color/__a6__white" android:gravity="center" android:id="@id/bt_name_edit_id" android:background="@drawable/_c6_bt_set_display_box" android:layout_width="@dimen/dp250" android:layout_height="@dimen/dp60" android:maxLength="8" android:layout_centerVertical="true" android:inputType="text" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btsetting_pincode_item" android:layout_width="wrap_content" android:layout_height="@dimen/dp90">
+            <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pincode_item" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/dp32" android:textColor="@color/__a6__white" android:gravity="center" android:id="@id/bt_pincose_edit_id" android:background="@drawable/_c6_bt_set_display_box" android:layout_width="@dimen/dp250" android:layout_height="@dimen/dp60" android:maxLength="4" android:layout_centerVertical="true" android:inputType="number" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp90">
+            <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phonebook_sync_item" android:layout_centerVertical="true" />
+            <Button android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:id="@id/setting_phonebook_sync_text_id" android:background="@drawable/_c6_bt_set_display_box" android:layout_width="@dimen/dp250" android:layout_height="@dimen/dp60" android:text="@string/setting_phonebook_sync_text" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp90">
+            <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_connect_item" android:layout_centerVertical="true" />
+            <Button android:textSize="@dimen/dp32" android:id="@id/auto_connect_item_switch_id" android:layout_width="@dimen/dp65" android:layout_height="@dimen/dp66" android:src="@drawable/__c6__auto_connect" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp90">
+            <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_answer_item" android:layout_centerVertical="true" />
+            <Button android:id="@id/auto_answer_item_switch_id" android:layout_width="@dimen/dp65" android:layout_height="@dimen/dp66" android:src="@drawable/__c6__auto_answer" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
+</LinearLayout>

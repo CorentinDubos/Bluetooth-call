@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="716.0dip" android:layout_centerInParent="true">
+        <include android:layout_width="fill_parent" android:layout_height="358.0dip" layout="@layout/__c2__a2dp_main_content" />
+        <com.hzbhd.common._c2.CarView android:layout_width="fill_parent" android:layout_height="358.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

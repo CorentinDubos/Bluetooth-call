@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp695" android:layout_height="fill_parent" android:baselineAligned="false">
+        <RelativeLayout android:paddingRight="@dimen/dp8" android:layout_width="@dimen/dp834" android:layout_height="@dimen/dp105" android:layout_marginTop="@dimen/dp20">
+            <ImageView android:id="@id/dailpad_icon" android:visibility="invisible" android:layout_width="@dimen/dp78" android:layout_height="@dimen/dp78" android:layout_marginLeft="@dimen/dp10" android:src="@drawable/__12__dailpad_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            <TextView android:gravity="left|center" android:id="@id/digits" android:paddingLeft="@dimen/text_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/dailpad_icon" android:layout_centerVertical="true" style="@style/DialNumberTextStyle" />
+            <ImageButton android:id="@id/dialpad_clear_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/backspace" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="?dialpad_dial" />
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp8">
+                <ImageButton android:id="@id/dialpad_dial_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:src="@drawable/__12__dial_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+                <ImageButton android:id="@id/dialpad_back_btn_id" android:background="@drawable/__12__selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/unpair_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="@dimen/dp465" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.hzbhd.bluetooth.widget._97.DeviceView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/show_number_input" android:background="@drawable/__r__selector_mid" android:layout_width="@dimen/dp126" android:layout_height="@dimen/dp126" android:layout_marginRight="@dimen/dp410" android:src="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

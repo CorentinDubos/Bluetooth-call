@@ -1,0 +1,5 @@
+{
+  "parent": "dz1/config.json",
+  "rcaGain": 9,
+  "rcaGainIndividualAdjustment": true
+}

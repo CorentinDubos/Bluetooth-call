@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/connectLinear" android:layout_width="@dimen/dp400" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/dp355" android:layout_height="@dimen/dp140">
+            <TextView android:textSize="@dimen/dp20" android:textColor="@color/__p2__white" android:id="@id/tv_allContracts" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_layout_id" android:background="@drawable/__p2__phone_input_bg" android:layout_width="@dimen/dp355" android:layout_height="@dimen/dp65" android:layout_marginTop="@dimen/dp10">
+                <SearchView android:id="@id/search_view_id" android:paddingLeft="@dimen/dp65" android:focusable="false" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__p2__phone_input_delete" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/iv_call_first" android:background="@drawable/__p2__btn_click" android:padding="@dimen/dp15" android:visibility="gone" android:layout_width="@dimen/dp218" android:layout_height="@dimen/dp86" android:layout_marginTop="@dimen/dp5" android:src="@drawable/__p2__call_record" />
+        <ImageView android:id="@id/iv_switch_refresh" android:background="@drawable/__p2__btn_click" android:padding="@dimen/dp15" android:layout_width="@dimen/dp218" android:layout_height="@dimen/dp86" android:src="@drawable/__p2__refresh_contract" />
+        <ImageView android:id="@id/iv_delete_first" android:background="@drawable/__p2__btn_click" android:padding="@dimen/dp15" android:visibility="gone" android:layout_width="@dimen/dp218" android:layout_height="@dimen/dp86" android:src="@drawable/__p2__delete_record" />
+    </LinearLayout>
+    <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ExpandableListView android:theme="@style/ListViewFastScrollThumb" android:scrollbarStyle="outsideInset" android:id="@id/contact_list_id" android:paddingRight="@dimen/dp8" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="@dimen/dp870" android:layout_height="@dimen/dp440" android:layout_marginTop="@dimen/dp10" android:divider="@drawable/__p2__line" android:fastScrollEnabled="true" android:layout_marginStart="@dimen/dp2" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/noContacts" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

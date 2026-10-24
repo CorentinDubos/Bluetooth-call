@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/settings_list_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp230">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp260" android:text="@string/bluetooth_item" android:layout_marginEnd="@dimen/dp20" />
+            <EditText android:id="@id/bt_name_edit_id" android:background="@drawable/__12__input_edit" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="@dimen/dp395" android:layout_height="@dimen/dp60" android:maxLength="8" android:inputType="text" android:imeOptions="actionDone|flagNoExtractUi" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_sync_pin_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp260" android:text="@string/pincode_item" android:layout_marginEnd="@dimen/dp20" />
+            <EditText android:id="@id/bt_pincose_edit_id" android:background="@drawable/__12__input_edit" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="@dimen/dp395" android:layout_height="@dimen/dp60" android:maxLength="4" android:inputType="number" android:imeOptions="actionDone|flagNoExtractUi" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp260" android:text="@string/auto_connect_item" android:layout_marginEnd="@dimen/dp20" />
+            <Button android:id="@id/auto_connect_item_switch_id" android:layout_width="@dimen/dp164" android:layout_height="@dimen/dp60" android:src="?switch_on_icon" android:contentDescription="@string/image_desc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp260" android:text="@string/auto_answer_item" android:layout_marginEnd="@dimen/dp20" />
+            <Button android:id="@id/auto_answer_item_switch_id" android:layout_width="@dimen/dp164" android:layout_height="@dimen/dp60" android:src="?switch_on_icon" android:contentDescription="@string/image_desc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_sync_phone_book" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp260" android:text="@string/phonebook_sync_item" android:layout_marginEnd="@dimen/dp20" />
+            <Button android:gravity="center" android:id="@id/setting_phonebook_sync_text_id" android:background="@drawable/__98__setting_item_text" android:layout_width="@dimen/dp163" android:layout_height="@dimen/dp61" android:singleLine="true" style="@style/ButtonTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/__12__list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/__12__list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/__12__calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
+</RelativeLayout>

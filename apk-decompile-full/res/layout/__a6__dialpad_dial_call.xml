@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialpad" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/dz_bt_call_input_number" android:layout_width="@dimen/dp747" android:layout_height="@dimen/dp293">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_1_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="1" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_2_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="2" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_3_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="3" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/ib_key_star_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="*" android:layout_marginStart="@dimen/dp6" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp7">
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_4_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="4" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_5_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="5" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_6_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="6" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_0_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="0" android:layout_marginStart="@dimen/dp6" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5">
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_7_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="7" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_8_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="8" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/btn_key_9_common" android:background="@null" android:layout_width="@dimen/dp136" android:layout_height="@dimen/dp93" android:text="9" android:layout_marginStart="@dimen/dp6" />
+            <Button android:textSize="@dimen/dp46" android:textColor="@drawable/_a6_textcolor" android:id="@id/ib_key_well_common" android:background="@null" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp93" android:text="\#" android:layout_marginStart="@dimen/dp6" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

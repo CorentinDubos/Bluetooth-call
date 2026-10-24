@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/systemui_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/left_menu_bar_id" android:background="@drawable/left_menu_bg" android:visibility="gone" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0">
+        <RadioButton android:id="@id/a2dp_device_btn_id" android:background="@drawable/left_btn_current_bg" android:src="?selector_left_device_btn" style="@style/LeftImageButtonStyle" />
+        <RadioButton android:id="@id/a2dp_setting_btn_id" android:background="@drawable/left_btn_current_bg" android:src="?selector_left_setting_btn" style="@style/LeftImageButtonStyle" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dp35" android:textColor="@android:color/white" android:gravity="center" android:id="@id/no_connection_cover_view" android:visibility="gone" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:text="@string/hfp_no_connection" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/view_container_id" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/np2_disConnectRelativeLayout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/_a6_bg_line" android:layout_width="@dimen/dp614" android:layout_height="@dimen/dp256" android:layout_centerInParent="true">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp168">
+                        <ImageView android:layout_width="@dimen/dp37" android:layout_height="@dimen/dp69" android:layout_marginLeft="@dimen/dp32" android:src="@drawable/dz_bt" />
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:textSize="@dimen/dp36" android:textColor="@color/__p2__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blueTootkDisConnect" />
+                            <TextView android:textSize="@dimen/dp24" android:textColor="@color/__p2__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp7" android:text="@string/pleaseConnectPhone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:background="@drawable/dz_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/dp24" android:textColor="@color/__p2__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_item_a6" />
+                            <TextView android:textSize="@dimen/dp24" android:textColor="@color/__p2__white" android:id="@id/tv_devices_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/dp24" android:textColor="@color/__p2__white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pincode_item_a6" />
+                            <TextView android:textSize="@dimen/dp24" android:textColor="@color/__p2__white" android:id="@id/tv_pin_code" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/dz_bt_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp141" android:layout_alignParentBottom="true">
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_a6_main_view_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:button="@null" android:text="@string/_283_mian_bottom_1" android:drawableBottom="@drawable/_a6_main_bottom_1" android:drawablePadding="@dimen/dp11" />
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_dialpad_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp212" android:layout_height="@dimen/dp135" android:button="@null" android:text="@string/_283_mian_bottom_1" android:drawableBottom="@drawable/_a6_main_bottom_1" android:drawablePadding="@dimen/dp11" />
+            <ImageView style="@style/_283_vertical_line" />
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_pb_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp212" android:layout_height="@dimen/dp135" android:button="@null" android:text="@string/_283_mian_bottom_2" android:drawableBottom="@drawable/_a6_main_bottom_2" android:drawablePadding="@dimen/dp11" />
+            <ImageView style="@style/_283_vertical_line" />
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_calllog_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp212" android:layout_height="@dimen/dp135" android:button="@null" android:text="@string/_283_mian_bottom_3" android:drawableBottom="@drawable/_a6_main_bottom_3" android:drawablePadding="@dimen/dp11" />
+            <ImageView style="@style/_283_vertical_line" />
+            <TextView android:textColor="@color/__a6__blue" android:gravity="center" android:id="@id/hfp_music_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp212" android:layout_height="@dimen/dp135" android:checked="true" android:button="@null" android:text="@string/_283_mian_bottom_4" android:drawableBottom="@drawable/dz_bt_bottom_icon_music_p" android:drawablePadding="@dimen/dp11" />
+            <ImageView style="@style/_283_vertical_line" />
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_device_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp212" android:layout_height="@dimen/dp135" android:button="@null" android:text="@string/_283_mian_bottom_5" android:drawableBottom="@drawable/_a6_main_bottom_5" android:drawablePadding="@dimen/dp11" />
+            <ImageView style="@style/_283_vertical_line" />
+            <TextView android:textColor="@drawable/_a6_textcolor" android:gravity="center" android:id="@id/hfp_setting_btn_id" android:paddingBottom="@dimen/dp22" android:layout_width="@dimen/dp213" android:layout_height="@dimen/dp135" android:button="@null" android:text="@string/_283_mian_bottom_6" android:drawableBottom="@drawable/_a6_main_bottom_6" android:drawablePadding="@dimen/dp11" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

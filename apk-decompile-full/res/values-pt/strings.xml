@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_title">Aplicação</string>
+    <string name="atv_title">ATV</string>
+    <string name="aux_title">AUX</string>
+    <string name="auxin">AUX</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_title_2">Bluetooth</string>
+    <string name="bluetooth_title_3">Telefone</string>
+    <string name="browser_title">Navegador</string>
+    <string name="bt_music_title">Música Bluetooth</string>
+    <string name="car_info_title">Informação do carro</string>
+    <string name="car_logo_title">logotipo</string>
+    <string name="colorled_title">Luzes coloridas</string>
+    <string name="disc">Disco</string>
+    <string name="driving_pattern_1">Confortável</string>
+    <string name="driving_pattern_10">Pista de corrida</string>
+    <string name="driving_pattern_3">movimento</string>
+    <string name="driving_pattern_8">Economia de combustível</string>
+    <string name="driving_pattern_9">Carro original</string>
+    <string name="dtv">DTV</string>
+    <string name="dtv_title">DTV</string>
+    <string name="dvd_title">Disco</string>
+    <string name="dvr">DVR</string>
+    <string name="dvr_title">DVR</string>
+    <string name="eq_title">Equalizador</string>
+    <string name="fcarema_title">Câmera frontal</string>
+    <string name="light_title">Luz ambiente</string>
+    <string name="link">Link</string>
+    <string name="music">música</string>
+    <string name="music_title">Música</string>
+    <string name="navi_title">Navegação</string>
+    <string name="picture_title">Imagem</string>
+    <string name="radio_title">Rádio</string>
+    <string name="radio_title_1">Rádio</string>
+    <string name="settings_title">Configuração</string>
+    <string name="smart_title">Poder inteligente</string>
+    <string name="src_list_bt_music">música BT</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="swc_title">SWC</string>
+    <string name="video">Video</string>
+    <string name="video_title">Vídeo</string>
+</resources>

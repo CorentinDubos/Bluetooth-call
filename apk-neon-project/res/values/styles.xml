@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityStyle" />
+    <style name="AppTheme_n01" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/dp27</item>
+    </style>
+    <style name="AppTheme_n50" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/dp27</item>
+    </style>
+    <style name="AppTheme_n54" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/dp27</item>
+    </style>
+    <style name="BTSettingsStyle">
+        <item name="android:background">@color/bg_transparent</item>
+    </style>
+    <style name="BottomImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/a2dp_bottom_btn_width</item>
+        <item name="android:layout_height">@dimen/a2dp_more_btn_height</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BottomImageButtonStyle_0R">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp110</item>
+        <item name="android:layout_height">@dimen/dp84</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BottomImageButtonStyle_h6">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp110</item>
+        <item name="android:layout_height">@dimen/dp84</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BottomImageButtonStyle_m38">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/a2dp_bottom_btn_width_m38</item>
+        <item name="android:layout_height">@dimen/a2dp_more_btn_height_m38</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BottomImageButtonStyle_n58">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp74</item>
+        <item name="android:layout_height">@dimen/dp52</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BottomImageButtonStyle_nf8">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/a2dp_bottom_btn_width_nf8</item>
+        <item name="android:layout_height">@dimen/a2dp_more_btn_height_nf8</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="BubbleTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="ButtonTextStyle">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ButtonTextStyle_checkbox_n54">
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="ButtonTextStyle_checkbox_na4">
+        <item name="android:textSize">@dimen/dp28</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="ButtonTextStyle_checkbox_nc2">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="ButtonTextStyle_n54">
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__selector_list_button_text</item>
+    </style>
+    <style name="ButtonTextStyle_na4">
+        <item name="android:textSize">@dimen/dp32</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="ButtonTextStyle_nc2">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp117</item>
+        <item name="android:layout_height">@dimen/dp117</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CallImageButtonStyle_0R">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp86</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CallImageButtonStyle_M2">
+        <item name="android:layout_width">@dimen/dp240</item>
+        <item name="android:layout_height">@dimen/dp78</item>
+    </style>
+    <style name="CallImageButtonStyle_h6">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp117</item>
+        <item name="android:layout_height">@dimen/dp117</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CallImageButtonStyle_h6_call">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp146</item>
+        <item name="android:layout_height">@dimen/dp125</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CallInfoStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="CallInfoTitleStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ContactLeftTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:popupBackground">@android:color/transparent</item>
+    </style>
+    <style name="DialNumberTextStyle">
+        <item name="android:textSize">@dimen/dp47</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DialNumberTextStyle_N54">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="DialNumberTextStyle_NA4">
+        <item name="android:textSize">@dimen/dp45</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="DialNumberTextStyle_NC2">
+        <item name="android:textSize">35.0dip</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="DialNumberTextStyle_h6">
+        <item name="android:textSize">@dimen/dp56</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DialtactsDigitsTextAppearance">
+        <item name="android:textSize">@dimen/dialpad_digits_text_size</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:freezesText">true</item>
+    </style>
+    <style name="FullscreenTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="IcButton">
+        <item name="android:textSize">@dimen/dp32</item>
+        <item name="android:textColor">@color/ic_btn_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:onClick">iconClick</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="IcButtonList">
+        <item name="android:textColor">@color/ic_btn_list_text</item>
+    </style>
+    <style name="ImageButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">@dimen/dp200</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageButtonStyleNoSize">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageButtonStyle_M2">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">@dimen/dp178</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageButtonStyle_N54">
+        <item name="android:layout_width">@dimen/dp128</item>
+        <item name="android:layout_height">@dimen/dp92</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageButtonStyle_NA4">
+        <item name="android:layout_width">86.0dip</item>
+        <item name="android:layout_height">64.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageButtonStyle_NC2">
+        <item name="android:layout_width">46.0dip</item>
+        <item name="android:layout_height">38.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="KeyImageButtonStyle">
+        <item name="android:background">@drawable/selector_key_btn</item>
+        <item name="android:layout_width">@dimen/dp180</item>
+        <item name="android:layout_height">@dimen/dp88</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_In_Call_N54">
+        <item name="android:layout_width">@dimen/dp112</item>
+        <item name="android:layout_height">@dimen/dp50</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_In_Call_NA4">
+        <item name="android:layout_width">@dimen/dp182</item>
+        <item name="android:layout_height">@dimen/dp88</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_In_Call_NC2">
+        <item name="android:layout_width">110.0dip</item>
+        <item name="android:layout_height">47.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_M2">
+        <item name="android:layout_width">@dimen/dp192</item>
+        <item name="android:layout_height">@dimen/dp100</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="KeyImageButtonStyle_N0R">
+        <item name="android:layout_width">@dimen/dp74</item>
+        <item name="android:layout_height">@dimen/dp74</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N12">
+        <item name="android:layout_width">@dimen/dp165</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N54">
+        <item name="android:layout_width">@dimen/dp128</item>
+        <item name="android:layout_height">@dimen/dp46</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N91">
+        <item name="android:layout_width">@dimen/dp84</item>
+        <item name="android:layout_height">@dimen/dp72</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N91_2">
+        <item name="android:layout_width">@dimen/dp165</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N98">
+        <item name="android:layout_width">@dimen/dp144</item>
+        <item name="android:layout_height">@dimen/dp86</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_N98_1280x720" parent="@style/KeyImageButtonStyle_N98">
+        <item name="android:layout_width">@dimen/dp198</item>
+        <item name="android:layout_height">@dimen/dp98</item>
+    </style>
+    <style name="KeyImageButtonStyle_NA4">
+        <item name="android:layout_width">@dimen/dp182</item>
+        <item name="android:layout_height">@dimen/dp88</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_NC2">
+        <item name="android:layout_width">130.0dip</item>
+        <item name="android:layout_height">46.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_Nh6">
+        <item name="android:layout_width">@dimen/dp152</item>
+        <item name="android:layout_height">@dimen/dp118</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_n58">
+        <item name="android:layout_width">@dimen/dp244</item>
+        <item name="android:layout_height">@dimen/dp76</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="KeyImageButtonStyle_right_n58">
+        <item name="android:layout_width">@dimen/dp158</item>
+        <item name="android:layout_height">@dimen/dp56</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="LabelTitleStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="LeftImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="LeftImageButtonStyle_n58">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp74</item>
+        <item name="android:layout_height">@dimen/dp52</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="ListViewFastScrollThumb">
+        <item name="android:fastScrollThumbDrawable">@drawable/list_scrollbar_track_vertical</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/list_scrollbar_thumb_vertical</item>
+    </style>
+    <style name="LocalBluetoothNameStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/BluetoothNameColor</item>
+    </style>
+    <style name="MoreButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/a2dp_more_btn_width</item>
+        <item name="android:layout_height">@dimen/a2dp_more_btn_height</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="NumberTextStyle">
+        <item name="android:textSize">@dimen/dp43</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PairedDeviceNameStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PairedDeviceNameStyle_n54">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="ParkingTextStyle" parent="@android:style/Theme.Holo">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+    </style>
+    <style name="PopupInfoTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/dp35</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="QuickContactNotSaveStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="QuickContactSavedStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SettingsItemTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/dp35</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SettingsItemTextStyle_N54">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="SongAlbumStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SongTitleStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media" />
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title" />
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">#ff000000</item>
+    </style>
+    <style name="_283_fragment_bottom_image">
+        <item name="android:background">@drawable/dz_bt_blue_dot</item>
+        <item name="android:layout_width">@dimen/dp1184</item>
+        <item name="android:layout_height">@dimen/dp79</item>
+        <item name="android:layout_marginBottom">@dimen/dp32</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="_283_vertical_line">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/dz_vehicle_information_bottom_line</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="__01__CallImageButtonStyle">
+        <item name="android:background">@drawable/__01__selectable_item</item>
+        <item name="android:layout_width">@dimen/dp72</item>
+        <item name="android:layout_height">@dimen/dp72</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__01__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp35</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="__01__config_style" parent="@style/config_style_commonui">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/dp27</item>
+        <item name="LeftImageButtonStyle">@style/LeftImageButtonStyle</item>
+        <item name="a2dp_bottom_bg">@drawable/__01__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__01__a2dp_main</item>
+        <item name="bubble_call">@layout/__01__bubble_call</item>
+        <item name="call_log_list_item">@layout/__01__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__01__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__01__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__01__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="config_phone_float_window_nofullscreen">false</item>
+        <item name="contacts_list_item">@layout/__01__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__01__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/_1</item>
+        <item name="current_ui_styles">1</item>
+        <item name="device_view">@layout/__97__device_view</item>
+        <item name="dial_call_icon">@drawable/dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__01__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__01__down_btn_opt_next</item>
+        <item name="down_btn_opt_play_pause">@drawable/__01__down_btn_opt_play_pause</item>
+        <item name="down_btn_opt_prev">@drawable/__01__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__01__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__01__fragment_call</item>
+        <item name="fragment_calllog">@layout/__01__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__01__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__01__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__01__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__01__fragment_settings</item>
+        <item name="hfp_main">@layout/__01__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/incoming_call_icon</item>
+        <item name="is_audio_change_btn_type_selected">false</item>
+        <item name="is_audio_in_phone_anim">false</item>
+        <item name="is_have_fragment_music">false</item>
+        <item name="is_music_btn_start_btmusic_ativity">false</item>
+        <item name="is_mute_btn_type_selected">false</item>
+        <item name="is_rotate_screen">false</item>
+        <item name="load_layout">@layout/__01__load_layout</item>
+        <item name="load_progress">@drawable/__01__load_progress</item>
+        <item name="miss_call_icon">@drawable/miss_call_icon</item>
+        <item name="paired_list_item">@layout/__01__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__01__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__01__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__01__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__01__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__01__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__01__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__01__selector_music_play_btn</item>
+        <item name="setting_list_item">@layout/__01__setting_list_item</item>
+        <item name="srceen1280x480">false</item>
+        <item name="switch_off_icon">@drawable/__01__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__01__switch_on_icon</item>
+    </style>
+    <style name="__01__config_style_commonui" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="item_height">@dimen/__01__item_height</item>
+        <item name="item_width">@dimen/__01__item_width</item>
+        <item name="menu_list_item_layout">@layout/__01__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__01__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__01__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__01__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__01__selector_menu_icon</item>
+    </style>
+    <style name="__01__config_style_i11" parent="@style/__01__config_style">
+        <item name="config_phone_float_window_nofullscreen">true</item>
+    </style>
+    <style name="__02__config_style" parent="@style/__01__config_style" />
+    <style name="__03__config_style" parent="@style/__01__config_style" />
+    <style name="__04__config_style" parent="@style/__01__config_style" />
+    <style name="__05__config_style" parent="@style/__01__config_style" />
+    <style name="__06__config_style" parent="@style/__51__config_style" />
+    <style name="__07__config_style" parent="@style/__01__config_style" />
+    <style name="__08__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__08__a2dp_bottom_bg</item>
+    </style>
+    <style name="__09__config_style" parent="@style/__01__config_style" />
+    <style name="__0A__config_style" parent="@style/__47__config_style" />
+    <style name="__0B__config_style" parent="@style/__52__config_style" />
+    <style name="__0C__config_style" parent="@style/__47__config_style" />
+    <style name="__0D__config_style" parent="@style/__47__config_style" />
+    <style name="__0E__config_style" parent="@style/__10__config_style_i11" />
+    <style name="__0F__config_style" parent="@style/__47__config_style" />
+    <style name="__0G__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__0g__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__0g__a2dp_main</item>
+        <item name="bubble_call">@layout/__0g__bubble_call</item>
+        <item name="call_log_list_item">@layout/__0g__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__0g__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__0g__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__0g__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N83</item>
+        <item name="dialpad_dial">@layout/__0g__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__0g__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__0g__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__0g__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__0g__fragment_call</item>
+        <item name="fragment_calllog">@layout/__0g__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__0g__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__0g__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__0g__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__0g__fragment_settings</item>
+        <item name="hfp_main">@layout/__0g__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__0g__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__0g__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__0g__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__0g__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__0g__switch_on_icon</item>
+    </style>
+    <style name="__0H__config_style" parent="@style/__97__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__97__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__107__a2dp_main</item>
+        <item name="call_log_list_item">@layout/__107__call_log_list_item</item>
+        <item name="contacts_list_item">@layout/__107__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__107__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N107</item>
+        <item name="device_view">@layout/__107__device_view</item>
+        <item name="dialpad_dial">@layout/__107__dialpad_dial</item>
+        <item name="fragment_a2dp">@layout/__107__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__97__fragment_call</item>
+        <item name="fragment_calllog">@layout/__97__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__97__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__107__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__107__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__107__fragment_settings</item>
+        <item name="hfp_main">@layout/__107__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__97__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__107__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__107__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__107__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__107__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__107__selector_left_setting_btn</item>
+    </style>
+    <style name="__0J__config_style" parent="@style/__52__config_style" />
+    <style name="__0K__config_style" parent="@style/__47__config_style" />
+    <style name="__0L__config_style" parent="@style/__51__config_style" />
+    <style name="__0M__config_style" parent="@style/__47__config_style" />
+    <style name="__0N__config_style" parent="@style/__47__config_style" />
+    <style name="__0R__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp86</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__0R__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__0r__a2dp_main</item>
+        <item name="bubble_call">@layout/__0r__bubble_call</item>
+        <item name="call_log_list_item">@layout/__47__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__0r__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__0r__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__0r__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__47__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N117</item>
+        <item name="device_view">@layout/__0r__device_view</item>
+        <item name="dialpad_dial">@layout/__0r__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__0r__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__0r__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__0r__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__0r__fragment_call</item>
+        <item name="fragment_calllog">@layout/__0r__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__0r__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__0r__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__0r__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__0r__fragment_settings</item>
+        <item name="hfp_main">@layout/__0r__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__0r__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__0r__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__0r__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__0r__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__0r__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__0r__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__0r__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__0r__selector_music_play_btn</item>
+        <item name="srceen1280x480">true</item>
+        <item name="switch_off_icon">@drawable/__0r__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__0r__switch_on_icon</item>
+    </style>
+    <style name="__0T__config_style" parent="@style/__51__config_style" />
+    <style name="__0V__config_style" parent="@style/__97__config_style" />
+    <style name="__0W__config_style" parent="@style/__47__config_style" />
+    <style name="__0Y__config_style" parent="@style/__01__config_style" />
+    <style name="__0Z__config_style" parent="@style/__47__config_style" />
+    <style name="__107__KeyImageButtonStyle">
+        <item name="android:layout_width">@dimen/dp180</item>
+        <item name="android:layout_height">@dimen/dp70</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__10__config_style_i11" parent="@style/__01__config_style">
+        <item name="bubble_call">@layout/__01__bubble_call_kz1</item>
+        <item name="config_phone_float_window_nofullscreen">true</item>
+    </style>
+    <style name="__11__config_style" parent="@style/__01__config_style" />
+    <style name="__12__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp117</item>
+        <item name="android:layout_height">@dimen/dp117</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__12__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__12__a2dp_main</item>
+        <item name="bubble_call">@layout/__12__bubble_call</item>
+        <item name="call_log_list_item">@layout/__12__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__12__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__12__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__12__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__12__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N12</item>
+        <item name="dialpad_dial">@layout/__12__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__12__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__12__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__12__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__12__fragment_call</item>
+        <item name="fragment_calllog">@layout/__12__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__12__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__12__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__12__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__12__fragment_settings</item>
+        <item name="hfp_main">@layout/__12__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__12__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__12__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__12__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__12__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__12__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__12__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__12__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__12__selector_music_play_btn</item>
+    </style>
+    <style name="__13__config_style" parent="@style/__01__config_style" />
+    <style name="__17__config_style" parent="@style/__08__config_style" />
+    <style name="__18__config_style" parent="@style/__01__config_style" />
+    <style name="__19__config_style" parent="@style/__12__config_style" />
+    <style name="__21__config_style" parent="@style/__01__config_style">
+        <item name="config_isneed_showredialnum_shortclick">true</item>
+    </style>
+    <style name="__22__config_style" parent="@style/__01__config_style" />
+    <style name="__23__config_style" parent="@style/__12__config_style" />
+    <style name="__24__config_style" parent="@style/__01__config_style" />
+    <style name="__25__config_style" parent="@style/__01__config_style" />
+    <style name="__26__config_style" parent="@style/__51__config_style" />
+    <style name="__27__config_style" parent="@style/__01__config_style" />
+    <style name="__29__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp140</item>
+        <item name="android:layout_height">@dimen/dp140</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__29__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__29__a2dp_main</item>
+        <item name="bubble_call">@layout/__29__bubble_call</item>
+        <item name="call_log_list_item">@layout/__29__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__29__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__29__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__29__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__29__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N29</item>
+        <item name="dialpad_dial">@layout/__29__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__29__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__29__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__29__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__29__fragment_call</item>
+        <item name="fragment_calllog">@layout/__29__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__29__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__29__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__29__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__29__fragment_settings</item>
+        <item name="hfp_main">@layout/__29__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__29__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__29__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__29__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__29__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__29__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__29__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__29__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__29__selector_music_play_btn</item>
+    </style>
+    <style name="__29__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="item_height">@dimen/__29__item_height</item>
+        <item name="item_width">@dimen/__29__item_width</item>
+        <item name="menu_list_item_layout">@layout/__29__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__29__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__29__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__29__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__29__selector_menu_icon</item>
+    </style>
+    <style name="__30__config_style" parent="@style/__01__config_style" />
+    <style name="__31__config_style" parent="@style/__29__config_style" />
+    <style name="__32__config_style" parent="@style/__01__config_style" />
+    <style name="__33__config_style" parent="@style/__01__config_style" />
+    <style name="__34__config_style" parent="@style/__01__config_style" />
+    <style name="__35__config_style" parent="@style/__01__config_style" />
+    <style name="__36__config_style" parent="@style/__01__config_style" />
+    <style name="__37__config_style" parent="@style/__01__config_style" />
+    <style name="__38__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp112</item>
+        <item name="android:layout_height">@dimen/dp112</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__38__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp28</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="__38__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__38__a2dp_main</item>
+        <item name="bubble_call">@layout/__38__bubble_call</item>
+        <item name="call_log_list_item">@layout/__38__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__38__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__38__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__38__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__38__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N38</item>
+        <item name="dialpad_dial">@layout/__38__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__38__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__38__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__38__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__38__fragment_call</item>
+        <item name="fragment_calllog">@layout/__38__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__38__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__38__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__38__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__38__fragment_settings</item>
+        <item name="hfp_main">@layout/__38__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__38__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__38__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__38__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__38__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__38__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__38__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__38__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__38__selector_music_play_btn</item>
+    </style>
+    <style name="__38__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="item_height">@dimen/__38__item_height</item>
+        <item name="item_width">@dimen/__38__item_width</item>
+        <item name="menu_list_item_layout">@layout/__38__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__38__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__38__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__38__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__38__selector_menu_icon</item>
+    </style>
+    <style name="__39__config_style" parent="@style/__01__config_style" />
+    <style name="__40__config_style" parent="@style/__01__config_style" />
+    <style name="__41__config_style" parent="@style/__01__config_style" />
+    <style name="__42__config_style" parent="@style/__01__config_style" />
+    <style name="__44__config_style" parent="@style/__01__config_style" />
+    <style name="__45__config_style" parent="@style/__01__config_style" />
+    <style name="__46__config_style" parent="@style/__01__config_style" />
+    <style name="__47__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__47__a2dp_main</item>
+        <item name="bubble_call">@layout/__47__bubble_call</item>
+        <item name="call_log_list_item">@layout/__47__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__47__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__12__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__47__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__47__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N12</item>
+        <item name="dialpad_dial">@layout/__47__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__12__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__12__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__47__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__12__fragment_call</item>
+        <item name="fragment_calllog">@layout/__47__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__47__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__47__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__47__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__12__fragment_settings</item>
+        <item name="hfp_main">@layout/__47__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__12__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__12__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__12__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__12__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__12__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__12__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__12__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__12__selector_music_play_btn</item>
+    </style>
+    <style name="__47__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="item_height">@dimen/__47__item_height</item>
+        <item name="item_width">@dimen/__47__item_width</item>
+        <item name="menu_list_item_layout">@layout/__47__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__47__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__47__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__47__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__47__selector_menu_icon</item>
+    </style>
+    <style name="__49__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp172</item>
+        <item name="android:layout_height">@dimen/dp98</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__49__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp35</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="__49__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__01__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__49__a2dp_main</item>
+        <item name="bubble_call">@layout/__49__bubble_call</item>
+        <item name="call_log_list_item">@layout/__49__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__01__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__49__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__49__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__49__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N49</item>
+        <item name="dialpad_dial">@layout/__49__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__49__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__49__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__49__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__49__fragment_call</item>
+        <item name="fragment_calllog">@layout/__49__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__49__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__49__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__49__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__49__fragment_settings</item>
+        <item name="hfp_main">@layout/__49__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__49__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__49__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__49__selector_music_play_btn</item>
+    </style>
+    <style name="__49_id3_info_minor">
+        <item name="android:textSize">@dimen/font_size_id3_minor</item>
+        <item name="android:textColor">@color/color_49_searcher</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__50__config_style" parent="@style/__01__config_style">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">@dimen/dp27</item>
+    </style>
+    <style name="__51__config_style" parent="@style/__01__config_style">
+        <item name="bubble_call">@layout/__01__bubble_call_kz1</item>
+    </style>
+    <style name="__52__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__52__a2dp_main</item>
+        <item name="call_log_list_item">@layout/__52__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__52__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__52__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__52__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__52__contacts_number_list_item</item>
+        <item name="current_ui_style">52</item>
+        <item name="dialpad_dial">@layout/__52__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__29__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__29__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__29__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__52__fragment_call</item>
+        <item name="fragment_calllog">@layout/__52__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__52__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__52__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__52__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__52__fragment_settings</item>
+        <item name="hfp_main">@layout/__52__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__52__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__52_selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__52_selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__52_selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__52_selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__52_selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__29__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__29__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__52__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__52__switch_on_icon</item>
+    </style>
+    <style name="__53__config_style" parent="@style/__12__config_style" />
+    <style name="__54__CallImageButtonStyle">
+        <item name="android:layout_width">@dimen/dp86</item>
+        <item name="android:layout_height">@dimen/dp64</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__54__CallInfoStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__54__LeftImageButtonStyle">
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:textColor">@color/__54__selector_list_button_text</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingLeft">@dimen/dp80</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__54__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp18</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="__54__config_style" parent="@style/__01__config_style">
+        <item name="LeftImageButtonStyle">@style/__54__LeftImageButtonStyle</item>
+        <item name="a2dp_main">@layout/__54__a2dp_main</item>
+        <item name="bubble_call">@layout/__54__bubble_call</item>
+        <item name="call_log_list_item">@layout/__54__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__54__call_log_primary_text_color</item>
+        <item name="contacts_list_item">@layout/__54__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__54__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N54</item>
+        <item name="current_ui_styles">54</item>
+        <item name="dialpad_dial">@layout/__54__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__54__down_btn_opt_next</item>
+        <item name="down_btn_opt_play_pause">@drawable/__54__down_btn_opt_play_pause</item>
+        <item name="down_btn_opt_prev">@drawable/__54__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__54__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__54__fragment_call</item>
+        <item name="fragment_calllog">@layout/__54__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__54__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__54__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__54__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__54__fragment_settings</item>
+        <item name="hfp_main">@layout/__54__hfp_main</item>
+        <item name="load_layout">@layout/__54__load_layout</item>
+        <item name="load_progress">@drawable/__54__load_progress</item>
+        <item name="n54_ui_portrate">true</item>
+        <item name="paired_list_item">@layout/__54__paired_list_item</item>
+        <item name="portrate_screen_a2dp">@drawable/__54__a2dp_play_bg_split</item>
+        <item name="portrate_screen_hfp">@drawable/__54__bluetooth_htp_ban</item>
+        <item name="selector_left_calllog_btn">@drawable/__54__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__54__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__54__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__54__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__54__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__54__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__54__selector_music_play_btn</item>
+        <item name="setting_list_item">@layout/__54__setting_list_item</item>
+        <item name="switch_off_icon">@drawable/__54__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__54__switch_on_icon</item>
+    </style>
+    <style name="__54__config_style_no_can" parent="@style/__54__config_style">
+        <item name="a2dp_main">@layout/__54__a2dp_main_no_can</item>
+        <item name="hfp_main">@layout/__54__hfp_main_no_can</item>
+    </style>
+    <style name="__54__id3_info_major">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__54_id3_info_minor">
+        <item name="android:textSize">@dimen/dp18</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__55__config_style" parent="@style/__47__config_style" />
+    <style name="__57__config_style" parent="@style/__29__config_style" />
+    <style name="__58__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp170</item>
+        <item name="android:layout_height">@dimen/dp60</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__58__CallImageButtonStyle_bubble">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp78</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__58__config_style" parent="@style/__29__config_style">
+        <item name="a2dp_main">@layout/__58__a2dp_main</item>
+        <item name="bubble_call">@layout/__58__bubble_call</item>
+        <item name="call_log_list_item">@layout/__58__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__58__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__58__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__58__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__58__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N58</item>
+        <item name="dialpad_dial">@layout/__58__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__58__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__58__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__58__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__58__fragment_call</item>
+        <item name="fragment_calllog">@layout/__58__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__58__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__58__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__58__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__58__fragment_settings</item>
+        <item name="hfp_main">@layout/__58__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__58__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__58__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__58__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__58__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__58__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__58__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__58__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__58__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__58__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__58__switch_on_icon</item>
+    </style>
+    <style name="__59__config_style" parent="@style/__51__config_style" />
+    <style name="__60__config_style" parent="@style/__52__config_style" />
+    <style name="__61__config_style" parent="@style/__51__config_style" />
+    <style name="__62__config_style" parent="@style/__01__config_style" />
+    <style name="__63__config_style" parent="@style/__29__config_style">
+        <item name="a2dp_main">@layout/__63__a2dp_main</item>
+        <item name="bubble_call">@layout/__63__bubble_call</item>
+        <item name="call_log_list_item">@layout/__63__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__63__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__63__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__63__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__63__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N29</item>
+        <item name="dialpad_dial">@layout/__63__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__63__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__63__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__63__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__63__fragment_call</item>
+        <item name="fragment_calllog">@layout/__63__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__63__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__63__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__63__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__63__fragment_settings</item>
+        <item name="hfp_main">@layout/__63__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__63__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__63__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__63__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__63__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__63__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__63__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__63__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__63__selector_music_play_btn</item>
+    </style>
+    <style name="__63__config_style_commonui" parent="@style/__29__config_style_commonui">
+        <item name="selector_menu_icon">@drawable/__63__selector_menu_icon</item>
+    </style>
+    <style name="__64__config_style" parent="@style/__01__config_style" />
+    <style name="__65__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__01__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__65__a2dp_main</item>
+        <item name="bubble_call">@layout/__65__bubble_call</item>
+        <item name="call_log_list_item">@layout/__65__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__65__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__65__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__O65</item>
+        <item name="dialpad_dial">@layout/__65__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__65__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__65__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__65__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__65__fragment_call</item>
+        <item name="fragment_calllog">@layout/__65__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__65__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__65__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__65__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__65__fragment_settings</item>
+        <item name="hfp_main">@layout/__65__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__65__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__65__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__65__selector_music_play_btn</item>
+    </style>
+    <style name="__66__config_style" parent="@style/__47__config_style">
+        <item name="bubble_call">@layout/__66__bubble_call</item>
+    </style>
+    <style name="__67__config_style" parent="@style/__47__config_style" />
+    <style name="__68__config_style" parent="@style/__01__config_style" />
+    <style name="__69__config_style" parent="@style/__10__config_style_i11" />
+    <style name="__70__config_style" parent="@style/__01__config_style" />
+    <style name="__71__config_style" parent="@style/__01__config_style" />
+    <style name="__73__config_style" parent="@style/__47__config_style" />
+    <style name="__74__config_style" parent="@style/__52__config_style" />
+    <style name="__75__config_style" parent="@style/__01__config_style" />
+    <style name="__76__config_style" parent="@style/__01__config_style" />
+    <style name="__77__config_style" parent="@style/__12__config_style" />
+    <style name="__78__config_style" parent="@style/__01__config_style" />
+    <style name="__79__config_style" parent="@style/__01__config_style" />
+    <style name="__80__config_style" parent="@style/__47__config_style" />
+    <style name="__81__config_style" parent="@style/__01__config_style" />
+    <style name="__82__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__01__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__82__a2dp_main</item>
+        <item name="bubble_call">@layout/__82__bubble_call</item>
+        <item name="call_log_list_item">@layout/__82__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__82__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__82__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__82__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__82__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N82</item>
+        <item name="dialpad_dial">@layout/__82__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__82__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__82__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__82__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__82__fragment_call</item>
+        <item name="fragment_calllog">@layout/__82__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__82__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__82__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__82__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__82__fragment_settings</item>
+        <item name="hfp_main">@layout/__82__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__82__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__82__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__82__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__82__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__82__switch_on_icon</item>
+    </style>
+    <style name="__83__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__83__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__83__a2dp_main</item>
+        <item name="bubble_call">@layout/__83__bubble_call</item>
+        <item name="call_log_list_item">@layout/__83__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__83__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__65__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N83</item>
+        <item name="dialpad_dial">@layout/__83__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__83__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__83__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__83__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__83__fragment_call</item>
+        <item name="fragment_calllog">@layout/__83__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__83__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__83__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__83__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__83__fragment_settings</item>
+        <item name="hfp_main">@layout/__83__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__83__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__83__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__83__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__83__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__83__switch_on_icon</item>
+    </style>
+    <style name="__84__config_style" parent="@style/__63__config_style" />
+    <style name="__85__config_style" parent="@style/__51__config_style" />
+    <style name="__86__config_style" parent="@style/__01__config_style" />
+    <style name="__88__config_style" parent="@style/__47__config_style" />
+    <style name="__89__config_style" parent="@style/__47__config_style" />
+    <style name="__90__config_style" parent="@style/__51__config_style" />
+    <style name="__91__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp92</item>
+        <item name="android:layout_height">@dimen/dp64</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__91__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__91__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__91__a2dp_main</item>
+        <item name="bubble_call">@layout/__91__bubble_call</item>
+        <item name="call_log_list_item">@layout/__91__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__91__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__91__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__91__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__91__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N91</item>
+        <item name="dialpad_dial">@layout/__91__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__91__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__91__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__91__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__91__fragment_call</item>
+        <item name="fragment_calllog">@layout/__91__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__91__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__91__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__91__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__91__fragment_settings</item>
+        <item name="hfp_main">@layout/__91__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__91__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__91__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__91__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__91__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__91__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__91__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__91__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__91__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__91__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__91__switch_on_icon</item>
+    </style>
+    <style name="__92__config_style" parent="@style/__51__config_style" />
+    <style name="__93__config_style_no_can" parent="@style/__54__config_style_no_can">
+        <item name="portrate_screen_a2dp">@drawable/__93__a2dp_play_bg_split</item>
+        <item name="portrate_screen_hfp">@drawable/__93__bluetooth_htp_ban</item>
+    </style>
+    <style name="__94__config_style" parent="@style/__47__config_style" />
+    <style name="__95__config_style" parent="@style/__52__config_style" />
+    <style name="__96__config_style" parent="@style/__54__config_style_no_can" />
+    <style name="__97__BottomImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp102</item>
+        <item name="android:layout_height">@dimen/dp102</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__97__CallImageButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">@dimen/dp92</item>
+        <item name="android:layout_height">@dimen/dp78</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__97__KeyImageButtonStyle">
+        <item name="android:layout_width">@dimen/dp200</item>
+        <item name="android:layout_height">@dimen/dp76</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__97__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__97__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__97__a2dp_main</item>
+        <item name="bubble_call">@layout/__97__bubble_call</item>
+        <item name="call_log_list_item">@layout/__97__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__97__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__97__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__97__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__97__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N97</item>
+        <item name="device_view">@layout/__97__device_view</item>
+        <item name="dialpad_dial">@layout/__97__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__97__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__97__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__97__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__97__fragment_call</item>
+        <item name="fragment_calllog">@layout/__97__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__97__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__97__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__97__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__97__fragment_settings</item>
+        <item name="hfp_main">@layout/__97__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="is_rotate_screen">true</item>
+        <item name="paired_list_item">@layout/__97__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__97__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__97__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__97__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__97__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__97__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__97__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__97__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__97__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__97__switch_on_icon</item>
+    </style>
+    <style name="__98__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp116</item>
+        <item name="android:layout_height">@dimen/dp66</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__98__CallImageButtonStyle_1280x720">
+        <item name="android:layout_width">@dimen/dp74</item>
+        <item name="android:layout_height">@dimen/dp52</item>
+    </style>
+    <style name="__98__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__98__a2dp_main</item>
+        <item name="bubble_call">@layout/__98__bubble_call</item>
+        <item name="call_log_list_item">@layout/__98__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__98__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__98__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__98__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__98__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N12</item>
+        <item name="dialpad_dial">@layout/__98__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__98__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__98__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__98__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__98__fragment_call</item>
+        <item name="fragment_calllog">@layout/__98__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__98__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__98__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__98__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__98__fragment_settings</item>
+        <item name="hfp_main">@layout/__98__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__98__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__98__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__98__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__98__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__98__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__98__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__98__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__98__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__98__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__98__switch_on_icon</item>
+    </style>
+    <style name="__A1__config_style" parent="@style/__01__config_style" />
+    <style name="__A2__config_style" parent="@style/__0H__config_style" />
+    <style name="__A3__config_style" parent="@style/__01__config_style" />
+    <style name="__A4__config_style" parent="@style/__01__config_style">
+        <item name="android:windowFullscreen">false</item>
+        <item name="LeftImageButtonStyle">@style/__a4__LeftImageButtonStyle</item>
+        <item name="a2dp_main">@layout/__a4__a2dp_main</item>
+        <item name="bubble_call">@layout/__a4__bubble_call</item>
+        <item name="call_log_list_item">@layout/__a4__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__a4__call_log_primary_text_color</item>
+        <item name="contacts_list_item">@layout/__a4__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__a4__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N54</item>
+        <item name="current_ui_styles">A4</item>
+        <item name="dial_call_icon">@drawable/__a4__small_dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__a4__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__a4__down_btn_opt_next</item>
+        <item name="down_btn_opt_play_pause">@drawable/__a4__down_btn_opt_play_pause</item>
+        <item name="down_btn_opt_prev">@drawable/__a4__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__a4__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__a4__fragment_call</item>
+        <item name="fragment_calllog">@layout/__a4__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__a4__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__a4__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__a4__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__a4__fragment_settings</item>
+        <item name="hfp_main">@layout/__a4__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__a4__small_incoming_call_icon</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="load_layout">@layout/__54__load_layout</item>
+        <item name="load_progress">@drawable/__54__load_progress</item>
+        <item name="miss_call_icon">@drawable/__a4__small_miss_call_icon</item>
+        <item name="n54_ui_portrate">true</item>
+        <item name="paired_list_item">@layout/__a4__paired_list_item</item>
+        <item name="portrate_screen_a2dp">@drawable/__54__a2dp_play_bg_split</item>
+        <item name="portrate_screen_hfp">@drawable/__54__bluetooth_htp_ban</item>
+        <item name="selector_left_calllog_btn">@drawable/__a4__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__a4__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__a4__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__a4__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__a4__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__a4__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__a4__selector_music_play_btn</item>
+        <item name="setting_list_item">@layout/__54__setting_list_item</item>
+        <item name="switch_off_icon">@drawable/__a4__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__a4__switch_on_icon</item>
+    </style>
+    <style name="__A5__config_style" parent="@style/__98__config_style" />
+    <style name="__A6__config_style" parent="@style/__01__config_style">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="a2dp_main">@layout/__a6__a2dp_main</item>
+        <item name="bubble_call">@layout/__a6__bubble_call</item>
+        <item name="call_log_list_item">@layout/__a6__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/dz_bt_set_list_selected</item>
+        <item name="checkbox_not_connected">@drawable/dz_bt_set_list_not_selected</item>
+        <item name="contacts_list_item">@layout/__a6__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__a6__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__PA6</item>
+        <item name="current_ui_styles">A6</item>
+        <item name="dialpad_dial">@layout/__a6__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/_a6_music_next</item>
+        <item name="down_btn_opt_prev">@drawable/_a6_music_pre</item>
+        <item name="fragment_a2dp">@layout/__a6__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__a6__fragment_call</item>
+        <item name="fragment_calllog">@layout/__a6__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__a6__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__a6__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__a6__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__a6__fragment_settings</item>
+        <item name="hfp_main">@layout/__a6__hfp_main</item>
+        <item name="is_have_fragment_music">true</item>
+        <item name="is_music_btn_start_btmusic_ativity">true</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="n54_ui_portrate">true</item>
+        <item name="paired_list_item">@layout/__a6__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/_a6_music_pause</item>
+        <item name="selector_music_play_btn">@drawable/_a6_music_play</item>
+        <item name="switch_off_icon">@drawable/dz_bt_set_list_not_selected</item>
+        <item name="switch_on_icon">@drawable/dz_bt_set_list_selected</item>
+    </style>
+    <style name="__A9__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__0g__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__a9__a2dp_main</item>
+        <item name="bubble_call">@layout/__a9__bubble_call</item>
+        <item name="call_log_list_item">@layout/__a9__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__a9__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__a9__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__a9__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N83</item>
+        <item name="current_ui_styles">A9</item>
+        <item name="dial_call_icon">@drawable/__a9__small_dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__a9__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__a9__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__a9__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__a9__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__a9__fragment_call</item>
+        <item name="fragment_calllog">@layout/__a9__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__a9__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__a9__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__a9__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__a9__fragment_settings</item>
+        <item name="hfp_main">@layout/__a9__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__a9__small_incoming_call_icon</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="miss_call_icon">@drawable/__a9__small_miss_call_icon</item>
+        <item name="paired_list_item">@layout/__a9__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__a9__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__a9__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__a9__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__a9__switch_on_icon</item>
+    </style>
+    <style name="__B1__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__b1__a2dp_main</item>
+        <item name="bubble_call">@layout/__b1__bubble_call</item>
+        <item name="call_log_list_item">@layout/__b1__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__b1__hs_px6_bt_ic_mid_conn_p</item>
+        <item name="checkbox_not_connected">@drawable/__b1__hs_px6_bt_ic_mid_unconn_p</item>
+        <item name="contacts_list_item">@layout/__b1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__b1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__Nb1</item>
+        <item name="device_view">@layout/__b1__device_view</item>
+        <item name="dialpad_dial">@layout/__b1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__b1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__b1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__b1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__b1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__b1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__b1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__b1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__b1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__b1__fragment_settings</item>
+        <item name="hfp_main">@layout/__b1__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__b1__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__b1__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__b1__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__b1__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__b1__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__b1__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__b1__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__b1__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__b1__hs_px6_bt_ic_mid_off_n</item>
+        <item name="switch_on_icon">@drawable/__b1__hs_px6_bt_ic_mid_on_n</item>
+    </style>
+    <style name="__B1__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="item_height">@dimen/__47__item_height</item>
+        <item name="item_width">@dimen/__47__item_width</item>
+        <item name="menu_list_item_layout">@layout/__b1__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__b1__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__47__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__47__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__b1__selector_menu_icon</item>
+    </style>
+    <style name="__B2__config_style" parent="@style/__01__config_style" />
+    <style name="__B3__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__0g__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__0g__a2dp_main</item>
+        <item name="bubble_call">@layout/__0g__bubble_call</item>
+        <item name="call_log_list_item">@layout/__0g__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__0g__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__0g__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__0g__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N83</item>
+        <item name="dialpad_dial">@layout/__0g__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__0g__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__0g__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__b3__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__0g__fragment_call</item>
+        <item name="fragment_calllog">@layout/__0g__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__0g__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__0g__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__0g__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__0g__fragment_settings</item>
+        <item name="hfp_main">@layout/__0g__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__0g__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__0g__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__0g__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__0g__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__0g__switch_on_icon</item>
+    </style>
+    <style name="__B4__config_style" parent="@style/__B1__config_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__b4__a2dp_main</item>
+        <item name="bubble_call">@layout/__b4__bubble_call</item>
+        <item name="call_log_list_item">@layout/__b4__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__b4__bt4_mid_ic_lianjie_p</item>
+        <item name="checkbox_not_connected">@drawable/__b4__bt4_mid_ic_duank_p</item>
+        <item name="contacts_list_item">@layout/__b4__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__b1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__Nb1</item>
+        <item name="device_view">@layout/__b1__device_view</item>
+        <item name="dialpad_dial">@layout/__b4__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__b4__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__b4__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__b4__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__b4__fragment_call</item>
+        <item name="fragment_calllog">@layout/__b4__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__b4__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__b4__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__b4__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__b4__fragment_settings</item>
+        <item name="hfp_main">@layout/__b4__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__b4__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__b4__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__b4__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__b4__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__b4__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__b4__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__b4__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__b4__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__b1__hs_px6_bt_ic_mid_off_n</item>
+        <item name="switch_on_icon">@drawable/__b4__bt5_ic_mid_off_p</item>
+    </style>
+    <style name="__B6__config_style" parent="@style/__81__config_style" />
+    <style name="__B6__config_style_commonui" parent="@style/__B1__config_style_commonui" />
+    <style name="__C1__config_style" parent="@style/__01__config_style" />
+    <style name="__C2__config_style" parent="@style/__01__config_style">
+        <item name="android:windowFullscreen">false</item>
+        <item name="LeftImageButtonStyle">@style/__c2__LeftImageButtonStyle</item>
+        <item name="a2dp_main">@layout/__c2__a2dp_main</item>
+        <item name="bubble_call">@layout/__a4__bubble_call</item>
+        <item name="call_log_list_item">@layout/__c2__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__a4__call_log_primary_text_color</item>
+        <item name="contacts_list_item">@layout/__c2__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__c2__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N54</item>
+        <item name="current_ui_styles">C2</item>
+        <item name="dial_call_icon">@drawable/__a4__small_dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__c2__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__c2__down_btn_opt_next</item>
+        <item name="down_btn_opt_play_pause">@drawable/__a4__down_btn_opt_play_pause</item>
+        <item name="down_btn_opt_prev">@drawable/__c2__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__c2__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__c2__fragment_call</item>
+        <item name="fragment_calllog">@layout/__c2__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__c2__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__c2__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__c2__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__c2__fragment_settings</item>
+        <item name="hfp_main">@layout/__c2__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__a4__small_incoming_call_icon</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="load_layout">@layout/__54__load_layout</item>
+        <item name="load_progress">@drawable/__54__load_progress</item>
+        <item name="miss_call_icon">@drawable/__a4__small_miss_call_icon</item>
+        <item name="n54_ui_portrate">true</item>
+        <item name="paired_list_item">@layout/__c2__paired_list_item</item>
+        <item name="portrate_screen_a2dp">@drawable/__54__a2dp_play_bg_split</item>
+        <item name="portrate_screen_hfp">@drawable/__54__bluetooth_htp_ban</item>
+        <item name="selector_left_calllog_btn">@drawable/__c2__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__c2__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__c2__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__c2__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__c2__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__c2__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__c2__selector_music_play_btn</item>
+        <item name="setting_list_item">@layout/__54__setting_list_item</item>
+        <item name="switch_off_icon">@drawable/__c2__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__c2__switch_on_icon</item>
+    </style>
+    <style name="__C3__config_style_commonui" parent="@style/__47__config_style_commonui" />
+    <style name="__C4__config_style" parent="@style/__98__config_style" />
+    <style name="__C4__config_style_commonui" parent="@style/__47__config_style_commonui" />
+    <style name="__C5__config_style" parent="@style/__A5__config_style" />
+    <style name="__C6__config_style" parent="@style/__01__config_style">
+        <item name="android:windowBackground">@drawable/__c6__bg</item>
+        <item name="a2dp_bottom_bg">@drawable/_c6_bt_bootm_bg</item>
+        <item name="a2dp_main">@layout/__c6__a2dp_main</item>
+        <item name="bubble_call">@layout/__c6__bubble_call</item>
+        <item name="call_log_list_item">@layout/__c6__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__c6__checkbox_not_connected</item>
+        <item name="checkbox_not_connected">@drawable/__c6__checkbox_connected</item>
+        <item name="contacts_number_list_item">@layout/__c6__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__PC6</item>
+        <item name="current_ui_styles">C6</item>
+        <item name="dial_call_icon">@drawable/_c6_yibo_yibo</item>
+        <item name="down_btn_opt_next">@drawable/__c6__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__c6__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__c6__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__c6__fragment_call</item>
+        <item name="fragment_calllog">@layout/__c6__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__c6__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__c6__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__c6__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__c6__fragment_settings</item>
+        <item name="hfp_main">@layout/__c6__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/_c6_yibo_yijie</item>
+        <item name="load_progress">@drawable/__c6__load_progress</item>
+        <item name="miss_call_icon">@drawable/_c6_yibo_weijie</item>
+        <item name="paired_list_item">@layout/__c6__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__c6__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__c6__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/_c6_bt_set_on</item>
+        <item name="switch_on_icon">@drawable/_c6_bt_set_off</item>
+        <item name="view_custom_contacts">@layout/__c6__view_contacts</item>
+    </style>
+    <style name="__C7__config_style" parent="@style/__98__config_style" />
+    <style name="__C8__config_style" parent="@style/__0G__config_style">
+        <item name="fragment_paired_list">@layout/__c8__fragment_paired_list</item>
+        <item name="paired_list_item">@layout/__c8__paired_list_item</item>
+    </style>
+    <style name="__C9__config_style" parent="@style/__c3__config_style" />
+    <style name="__D1__config_style" parent="@style/__91__config_style" />
+    <style name="__D3__config_style" parent="@style/__C6__config_style">
+        <item name="a2dp_bottom_bg">@drawable/_d3_bt_bootm_bg</item>
+        <item name="hfp_main">@layout/__d3__hfp_main</item>
+    </style>
+    <style name="__D4__config_style" parent="@style/__91__config_style" />
+    <style name="__D5__config_style" parent="@style/__A5__config_style" />
+    <style name="__D6__config_style" parent="@style/__07__config_style" />
+    <style name="__D8__config_style" parent="@style/__0G__config_style" />
+    <style name="__D8__config_style_commonui" parent="@style/__29__config_style_commonui" />
+    <style name="__D9__config_style" parent="@style/__0G__config_style" />
+    <style name="__E1__config_style" parent="@style/__51__config_style" />
+    <style name="__E2__config_style" parent="@style/__A9__config_style" />
+    <style name="__E2__config_style_commonui" parent="@style/__01__config_style_commonui" />
+    <style name="__E3__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__e3__a2dp_main</item>
+        <item name="bubble_call">@layout/__e3__bubble_call</item>
+        <item name="call_log_list_item">@layout/__e3__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__e3__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__e3__selector_device_pair</item>
+        <item name="contacts_list_item">@layout/__e3__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__e3__contacts_number_list_item</item>
+        <item name="current_ui_styles">E3</item>
+        <item name="dialpad_dial">@layout/__e3__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__e3__selector_next</item>
+        <item name="down_btn_opt_prev">@drawable/__e3__selector_prev</item>
+        <item name="fragment_a2dp">@layout/__e3__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__e3__fragment_call</item>
+        <item name="fragment_calllog">@layout/__e3__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__e3__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__e3__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__e3__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__e3__fragment_settings</item>
+        <item name="hfp_main">@layout/__e3__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__e3__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__e3__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__e3__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__e3__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__e3__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__e3__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__e3__selector_pause</item>
+        <item name="selector_music_play_btn">@drawable/__e3__selector_play</item>
+        <item name="setting_list_item">@layout/__e3__setting_list_item</item>
+        <item name="switch_off_icon">@drawable/__e3__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__e3__switch_on_icon</item>
+    </style>
+    <style name="__E4__config_style" parent="@style/__97__config_style" />
+    <style name="__E5__config_style" parent="@style/__A4__config_style" />
+    <style name="__E6__config_style" parent="@style/__47__config_style" />
+    <style name="__E6__config_style_commonui" parent="@style/__47__config_style_commonui" />
+    <style name="__E7__config_style" parent="@style/__c3__config_style" />
+    <style name="__E7__config_style_commonui" parent="@style/__C3__config_style_commonui" />
+    <style name="__E8__config_style" parent="@style/__A9__config_style">
+        <item name="a2dp_main">@layout/__e8__a2dp_main</item>
+        <item name="hfp_main">@layout/__e8__hfp_main</item>
+    </style>
+    <style name="__EA__config_style" parent="@style/__D3__config_style">
+        <item name="android:windowBackground">@drawable/__ea__bg</item>
+        <item name="a2dp_bottom_bg">@drawable/_ea_bt_bootm_bg</item>
+        <item name="a2dp_main">@layout/__ea_a2dp_main</item>
+        <item name="bubble_call">@layout/__ea__bubble_call</item>
+        <item name="call_log_list_item">@layout/__ea__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__ea__checkbox_not_connected</item>
+        <item name="checkbox_not_connected">@drawable/__ea__checkbox_connected</item>
+        <item name="contacts_number_list_item">@layout/__ea__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__PC6</item>
+        <item name="current_ui_styles">EA</item>
+        <item name="dial_call_icon">@drawable/__ea__ikw_hp_bt_dialed</item>
+        <item name="down_btn_opt_next">@drawable/__ea__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__ea__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__ea__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__ea__fragment_call</item>
+        <item name="fragment_calllog">@layout/__ea__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__ea__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__ea__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__ea__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__ea__fragment_settings</item>
+        <item name="hfp_main">@layout/__ea__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__ea__ikw_hp_bt_incomingcall</item>
+        <item name="load_progress">@drawable/__ea__load_progress</item>
+        <item name="miss_call_icon">@drawable/__ea__ikw_hp_bt_weilianjie</item>
+        <item name="paired_list_item">@layout/__ea__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__ea__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__ea__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__ea__ikw_hp_bt_off_n</item>
+        <item name="switch_on_icon">@drawable/__ea__ikw_hp_bt_on_p</item>
+        <item name="view_custom_contacts">@layout/__ea__view_contacts</item>
+    </style>
+    <style name="__F1__config_style" parent="@style/__98__config_style" />
+    <style name="__F6__config_style" parent="@style/__55__config_style" />
+    <style name="__F9__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__f9__a2dp_main</item>
+        <item name="call_log_list_item">@layout/__f9__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__e3__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__e3__selector_device_pair</item>
+        <item name="contacts_list_item">@layout/__f9__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__f9__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__NF9</item>
+        <item name="dial_call_icon">@drawable/__f9__icon_send</item>
+        <item name="dialpad_dial">@layout/__f9__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__f9__selector_next</item>
+        <item name="down_btn_opt_prev">@drawable/__f9__selector_prev</item>
+        <item name="fragment_a2dp">@layout/__f9__fragment_a2dp</item>
+        <item name="fragment_calllog">@layout/__f9__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__f9__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__f9__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__f9__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__f9__fragment_settings</item>
+        <item name="hfp_main">@layout/__f9__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__f9__icon_call</item>
+        <item name="miss_call_icon">@drawable/__f9__icon_refuse</item>
+        <item name="paired_list_item">@layout/__f9__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__f9__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__f9__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__f9__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__f9__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__f9__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__f9__selector_pause</item>
+        <item name="selector_music_play_btn">@drawable/__f9__selector_play</item>
+        <item name="switch_off_icon">@drawable/__e3__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__e3__switch_on_icon</item>
+    </style>
+    <style name="__G1__config_style" parent="@style/__83__config_style" />
+    <style name="__G2__config_style" parent="@style/__0G__config_style" />
+    <style name="__G3__config_style" parent="@style/__A9__config_style" />
+    <style name="__G6__config_style" parent="@style/__0G__config_style" />
+    <style name="__G7__config_style" parent="@style/__97__config_style" />
+    <style name="__G8__config_style" parent="@style/__55__config_style" />
+    <style name="__H1__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__h1__bottom_bg</item>
+        <item name="a2dp_main">@layout/__65__a2dp_main</item>
+        <item name="bubble_call">@layout/__65__bubble_call</item>
+        <item name="call_log_list_item">@layout/__h1__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__h1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__h1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__O65</item>
+        <item name="current_ui_styles">H1</item>
+        <item name="dialpad_dial">@layout/__h1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__h1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__h1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__h1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__h1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__h1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__h1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__h1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__h1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__65__fragment_settings</item>
+        <item name="hfp_main">@layout/__h1__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__h1__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__h1__selector_music_play_btn</item>
+        <item name="selector_music_play_btn">@drawable/__h1__selector_music_play_btn</item>
+    </style>
+    <style name="__H3__config_style" parent="@style/__c3__config_style" />
+    <style name="__H6__config_style" parent="@style/__0R__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__h6__a2dp_main</item>
+        <item name="bubble_call">@layout/__h6__bubble_call</item>
+        <item name="call_log_list_item">@layout/__h6__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__h6__kp_btphone_top_icon_p</item>
+        <item name="checkbox_not_connected">@drawable/__h6__kp_btphone_top_icon_null</item>
+        <item name="contacts_list_item">@layout/__h6__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__h6__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N117</item>
+        <item name="device_view">@layout/__h6__device_view</item>
+        <item name="dialpad_dial">@layout/__h6__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__h6__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__h6__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__h6__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__h6__fragment_call</item>
+        <item name="fragment_calllog">@layout/__h6__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__h6__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__h6__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__h6__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__h6__fragment_settings</item>
+        <item name="hfp_main">@layout/__h6__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__h6__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__h6__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__h6__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__h6__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__h6__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__h6__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__h6__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__h6__selector_music_play_btn</item>
+        <item name="srceen1280x480">true</item>
+        <item name="switch_off_icon">@drawable/__h6__kp_btset_icon_off_p</item>
+        <item name="switch_on_icon">@drawable/__h6__kp_btset_icon_on_p</item>
+    </style>
+    <style name="__J1__config_style" parent="@style/__0H__config_style" />
+    <style name="__J2__config_style" parent="@style/__J1__config_style">
+        <item name="a2dp_main">@layout/__j2__a2dp_main</item>
+        <item name="hfp_main">@layout/__j2__hfp_main</item>
+    </style>
+    <style name="__K1__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__k1__bottom_bg</item>
+        <item name="a2dp_main">@layout/__65__a2dp_main</item>
+        <item name="bubble_call">@layout/__65__bubble_call</item>
+        <item name="call_log_list_item">@layout/__k1__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__k1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__h1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__O65</item>
+        <item name="current_ui_styles">H1</item>
+        <item name="dialpad_dial">@layout/__h1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__h1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__h1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__h1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__k1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__k1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__k1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__k1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__k1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__65__fragment_settings</item>
+        <item name="hfp_main">@layout/__k1__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__h1__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__h1__selector_music_play_btn</item>
+        <item name="selector_music_play_btn">@drawable/__h1__selector_music_play_btn</item>
+    </style>
+    <style name="__L1__config_style" parent="@style/__47__config_style">
+        <item name="fragment_dialpad">@layout/__l1__fragment_dialpad</item>
+    </style>
+    <style name="__L2__config_style" parent="@style/__0G__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__0g__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__0g__a2dp_main</item>
+        <item name="bubble_call">@layout/__0g__bubble_call</item>
+        <item name="call_log_list_item">@layout/__0g__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__0g__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__0g__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__0g__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__N83</item>
+        <item name="dialpad_dial">@layout/__0g__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__0g__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__0g__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__0g__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__0g__fragment_call</item>
+        <item name="fragment_calllog">@layout/__0g__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__0g__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__0g__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__0g__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__0g__fragment_settings</item>
+        <item name="hfp_main">@layout/__l2__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__0g__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__0g__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__0g__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__0g__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__0g__switch_on_icon</item>
+    </style>
+    <style name="__M1__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__m1__bottom_bg</item>
+        <item name="a2dp_main">@layout/__m1__a2dp_main</item>
+        <item name="bubble_call">@layout/__m1__bubble_call</item>
+        <item name="call_log_list_item">@layout/__m1__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__m1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__m1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__O65</item>
+        <item name="current_ui_styles">M1</item>
+        <item name="dial_call_icon">@drawable/__m1__dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__m1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__m1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__m1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__m1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__m1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__m1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__m1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__m1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__m1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__m1__fragment_settings</item>
+        <item name="hfp_main">@layout/__m1__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__m1__incoming_call_icon</item>
+        <item name="is_have_fragment_music">true</item>
+        <item name="is_music_btn_start_btmusic_ativity">true</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="miss_call_icon">@drawable/__m1__miss_call_icon</item>
+        <item name="paired_list_item">@layout/__m1__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__m1__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__m1__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__m1__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__m1__switch_on_icon</item>
+    </style>
+    <style name="__M2__FrameBgStyle">
+        <item name="android:layout_width">@dimen/dp794</item>
+        <item name="android:layout_height">@dimen/dp516</item>
+        <item name="android:layout_marginTop">@dimen/dp15</item>
+        <item name="android:layout_marginStart">@dimen/dp30</item>
+    </style>
+    <style name="__M2__ImageButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__M2__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__01__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__m2__a2dp_main</item>
+        <item name="bubble_call">@layout/__m2__bubble_call</item>
+        <item name="call_log_list_item">@layout/__m2__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__m2__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__m2__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__m2__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__m2__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__NM2</item>
+        <item name="current_ui_styles">1</item>
+        <item name="dial_call_icon">@drawable/__m2__dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__m2__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__m2__down_btn_opt_next</item>
+        <item name="down_btn_opt_play_pause">@drawable/__m2__down_btn_opt_play_pause</item>
+        <item name="down_btn_opt_prev">@drawable/__m2__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__m2__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__m2__fragment_call</item>
+        <item name="fragment_calllog">@layout/__m2__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__m2__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__m2__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__m2__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__m2__fragment_settings</item>
+        <item name="hfp_main">@layout/__m2__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__m2__incoming_call_icon</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="miss_call_icon">@drawable/__m2__miss_call_icon</item>
+        <item name="paired_list_item">@layout/__m2__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__m2__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__m2__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__m2__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__m2__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__m2__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__m2__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__m2__selector_music_play_btn</item>
+        <item name="setting_list_item">@layout/__m2__setting_list_item</item>
+        <item name="switch_off_icon">@drawable/__m2__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__m2__switch_on_icon</item>
+    </style>
+    <style name="__M5__config_style" parent="@style/__M1__config_style" />
+    <style name="__M6__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/daz_bt01_base_img</item>
+        <item name="a2dp_main">@layout/__m6__a2dp_main</item>
+        <item name="bubble_call">@layout/__m6__bubble_call</item>
+        <item name="call_log_list_item">@layout/__m6__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__49__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__65__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__65__checkbox_not_connected</item>
+        <item name="config_isneed_showredialnum_shortclick">false</item>
+        <item name="contacts_list_item">@layout/__m1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__m6__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__NM6</item>
+        <item name="current_ui_styles">M6</item>
+        <item name="dial_call_icon">@drawable/__m1__dial_call_icon</item>
+        <item name="dialpad_dial">@layout/__m6__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__m6__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__m6__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__m6__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__m6__fragment_call</item>
+        <item name="fragment_calllog">@layout/__m6__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__m6__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__m6__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__m6__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__m6__fragment_settings</item>
+        <item name="hfp_main">@layout/__m6__hfp_main</item>
+        <item name="incoming_call_icon">@drawable/__m1__incoming_call_icon</item>
+        <item name="is_have_fragment_music">true</item>
+        <item name="is_music_btn_start_btmusic_ativity">true</item>
+        <item name="miss_call_icon">@drawable/__m1__miss_call_icon</item>
+        <item name="n54_ui_portrate">true</item>
+        <item name="paired_list_item">@layout/__m6__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__m6__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__m6__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/daz_bt6_ic_xuanz_p_02</item>
+        <item name="switch_on_icon">@drawable/daz_bt6_ic_xuanz_n_02</item>
+    </style>
+    <style name="__M6__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="selector_menu_icon">@drawable/__m6__selector_menu_icon</item>
+    </style>
+    <style name="__M7__config_style" parent="@style/__M1__config_style" />
+    <style name="__N1__config_style" parent="@style/__47__config_style" />
+    <style name="__N2__config_style" parent="@style/__01__config_style" />
+    <style name="__N3__config_style" parent="@style/__01__config_style" />
+    <style name="__N4__config_style" parent="@style/__N3__config_style" />
+    <style name="__P1__config_style" parent="@style/__38__config_style" />
+    <style name="__P2__config_style" parent="@style/__p2__config_style" />
+    <style name="__R1__config_style" parent="@style/__97__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__r1__left_menu_bg_hor</item>
+        <item name="a2dp_main">@layout/__r1__a2dp_main</item>
+        <item name="bubble_call">@layout/__r1__bubble_call</item>
+        <item name="call_log_list_item">@layout/__r1__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__r1__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__r1__checkbox_not_connected</item>
+        <item name="contacts_list_item">@layout/__r1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__r1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__R1</item>
+        <item name="device_view">@layout/__r1__device_view</item>
+        <item name="dialpad_dial">@layout/__r1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__r1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__r1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__r1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__r1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__r1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__r1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__r1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__r1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__r1__fragment_settings</item>
+        <item name="hfp_main">@layout/__r1__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="is_rotate_screen">true</item>
+        <item name="paired_list_item">@layout/__r1__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__r1__selector_left_calllog_btn_port</item>
+        <item name="selector_left_device_btn">@drawable/__r1__selector_left_device_btn_port</item>
+        <item name="selector_left_dial_btn">@drawable/__r1__selector_left_dial_btn_port</item>
+        <item name="selector_left_pb_btn">@drawable/__r1__selector_left_pb_btn_port</item>
+        <item name="selector_left_setting_btn">@drawable/__r1__selector_left_setting_btn_port</item>
+        <item name="selector_music_pause_btn">@drawable/__r1__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__r1__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__r1__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__r1__switch_on_icon</item>
+    </style>
+    <style name="__S1__config_style" parent="@style/__10__config_style_i11" />
+    <style name="__T1__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__12__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__t1__a2dp_main</item>
+        <item name="bubble_call">@layout/__t1__bubble_call</item>
+        <item name="call_log_list_item">@layout/__t1__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__t1__switch_on_icon</item>
+        <item name="checkbox_not_connected">@drawable/__t1__switch_off_icon</item>
+        <item name="contacts_list_item">@layout/__t1__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__b1__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/_1</item>
+        <item name="device_view">@layout/__b1__device_view</item>
+        <item name="dialpad_dial">@layout/__t1__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__t1__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__t1__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__t1__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__t1__fragment_call</item>
+        <item name="fragment_calllog">@layout/__t1__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__t1__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__t1__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__t1__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__t1__fragment_settings</item>
+        <item name="hfp_main">@layout/__t1__hfp_main</item>
+        <item name="is_audio_change_btn_type_selected">true</item>
+        <item name="is_audio_in_phone_anim">true</item>
+        <item name="is_have_fragment_music">true</item>
+        <item name="is_music_btn_start_btmusic_ativity">true</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__t1__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__t1__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__t1__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__t1__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__t1__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__t1__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__t1__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__t1__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__t1__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__t1__switch_on_icon</item>
+    </style>
+    <style name="__T1__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="item_height">@dimen/dp56</item>
+        <item name="item_width">@dimen/dp300</item>
+        <item name="menu_list_item_layout">@layout/__t1__menu_list_item_layout</item>
+        <item name="popup_menu_window_layout">@layout/__t1__popup_menu_window_layout</item>
+        <item name="popup_window_x_offset">@dimen/__47__popup_window_x_offset</item>
+        <item name="popup_window_y_offset">@dimen/__47__popup_window_y_offset</item>
+        <item name="selector_menu_icon">@drawable/__t1__selector_menu_icon</item>
+    </style>
+    <style name="__U1__config_style" parent="@style/__R1__config_style" />
+    <style name="__V1__config_style" parent="@style/__01__config_style" />
+    <style name="__Z1__config_style" parent="@style/__52__config_style" />
+    <style name="__a2__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_bottom_bg">@drawable/__97__a2dp_bottom_bg</item>
+        <item name="a2dp_main">@layout/__a2__a2dp_main</item>
+        <item name="bubble_call">@layout/__a2__bubble_call</item>
+        <item name="call_log_list_item">@layout/__a2__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__a2__checkbox_connected_p</item>
+        <item name="checkbox_not_connected">@drawable/__a2__checkbox_connected_n</item>
+        <item name="contacts_list_item">@layout/__a2__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__a2__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__Na2</item>
+        <item name="device_view">@layout/__a2__device_view</item>
+        <item name="dialpad_dial">@layout/__a2__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__a2__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__a2__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__a2__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__a2__fragment_call</item>
+        <item name="fragment_calllog">@layout/__a2__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__a2__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__a2__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__a2__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__a2__fragment_settings</item>
+        <item name="hfp_main">@layout/__a2__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="is_rotate_screen">true</item>
+        <item name="paired_list_item">@layout/__a2__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__a2__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__a2__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__a2__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__a2__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__a2__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__a2__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__a2__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__a2__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__a2__switch_on_icon</item>
+    </style>
+    <style name="__a4__CallInfoStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/dp32</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__a4__LeftImageButtonStyle">
+        <item name="android:textSize">@dimen/dp28</item>
+        <item name="android:textColor">@color/__a4__selector_list_button_text</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_width">@dimen/dp278</item>
+        <item name="android:layout_height">@dimen/dp104</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+        <item name="android:paddingStart">@dimen/dp110</item>
+    </style>
+    <style name="__a4__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp24</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_p</item>
+    </style>
+    <style name="__a4__id3_info_major">
+        <item name="android:textSize">@dimen/dp54</item>
+        <item name="android:textColor">@color/__b1__white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__a4_id3_info_minor">
+        <item name="android:textSize">@dimen/dp32</item>
+        <item name="android:textColor">@color/__b1__white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__ar__config_style" parent="@style/__01__config_style" />
+    <style name="__b1__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp179</item>
+        <item name="android:layout_height">@dimen/dp72</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__b1__KeyImageButtonStyle">
+        <item name="android:layout_width">@dimen/dp190</item>
+        <item name="android:layout_height">@dimen/dp94</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__c2__CallInfoStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__c2__LeftImageButtonStyle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/__a4__selector_list_button_text</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_width">164.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+        <item name="android:paddingStart">60.0dip</item>
+    </style>
+    <style name="__c2__call_log_primary_text_color">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_p</item>
+    </style>
+    <style name="__c2__id3_info_major">
+        <item name="android:textSize">35.0dip</item>
+        <item name="android:textColor">@color/__b1__white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__c2_id3_info_minor">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/__b1__white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__c3__config_style" parent="@style/__98__config_style">
+        <item name="contacts_list_item">@layout/__c3__contacts_list_item</item>
+        <item name="fragment_settings">@layout/__c3__fragment_settings</item>
+    </style>
+    <style name="__f2__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp28</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="__f8__call_log_primary_text_color">
+        <item name="android:textSize">@dimen/dp28</item>
+        <item name="android:textColor">#ff45f5de</item>
+    </style>
+    <style name="__f2__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__f2__a2dp_main</item>
+        <item name="bubble_call">@layout/__f2__bubble_call</item>
+        <item name="call_log_list_item">@layout/__f2__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__f2__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__f2__hg_checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__f2__hg_check_not_connected</item>
+        <item name="contacts_list_item">@layout/__f2__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__f2__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__of2</item>
+        <item name="dialpad_dial">@layout/__f2__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__f2__down_btn_opt_next</item>
+        <item name="down_btn_opt_prev">@drawable/__f2__down_btn_opt_prev</item>
+        <item name="fragment_a2dp">@layout/__f2__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__f2__fragment_call</item>
+        <item name="fragment_calllog">@layout/__f2__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__f2__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__f2__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__f2__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__f2__fragment_settings</item>
+        <item name="hfp_main">@layout/__f2__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__f2__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__f2__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__f2__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__f2__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__f2__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__f2__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__f2__selector_music_pause_btn</item>
+        <item name="selector_music_play_btn">@drawable/__f2__selector_music_play_btn</item>
+        <item name="switch_off_icon">@drawable/__f2__hg_switch_off</item>
+        <item name="switch_on_icon">@drawable/__f2__hg_switch_on</item>
+    </style>
+    <style name="__f2__id3_info_minor">
+        <item name="android:textSize">@dimen/font_size_id3_minor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__f8__config_style" parent="@style/__01__config_style">
+        <item name="a2dp_main">@layout/__f8__a2dp_main</item>
+        <item name="bubble_call">@layout/__f8__bubble_call</item>
+        <item name="call_log_list_item">@layout/__f8__call_log_list_item</item>
+        <item name="call_log_primary_text_color">@style/__f8__call_log_primary_text_color</item>
+        <item name="checkbox_connected">@drawable/__f8__checkbox_connected</item>
+        <item name="checkbox_not_connected">@drawable/__f8__check_not_connected</item>
+        <item name="contacts_list_item">@layout/__f8__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__f8__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__of2</item>
+        <item name="dialpad_dial">@layout/__f8__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__f8__ic_selector_next</item>
+        <item name="down_btn_opt_prev">@drawable/__f8__ic_selector_prev</item>
+        <item name="fragment_a2dp">@layout/__f8__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__f8__fragment_call</item>
+        <item name="fragment_calllog">@layout/__f8__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__f8__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__f8__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__f8__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__f8__fragment_settings</item>
+        <item name="hfp_main">@layout/__f8__hfp_main</item>
+        <item name="is_mute_btn_type_selected">true</item>
+        <item name="paired_list_item">@layout/__f8__paired_list_item</item>
+        <item name="selector_left_calllog_btn">@drawable/__f8__selector_left_calllog_btn</item>
+        <item name="selector_left_device_btn">@drawable/__f8__selector_left_device_btn</item>
+        <item name="selector_left_dial_btn">@drawable/__f8__selector_left_dial_btn</item>
+        <item name="selector_left_pb_btn">@drawable/__f8__selector_left_pb_btn</item>
+        <item name="selector_left_setting_btn">@drawable/__f8__selector_left_setting_btn</item>
+        <item name="selector_music_pause_btn">@drawable/__f8__ic_selector_pause</item>
+        <item name="selector_music_play_btn">@drawable/__f8__ic_selector_play</item>
+        <item name="switch_off_icon">@drawable/__f8__switch_off</item>
+        <item name="switch_on_icon">@drawable/__f8__switch_on</item>
+    </style>
+    <style name="__f9__main_bottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dp70</item>
+    </style>
+    <style name="__f9__main_bottom_item">
+        <item name="android:paddingTop">@dimen/dp5</item>
+        <item name="android:paddingBottom">@dimen/dp5</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="__f9__main_top">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dp64</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="__f9__main_top_item">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="__gr__config_style" parent="@style/__01__config_style" />
+    <style name="__h6__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp86</item>
+        <item name="android:layout_height">@dimen/dp82</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__h6__id3_info_major">
+        <item name="android:textSize">@dimen/dp48</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="__ib__config_style" parent="@style/__01__config_style" />
+    <style name="__id__config_style" parent="@style/__01__config_style" />
+    <style name="__ig__config_style" parent="@style/__01__config_style" />
+    <style name="__m2__config_style_commonui" parent="@style/__01__config_style_commonui">
+        <item name="selector_menu_icon">@drawable/__m2__selector_menu_icon</item>
+    </style>
+    <style name="__nf8__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp144</item>
+        <item name="android:layout_height">@dimen/dp54</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__p2__config_style" parent="@style/__01__config_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="a2dp_main">@layout/__p2__a2dp_main</item>
+        <item name="bubble_call">@layout/__p2__bubble_call</item>
+        <item name="call_log_list_item">@layout/__p2__call_log_list_item</item>
+        <item name="checkbox_connected">@drawable/__p2__connect_bluetooth_item_p</item>
+        <item name="checkbox_not_connected">@drawable/__p2__conntent_item</item>
+        <item name="contacts_list_item">@layout/__p2__contacts_list_item</item>
+        <item name="contacts_number_list_item">@layout/__p2__contacts_number_list_item</item>
+        <item name="current_ui_style">@integer/__NP2</item>
+        <item name="dialpad_dial">@layout/__p2__dialpad_dial</item>
+        <item name="down_btn_opt_next">@drawable/__p2_next</item>
+        <item name="down_btn_opt_prev">@drawable/__p2__pre</item>
+        <item name="fragment_a2dp">@layout/__p2__fragment_a2dp</item>
+        <item name="fragment_call">@layout/__p2__fragment_call</item>
+        <item name="fragment_calllog">@layout/__p2__fragment_calllog</item>
+        <item name="fragment_contacts">@layout/__p2__fragment_contacts</item>
+        <item name="fragment_dialpad">@layout/__p2__fragment_dialpad</item>
+        <item name="fragment_paired_list">@layout/__p2__fragment_paired_list</item>
+        <item name="fragment_settings">@layout/__p2__fragment_settings</item>
+        <item name="hfp_main">@layout/__p2__hfp_main</item>
+        <item name="paired_list_item">@layout/__p2__paired_list_item</item>
+        <item name="selector_music_pause_btn">@drawable/__p2__play</item>
+        <item name="selector_music_play_btn">@drawable/__p2__play</item>
+        <item name="switch_off_icon">@drawable/__p2__switch_off_icon</item>
+        <item name="switch_on_icon">@drawable/__p2__switch_on_icon</item>
+    </style>
+    <style name="__r1__KeyImageButtonStyle">
+        <item name="android:layout_width">@dimen/dp162</item>
+        <item name="android:layout_height">@dimen/dp70</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__ra__config_style" parent="@style/__01__config_style" />
+    <style name="__se__config_style" parent="@style/__01__config_style" />
+    <style name="__t1__CallImageButtonStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/dp80</item>
+        <item name="android:layout_height">@dimen/dp80</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__t1__KeyImageButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:contentDescription">@string/image_desc</item>
+    </style>
+    <style name="__t1__LeftImageButtonStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="__t1__ListViewFastScrollThumb">
+        <item name="android:fastScrollThumbDrawable">@drawable/__12__list_scrollbar_thumb_vertical</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/__12__list_scrollbar_track_vertical</item>
+    </style>
+    <style name="__ui__config_style" parent="@style/__01__config_style" />
+    <style name="__ve__config_style" parent="@style/__01__config_style" />
+    <style name="_a6_fragment_left_item">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/dz_bt_contact_details_left_bg</item>
+        <item name="android:padding">@dimen/dp10</item>
+        <item name="android:layout_width">@dimen/dp223</item>
+        <item name="android:layout_height">@dimen/dp70</item>
+        <item name="android:layout_marginTop">@dimen/dp16</item>
+    </style>
+    <style name="_a6_fragment_left_line">
+        <item name="android:background">@drawable/dz_bt_device_left_line</item>
+        <item name="android:layout_width">@dimen/dp7</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/dp10</item>
+        <item name="android:layout_marginBottom">@dimen/dp10</item>
+        <item name="android:layout_toRightOf">@id/leftLinear</item>
+    </style>
+    <style name="_a6_listview">
+        <item name="android:scrollbarThumbVertical">@drawable/_a6_listview_progress_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/dz_bt_contact_details_progress_bar_bg</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:fadeScrollbars">false</item>
+    </style>
+    <style name="anim_menu_bg_bottombar">
+        <item name="android:windowEnterAnimation">@anim/fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_center</item>
+    </style>
+    <style name="anim_menu_bottombar">
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+    <style name="anim_menu_bottombar_n54">
+        <item name="android:windowEnterAnimation">@anim/__54__menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/__54__menu_bottombar_out</item>
+    </style>
+    <style name="anim_textview">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">left</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="call_log_primary_background_color">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="call_log_primary_text_color_selected">
+        <item name="android:textColor">#ffffd073</item>
+    </style>
+    <style name="call_log_secondary_background_color">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="call_log_secondary_text_color">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="call_log_secondary_text_color_n54">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@color/__54__left_calllog_textcolor_n</item>
+    </style>
+    <style name="call_log_secondary_text_color_na4">
+        <item name="android:textSize">@dimen/dp26</item>
+        <item name="android:textColor">@color/__b1__white</item>
+    </style>
+    <style name="config_style" parent="@style/__01__config_style" />
+    <style name="config_style_commonui" parent="@style/__01__config_style_commonui" />
+    <style name="dialog_new" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="id3_info_major">
+        <item name="android:textSize">@dimen/font_size_id3_major</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="id3_info_major_m38">
+        <item name="android:textSize">@dimen/font_size_id3_major_m38</item>
+        <item name="android:textColor">#fff79203</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="id3_info_minor">
+        <item name="android:textSize">@dimen/font_size_id3_minor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="id3_info_minor_m38">
+        <item name="android:textSize">@dimen/font_size_id3_minor_38</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="id3_info_minor_ohg">
+        <item name="android:textSize">@dimen/font_size_id3_minor_f2</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="marquee_text_n54">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="scrollHeaderColor">
+        <item name="android:colorEdgeEffect">#ff000000</item>
+    </style>
+    <style name="visibility_gone">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="visibility_visible">
+        <item name="android:visibility">visible</item>
+    </style>
+</resources>

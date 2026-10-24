@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialpad" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dz_bt_popupbg" android:layout_width="fill_parent" android:layout_height="@dimen/dp180">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_key_1_common" android:background="@drawable/__a6__bubble_call_bottom_1" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" />
+            <Button android:id="@id/btn_key_2_common" android:background="@drawable/__a6__bubble_call_bottom_2" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_3_common" android:background="@drawable/__a6__bubble_call_bottom_3" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_4_common" android:background="@drawable/__a6__bubble_call_bottom_4" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_5_common" android:background="@drawable/__a6__bubble_call_bottom_5" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/ib_key_star_common" android:background="@drawable/__a6__bubble_call_bottom_11" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10">
+            <Button android:id="@id/btn_key_6_common" android:background="@drawable/__a6__bubble_call_bottom_6" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" />
+            <Button android:id="@id/btn_key_7_common" android:background="@drawable/__a6__bubble_call_bottom_7" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_8_common" android:background="@drawable/__a6__bubble_call_bottom_8" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_9_common" android:background="@drawable/__a6__bubble_call_bottom_9" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/btn_key_0_common" android:background="@drawable/__a6__bubble_call_bottom_0" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+            <Button android:id="@id/ib_key_well_common" android:background="@drawable/__a6__bubble_call_bottom_12" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp75" android:layout_marginStart="@dimen/dp16" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

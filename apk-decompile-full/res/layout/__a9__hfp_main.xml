@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hzbhd.midwareproxy.colorview.ColorRegisterRelativeLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hzbhd.midwareproxy.colorview.MultiColorRelativeLayout android:background="@drawable/__a9__bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="#ff2c47e7" android:backgroundTintMode="multiply" app:color_mode="MULTIPLY" />
+    <RelativeLayout android:background="@drawable/__a9__bg_top_1" android:layout_width="fill_parent" android:layout_height="78.0px" android:layout_marginTop="66.0px" />
+    <com.hzbhd.midwareproxy.colorview.MultiColorRelativeLayout android:background="@drawable/__a9__bg_top_2" android:layout_width="fill_parent" android:layout_height="78.0px" android:layout_marginTop="66.0px" />
+    <RelativeLayout android:background="@drawable/__a9__bg__top_end" android:layout_width="198.0px" android:layout_height="58.0px" android:layout_marginTop="74.0px" android:layout_marginEnd="36.0px" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/hfp_main_top" android:layout_width="1000.0px" android:layout_height="76.0px" android:layout_marginTop="68.0px">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_dialpad_btn_id" android:background="@drawable/__a9__hfp_dialpad_btn_id" android:layout_width="168.0px" android:layout_height="76.0px" android:button="@null" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_pb_btn_id" android:background="@drawable/__a9__hfp_pb_btn_id" android:layout_width="168.0px" android:layout_height="76.0px" android:button="@null" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_calllog_btn_id" android:background="@drawable/__a9__hfp_calllog_btn_id" android:layout_width="168.0px" android:layout_height="76.0px" android:button="@null" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_device_btn_id" android:background="@drawable/__a9__hfp_device_btn_id" android:layout_width="168.0px" android:layout_height="76.0px" android:button="@null" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_setting_btn_id" android:background="@drawable/__a9__hfp_setting_btn_id" android:layout_width="168.0px" android:layout_height="76.0px" android:button="@null" android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.hzbhd.midwareproxy.colorview.MultiColorRelativeLayout android:background="@drawable/__a9__bg_bottom" android:layout_width="fill_parent" android:layout_height="90.0px" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/view_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hfp_main_top" />
+</com.hzbhd.midwareproxy.colorview.ColorRegisterRelativeLayout>

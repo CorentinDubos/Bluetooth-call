@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/primary_action_view" android:background="@drawable/__r1__pired_item" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_contact_photo_size" android:layout_marginLeft="@dimen/call_log_outer_margin" android:layout_marginRight="@dimen/call_detail_contact_name_margin">
+        <TextView android:textSize="@dimen/dp28" android:ellipsize="marquee" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp160" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/call_log_secondary_text_color" />
+        <TextView android:textSize="@dimen/dp28" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/call_log_icon_margin" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/call_log_secondary_text_color" />
+    </RelativeLayout>
+    <View android:id="@id/contact_list_divider" android:background="@drawable/__r1__division" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" android:layout_marginLeft="@dimen/divider_margin_left" android:layout_marginRight="@dimen/dp8" />
+</view>

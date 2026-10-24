@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#020406"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/a2dp_controls" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp42" android:layout_marginTop="@dimen/dp30" android:layout_marginEnd="@dimen/dp42" android:layout_marginBottom="@dimen/dp18">
+        <TextView android:textSize="@dimen/dp18" android:textColor="#ff45f5de" android:letterSpacing="0.12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AUDIO BLUETOOTH" />
+        <View android:background="#ff17383d" android:layout_width="@dimen/dp140" android:layout_height="@dimen/dp2" android:layout_marginTop="@dimen/dp10" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_marginTop="@dimen/dp18">
+            <FrameLayout android:background="@drawable/neon_album_frame" android:padding="@dimen/dp5" android:layout_width="@dimen/dp270" android:layout_height="@dimen/dp270">
+                <ImageView android:id="@id/a2dp_album_view_id" android:src="@drawable/neon_album_placeholder" android:scaleType="fitCenter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image_desc" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/dp48">
+                <TextView android:textSize="@dimen/dp14" android:textColor="#ff8298a3" android:letterSpacing="0.08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INFORMATIONS DU TITRE" />
+                <TextView android:id="@id/a2dp_title_tv_id" android:textSize="@dimen/dp34" android:textColor="#fff0fcff" android:ellipsize="marquee" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp14" android:text="@string/unknown_track_name" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <View android:background="#ff17383d" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginTop="@dimen/dp20" android:layout_marginBottom="@dimen/dp16" />
+                <TextView android:textSize="@dimen/dp14" android:textColor="#ff45f5de" android:letterSpacing="0.08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/artist_name" />
+                <TextView android:id="@id/a2dp_artis_tv_id" android:textSize="@dimen/dp21" android:textColor="#ffb8c8cd" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:text="@string/unknown_artist_name" android:singleLine="true" />
+                <TextView android:textSize="@dimen/dp14" android:textColor="#ff45f5de" android:letterSpacing="0.08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp17" android:text="@string/album_name" />
+                <TextView android:id="@id/a2dp_album_tv_id" android:textSize="@dimen/dp18" android:textColor="#ff8298a3" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:text="@string/unknown_album_name" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a2dp_controls" android:layout_width="fill_parent" android:layout_height="@dimen/dp104" android:layout_alignParentBottom="true" android:layout_marginBottom="@dimen/dp16">
+        <ImageButton android:id="@id/a2dp_prev_btn_id" android:background="@drawable/neon_music_control" android:src="?down_btn_opt_prev" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp82" android:layout_height="@dimen/dp82" android:contentDescription="@string/image_desc" />
+        <ImageButton android:id="@id/a2dp_play_pause_btn_id" android:background="@drawable/neon_music_play_control" android:src="?selector_music_play_btn" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp102" android:layout_height="@dimen/dp102" android:layout_marginStart="@dimen/dp42" android:layout_marginEnd="@dimen/dp42" android:contentDescription="@string/image_desc" />
+        <ImageButton android:id="@id/a2dp_next_btn_id" android:background="@drawable/neon_music_control" android:src="?down_btn_opt_next" android:tint="#ff45f5de" android:scaleType="fitCenter" android:layout_width="@dimen/dp82" android:layout_height="@dimen/dp82" android:contentDescription="@string/image_desc" />
+    </LinearLayout>
+</RelativeLayout>

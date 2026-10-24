@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:foryou="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_keyboard_middle_area_common" android:background="@color/bg_transparent" android:paddingLeft="@dimen/num_pad_margin_left" android:layout_width="fill_parent" android:layout_height="@dimen/middle_area_height" android:layout_marginTop="@dimen/top_bar_height">
+        <RelativeLayout android:id="@id/rl_keyboard_first_line_layout" android:paddingBottom="@dimen/num_pad_divider_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/middle_area_margin_width">
+            <RelativeLayout android:id="@id/rl_keyboard_input_area_common" android:background="@drawable/keyboard_input_area_bg" android:focusable="true" android:nextFocusRight="@id/rl_keyboard_input_area_common" android:layout_width="@dimen/input_area_width" android:layout_height="@dimen/input_area_height" />
+            <ImageButton android:id="@id/btn_keyboard_del_common" android:background="@drawable/selector_keyboard_clear_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bottom_bar_divider_width" android:src="@drawable/ic_keyboard_clear" android:layout_toRightOf="@id/rl_keyboard_input_area_common" android:layout_alignTop="@id/rl_keyboard_input_area_common" />
+        </RelativeLayout>
+        <TableLayout android:id="@id/tl_keyboard_layout" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/keyborad_divider_vertical" android:layout_below="@id/rl_keyboard_first_line_layout" android:showDividers="middle">
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/keyborad_divider_horizontal" android:showDividers="middle">
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_1_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_empty" foryou:key_number="1" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_2_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_abc" foryou:key_number="2" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_3_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_def" foryou:key_number="3" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/keyborad_divider_horizontal" android:showDividers="middle">
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_4_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_ghi" foryou:key_number="4" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_5_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_jkl" foryou:key_number="5" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_6_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_mno" foryou:key_number="6" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/keyborad_divider_horizontal" android:showDividers="middle">
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_7_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_pqrs" foryou:key_number="7" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_8_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_tuv" foryou:key_number="8" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_9_common" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" foryou:key_char="@string/key_char_wxyz" foryou:key_number="9" />
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/keyborad_divider_horizontal" android:showDividers="middle">
+                <Button android:textSize="@dimen/num_button_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/btn_key_cancel_common" android:background="@drawable/selector_keyboard_button_bg" android:focusable="false" android:layout_width="@dimen/num_button_width" android:layout_height="@dimen/num_button_height" android:text="@string/cancel_btn_title" android:singleLine="true" />
+                <ImageButton android:id="@id/ib_key_star_common" android:background="@drawable/selector_keyboard_button_bg" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/num_button_height" android:src="@drawable/ic_keyboard_star" />
+                <com.hzbhd.bluetooth.widget.KeyboardButton android:id="@id/btn_key_0_common" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" foryou:key_char="@string/key_char_plus" foryou:key_number="0" />
+                <Button android:textSize="@dimen/num_button_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/btn_key_ok_common" android:background="@drawable/selector_keyboard_button_bg" android:focusable="false" android:layout_width="@dimen/num_button_width" android:layout_height="@dimen/num_button_height" android:text="@string/ok_btn_title" android:singleLine="true" />
+                <ImageButton android:id="@id/ib_key_well_common" android:background="@drawable/selector_keyboard_button_bg" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/num_button_height" android:src="@drawable/ic_keyboard_well" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

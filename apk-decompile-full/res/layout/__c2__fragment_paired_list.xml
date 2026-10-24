@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/add_device_btn_layout_id" android:background="@drawable/__c2__right_top_bg" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <RelativeLayout android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/pired_device_btn_disconnect_n54" android:background="@drawable/__c2__selector_pired_disconnect" android:layout_width="70.0dip" android:layout_height="54.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/__a4__ding_split" android:layout_width="4.0dip" android:layout_height="44.0dip" />
+            <RelativeLayout android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/pired_device_btn_connect_n54" android:background="@drawable/__c2__selector_pired_connect" android:layout_width="70.0dip" android:layout_height="54.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/__a4__ding_split" android:layout_width="4.0dip" android:layout_height="44.0dip" />
+            <RelativeLayout android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/add_device_btn_id" android:background="@drawable/__c2__selector_pired_search" android:layout_width="70.0dip" android:layout_height="54.0dip" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/__a4__ding_split" android:layout_width="4.0dip" android:layout_height="44.0dip" />
+            <RelativeLayout android:background="@drawable/selector_add_device_button" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/dp100" android:layout_height="@dimen/call_log_list_contact_photo_size">
+                <ImageView android:id="@id/add_device_icon_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:src="@drawable/add_device_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp19" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" style="?call_log_primary_text_color" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/pired_device_btn_delete_n54" android:background="@drawable/__c2__selector_pired_delete" android:layout_width="70.0dip" android:layout_height="54.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginBottom="@dimen/dp10" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_weight="1.0" android:fadeScrollbars="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="94.0dip" android:layout_height="94.0dip" android:src="@drawable/__54__progress_1" android:layout_centerInParent="true" android:contentDescription="@string/image_desc" />
+</RelativeLayout>

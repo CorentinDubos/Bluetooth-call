@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__54__selector_device_list_item" android:layout_width="fill_parent" android:layout_height="@dimen/dp56">
+        <ImageView android:layout_gravity="left|center" android:id="@id/call_type_img" android:background="@drawable/__54__ic_contact_picture_holo_dark" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" android:layout_marginLeft="@dimen/dp10" android:contentDescription="@string/image_desc" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/text_padding_right" android:paddingTop="@dimen/call_log_inner_margin" android:paddingRight="@dimen/text_padding_right" android:paddingBottom="@dimen/call_log_inner_margin" android:layout_width="@dimen/dp380" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp25">
+            <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp170" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dp18" android:textColor="@android:color/black" android:id="@id/calllog_name_n54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="@dimen/dp18" android:textColor="@android:color/black" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/dp16" android:textColor="@android:color/black" android:id="@id/calllog_date_n54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/dp16" android:textColor="@android:color/black" android:id="@id/calllog_time_n54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center" android:id="@id/call_type_icon_id" android:layout_width="@dimen/dp60" android:layout_height="@dimen/dp52" android:src="@drawable/__54__ic_contact_picture_holo_dark" android:contentDescription="@string/image_desc" />
+    </LinearLayout>
+    <View android:id="@id/call_log_divider" android:background="@drawable/__54__calllog_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/dp0" android:layout_marginRight="@dimen/dp0" />
+</view>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/num_button_width" android:layout_height="@dimen/num_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_keyboard_char" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/tv_keyboard_button_char" android:paddingBottom="@dimen/dp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/font_size_keyboard_num" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_keyboard_button_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/tv_keyboard_button_char" android:layout_centerInParent="true" />
+</RelativeLayout>

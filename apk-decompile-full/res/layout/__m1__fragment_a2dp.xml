@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="?a2dp_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp96" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/a2dp_jump_2_phone" android:background="@drawable/__m1__selector_a2dp_jump_phone" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp96" android:layout_marginStart="@dimen/dp63" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/a2dp_album_title_view_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp0" android:layout_marginTop="@dimen/dp0" android:layout_alignTop="@id/a2dp_info_title_view_id" android:layout_toStartOf="@id/a2dp_info_title_view_id">
+            <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_icon" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp25" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album" android:singleLine="true" />
+            <TextView android:textSize="@dimen/dp25" android:id="@id/a2dp_album_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp0" android:text="@string/unknown_album_name" android:singleLine="true" style="@style/id3_info_minor" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/a2dp_info_title_view_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp0" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp30" android:layout_marginEnd="@dimen/dp30" android:layout_alignParentEnd="true">
+            <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/artistor_icon" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp25" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/artist" android:singleLine="true" />
+            <TextView android:textSize="@dimen/dp25" android:id="@id/a2dp_artis_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp0" android:text="@string/unknown_artist_name" android:singleLine="true" style="@style/id3_info_minor" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/album_bg" android:background="@drawable/__m1__bt_music_album_bg" android:layout_width="@dimen/dp658" android:layout_height="@dimen/dp304" android:layout_marginTop="@dimen/dp0" android:layout_centerHorizontal="true" android:contentDescription="000" />
+    <TextView android:textSize="@dimen/dp40" android:textColor="@android:color/white" android:gravity="center" android:id="@id/a2dp_title_tv_id" android:layout_width="@dimen/dp800" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_50" android:text="@string/unknown_track_name" android:singleLine="true" android:layout_below="@id/album_bg" android:layout_centerHorizontal="true" style="@style/id3_info_major" />
+    <RelativeLayout android:visibility="gone" android:layout_width="@dimen/dp666" android:layout_height="@dimen/dp125">
+        <ImageView android:id="@id/a2dp_album_view_id" android:visibility="gone" android:layout_width="@dimen/dp480" android:layout_height="@dimen/dp140" android:layout_marginLeft="@dimen/dp89" android:layout_marginTop="@dimen/dp80" android:src="@drawable/__12__a2dp_animation_play" android:layout_centerHorizontal="true" android:contentDescription="@string/image_desc" />
+        <ImageView android:id="@id/a2dp_album_view_id2" android:layout_width="@dimen/dp480" android:layout_height="@dimen/dp140" android:layout_marginLeft="@dimen/dp89" android:layout_marginTop="@dimen/dp80" android:src="@drawable/__12__a2dp_anim_11" android:layout_centerHorizontal="true" android:contentDescription="@string/image_desc" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp104" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/a2dp_more_btn_id" android:src="@drawable/a2dp_bottom_more" android:contentDescription="@string/image_desc" style="@style/MoreButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/rl_a2dp_play_pause_btn_id" android:layout_width="fill_parent" android:layout_height="@dimen/dp86" android:layout_marginTop="@dimen/dp10" android:layout_below="@id/a2dp_title_tv_id" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/a2dp_prev_btn_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?down_btn_opt_prev" android:contentDescription="@string/image_desc" style="@style/BottomImageButtonStyle" />
+        <ImageButton android:id="@id/a2dp_play_pause_btn_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?selector_music_play_btn" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp30" android:layout_marginEnd="@dimen/dp30" style="@style/BottomImageButtonStyle" />
+        <ImageButton android:id="@id/a2dp_next_btn_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?down_btn_opt_next" android:contentDescription="@string/image_desc" style="@style/BottomImageButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

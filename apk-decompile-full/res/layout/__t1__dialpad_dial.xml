@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialpad" android:paddingLeft="@dimen/dp30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_key_1_common" android:background="@drawable/__t1__btn_key_1" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_2_common" android:background="@drawable/__t1__btn_key_2" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_3_common" android:background="@drawable/__t1__btn_key_3" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_key_4_common" android:background="@drawable/__t1__btn_key_4" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_5_common" android:background="@drawable/__t1__btn_key_5" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_6_common" android:background="@drawable/__t1__btn_key_6" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_key_7_common" android:background="@drawable/__t1__btn_key_7" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_8_common" android:background="@drawable/__t1__btn_key_8" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_9_common" android:background="@drawable/__t1__btn_key_9" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/ib_key_star_common" android:background="@drawable/__t1__btn_key_star" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/btn_key_0_common" android:background="@drawable/__t1__btn_key_0" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+            <Button android:id="@id/ib_key_well_common" android:background="@drawable/__t1__btn_key_well" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/dp472" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp10">
+        <Button android:id="@id/btn_key_del_common" android:background="@drawable/__t1__btn_key_del" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/__t1__KeyImageButtonStyle" />
+        <Button android:background="@drawable/__t1__btn_key_change_audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp3" style="@style/__t1__KeyImageButtonStyle" />
+        <Button android:id="@id/btn_key_hanpup_common" android:background="@drawable/__t1__btn_key_handup" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp134" style="@style/__t1__KeyImageButtonStyle" />
+        <Button android:id="@id/btn_key_dail_common" android:background="@drawable/__t1__btn_key_dail" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" style="@style/__t1__KeyImageButtonStyle" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/__t1__vertical_split_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp30" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/dp400" android:layout_height="@dimen/dp530" android:layout_marginLeft="@dimen/dp30" android:layout_marginTop="@dimen/dp20">
+        <ImageView android:id="@id/calling_photo" android:background="@drawable/__t1__call_view_quick_contact_photo_n" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

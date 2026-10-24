@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp10"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.hzbhd.bluetooth">
+    <FrameLayout android:visibility="visible" android:layout_width="@dimen/dp494" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/__a4__call_view_quick_contact_photo_bg" android:layout_width="@dimen/dp494" android:layout_height="@dimen/dp360">
+            <TextView android:id="@id/people_icon" android:background="@drawable/__a4__btth_left_img_peop" android:layout_width="@dimen/dp178" android:layout_height="@dimen/dp178" android:layout_marginTop="@dimen/dp35" android:layout_marginStart="@dimen/dp15" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp15" android:paddingStart="@dimen/dp20" android:paddingEnd="@dimen/dp20" android:layout_marginEnd="@dimen/dp15" android:layout_toEndOf="@id/people_icon">
+                <TextView android:id="@id/caller_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:text="叶培杰" style="@style/__a4__CallInfoStyle" />
+                <TextView android:id="@id/call_type_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:text="@string/call_dial_call_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/__a4__CallInfoStyle" />
+                <TextView android:id="@id/caller_number_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:text="\ 18200766172" android:layout_below="@id/caller_text_id" style="@style/__a4__CallInfoStyle" />
+                <TextView android:id="@id/call_time_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:layout_below="@id/caller_number_id" style="@style/__a4__CallInfoStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/incall_btn_view_id" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp360">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/call_change_small_btn_id" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:src="@drawable/__a4__selector_call_audio_to_car" android:contentDescription="@string/image_desc" />
+                <TextView android:textSize="@dimen/dp22" android:gravity="center_vertical" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:text="@string/handover_title_n54" android:paddingStart="@dimen/dp78" style="@style/ButtonTextStyle_na4" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/mute_call_btn_id" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:src="@drawable/__a4__selector_call_audio_to_phone" android:contentDescription="@string/image_desc" />
+                <TextView android:textSize="@dimen/dp22" android:gravity="center_vertical" android:paddingLeft="@dimen/dp78" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:text="@string/mute_title_n54" style="@style/ButtonTextStyle_na4" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/dp494" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp450">
+            <Button android:textSize="@dimen/dp22" android:id="@id/answer_call_btn_id" android:background="@drawable/__a4__selector_call_pickup" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:text="@string/answer_title_n54" android:contentDescription="@string/image_desc" android:textAllCaps="false" android:paddingStart="@dimen/dp68" style="@style/ButtonTextStyle_na4" />
+            <Button android:textSize="@dimen/dp22" android:id="@id/handup_call_small_btn_id" android:background="@drawable/__a4__selector_handup" android:layout_width="@dimen/dp248" android:layout_height="@dimen/dp88" android:text="@string/hangup_title_n54" android:contentDescription="@string/image_desc" android:textAllCaps="false" android:paddingStart="@dimen/dp68" style="@style/ButtonTextStyle_na4" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp494">
+        <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/__a4__pincode_content" android:layout_width="@dimen/dp554" android:layout_height="@dimen/dp98" android:layout_marginTop="@dimen/dp15">
+            <TextView android:gravity="left|center" android:id="@id/digits" android:paddingLeft="@dimen/dp144" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" style="@style/DialNumberTextStyle_NA4" />
+            <ImageButton android:id="@id/dialpad_clear_btn_id" android:background="@drawable/__a4__selector_pincode_delete" android:layout_width="@dimen/dp86" android:layout_height="@dimen/dp64" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_marginEnd="@dimen/dp20" style="@style/ImageButtonStyle_NA4" />
+        </RelativeLayout>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10" android:layout_marginTop="@dimen/dp40">
+            <ImageButton android:id="@id/btn_key_1_common" android:background="@drawable/__a4__btn_key_1" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_2_common" android:background="@drawable/__a4__btn_key_2" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_3_common" android:background="@drawable/__a4__btn_key_3" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10">
+            <ImageButton android:id="@id/btn_key_4_common" android:background="@drawable/__a4__btn_key_4" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_5_common" android:background="@drawable/__a4__btn_key_5" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_6_common" android:background="@drawable/__a4__btn_key_6" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10">
+            <ImageButton android:id="@id/btn_key_7_common" android:background="@drawable/__a4__btn_key_7" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_8_common" android:background="@drawable/__a4__btn_key_8" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_9_common" android:background="@drawable/__a4__btn_key_9" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10">
+            <ImageButton android:id="@id/ib_key_star_common" android:background="@drawable/__a4__btn_key_star" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/btn_key_0_common" android:background="@drawable/__a4__btn_key_0" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+            <ImageButton android:id="@id/ib_key_well_common" android:background="@drawable/__a4__btn_key_well" android:layout_marginLeft="@dimen/dp1" android:layout_marginTop="@dimen/dp8" style="@style/KeyImageButtonStyle_In_Call_NA4" />
+        </TableRow>
+    </LinearLayout>
+    <com.hzbhd.bluetooth.widget.CircularImageView android:id="@id/call_quick_contact_photo_id" android:visibility="gone" android:layout_width="@dimen/call_view_quick_contact_photo_size" android:layout_height="@dimen/call_view_quick_contact_photo_size" android:src="@drawable/call_view_quick_contact_photo" android:scaleType="centerInside" android:layout_centerHorizontal="true" app:border="true" app:border_color="#ffababab" app:shadow="true" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dialcall_btn_view_id" android:background="@drawable/call_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@id/handup_call_big_btn_id" android:src="@drawable/handup_icon" android:contentDescription="@string/image_desc" style="@style/__01__CallImageButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/incomingcall_btn_view_id" android:background="@drawable/call_menu_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@id/handup_call_btn_id" android:visibility="gone" android:layout_marginLeft="@dimen/call_btn_margin" android:src="@drawable/handup_icon" android:contentDescription="@string/image_desc" style="@style/__01__CallImageButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/call_menu_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</RelativeLayout>

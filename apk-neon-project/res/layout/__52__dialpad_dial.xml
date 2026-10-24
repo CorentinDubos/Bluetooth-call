@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/dialpad" android:paddingLeft="@dimen/dp8" android:paddingTop="@dimen/dp2" android:layout_width="@dimen/dp624" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="4" android:columnCount="3">
+        <ImageButton android:id="@id/btn_key_1_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_1" />
+        <ImageButton android:id="@id/btn_key_2_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_2" />
+        <ImageButton android:id="@id/btn_key_3_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_3" />
+        <ImageButton android:id="@id/btn_key_4_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_4" />
+        <ImageButton android:id="@id/btn_key_5_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_5" />
+        <ImageButton android:id="@id/btn_key_6_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_6" />
+        <ImageButton android:id="@id/btn_key_7_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/key_7" />
+        <ImageButton android:id="@id/btn_key_8_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_8" />
+        <ImageButton android:id="@id/btn_key_9_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_9" />
+        <ImageButton android:id="@id/ib_key_star_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_star" />
+        <ImageButton android:id="@id/btn_key_0_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_0" />
+        <ImageButton android:id="@id/ib_key_well_common" android:background="@drawable/__52__selector_key_btn" android:layout_width="@dimen/dp205" android:layout_height="@dimen/dp86" android:src="@drawable/__52__key_well" />
+    </GridLayout>
+</TableLayout>

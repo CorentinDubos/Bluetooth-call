@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp20" android:paddingTop="@dimen/dp11" android:visibility="gone" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp0" android:layout_marginTop="@dimen/dp19" android:layout_marginStart="@dimen/dp2">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp8">
+            <ImageButton android:id="@id/dialpad_dial_btn_id" android:background="@drawable/selector_dialpad_btn_bg" android:visibility="gone" android:layout_width="wrap_content" android:src="@drawable/dial_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+            <ImageButton android:id="@id/dialpad_back_btn_id" android:background="@drawable/selector_dialpad_btn_bg" android:visibility="gone" android:src="@drawable/unpair_icon" android:contentDescription="@string/image_desc" style="@style/ImageButtonStyle" />
+        </LinearLayout>
+        <Button android:id="@id/btn_key_listener_change_common" android:background="@drawable/__49__btn_key_listener_change" android:visibility="gone" android:layout_width="@dimen/dp160" android:layout_height="@dimen/dp86" android:layout_marginLeft="@dimen/dp40" android:layout_marginTop="@dimen/dp0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:id="@id/callfragment_id" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.hzbhd.bluetooth.call.CallFragment" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/dail_num_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="?dialpad_dial" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="498.0px" android:layout_height="478.0px" android:layout_marginTop="95.0px" android:layout_marginStart="40.0px" android:layout_marginEnd="0.0px" android:layout_alignParentEnd="true">
+        <TextView android:textSize="35.0px" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="250.0px" android:text="@string/device_n54" android:layout_centerHorizontal="true" />
+        <com.hzbhd.bluetooth.ui._a9.DeviceNameTextView android:textSize="35.0px" android:textStyle="bold" android:textColor="#fff2b21d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_below="@id/device_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

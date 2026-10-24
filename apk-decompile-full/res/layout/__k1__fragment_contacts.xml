@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/__k1__pic_phonebook_listview_bg" android:layout_width="@dimen/dp442" android:layout_height="@dimen/dp407" android:layout_marginTop="@dimen/dp25" android:layout_marginStart="@dimen/dp10">
+                <ExpandableListView android:theme="@style/ListViewFastScrollThumb" android:scrollbarStyle="outsideInset" android:id="@id/contact_list_id" android:paddingRight="@dimen/dp0" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp0" android:listSelector="@android:color/transparent" android:divider="@null" android:fastScrollEnabled="true" android:layout_marginStart="@dimen/dp0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:background="@drawable/__k1__pic_bt_keyboard_bg" android:paddingRight="@dimen/dp0" android:layout_width="@dimen/dp545" android:layout_height="@dimen/dp407" android:layout_marginTop="@dimen/dp25" android:layout_marginStart="@dimen/dp15">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <SearchView android:id="@id/search_view_id" android:visibility="gone" android:layout_width="@dimen/dp383" android:layout_height="@dimen/dp68" android:layout_marginTop="@dimen/dp9" android:inputType="textFilter" android:windowSoftInputMode="stateHidden" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:showDividers="none" android:queryHint="@string/hint_findContacts" android:layout_marginStart="@dimen/dp9" android:searchIcon="@null" android:queryBackground="@null" android:submitBackground="@null" />
+                    <EditText android:id="@id/edit_search" android:background="@null" android:focusable="false" android:layout_width="@dimen/dp383" android:layout_height="@dimen/dp68" android:layout_marginTop="@dimen/dp9" android:singleLine="true" android:maxLength="19" android:inputType="textNoSuggestions" android:paddingStart="@dimen/dp3" android:layout_marginStart="@dimen/dp9" />
+                    <TextView android:id="@id/btn_key_del" android:background="@drawable/__h1__phonebook_del" android:layout_width="@dimen/dp65" android:layout_height="@dimen/dp38" android:layout_marginTop="@dimen/dp15" android:layout_alignTop="@id/edit_search" android:layout_marginStart="@dimen/dp36" android:layout_toEndOf="@id/edit_search" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_one_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp80" android:layout_marginTop="@dimen/dp8" android:layout_below="@id/edit_search">
+                        <TextView android:id="@id/btn_key_a" android:background="@drawable/__h1__btn_key_a" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp5" />
+                        <TextView android:id="@id/btn_key_b" android:background="@drawable/__h1__btn_key_b" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_c" android:background="@drawable/__h1__btn_key_c" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_d" android:background="@drawable/__h1__btn_key_d" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_e" android:background="@drawable/__h1__btn_key_e" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_f" android:background="@drawable/__h1__btn_key_f" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_g" android:background="@drawable/__h1__btn_key_g" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_two_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp80" android:layout_marginTop="@dimen/dp8" android:layout_below="@id/ll_one_line">
+                        <TextView android:id="@id/btn_key_h" android:background="@drawable/__h1__btn_key_h" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp5" />
+                        <TextView android:id="@id/btn_key_i" android:background="@drawable/__h1__btn_key_i" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_j" android:background="@drawable/__h1__btn_key_j" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_k" android:background="@drawable/__h1__btn_key_k" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_l" android:background="@drawable/__h1__btn_key_l" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_m" android:background="@drawable/__h1__btn_key_m" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_n" android:background="@drawable/__h1__btn_key_n" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_three_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp80" android:layout_marginTop="@dimen/dp3" android:layout_below="@id/ll_two_line">
+                        <TextView android:id="@id/btn_key_o" android:background="@drawable/__h1__btn_key_o" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp5" />
+                        <TextView android:id="@id/btn_key_p" android:background="@drawable/__h1__btn_key_p" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_q" android:background="@drawable/__h1__btn_key_q" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_r" android:background="@drawable/__h1__btn_key_r" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_s" android:background="@drawable/__h1__btn_key_s" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_t" android:background="@drawable/__h1__btn_key_t" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_u" android:background="@drawable/__h1__btn_key_u" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_four_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp80" android:layout_marginTop="@dimen/dp3" android:layout_below="@id/ll_three_line">
+                        <TextView android:id="@id/btn_key_v" android:background="@drawable/__h1__btn_key_v" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp5" />
+                        <TextView android:id="@id/btn_key_w" android:background="@drawable/__h1__btn_key_w" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_x" android:background="@drawable/__h1__btn_key_x" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_y" android:background="@drawable/__h1__btn_key_y" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_z" android:background="@drawable/__h1__btn_key_z" android:layout_width="@dimen/dp67" android:layout_height="@dimen/dp53" android:layout_marginStart="@dimen/dp10" />
+                        <TextView android:id="@id/btn_key_sync" android:background="@drawable/__h1__btn_key_sync" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:layout_marginStart="@dimen/dp70" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="@dimen/dp442" android:layout_height="@dimen/dp407" android:layout_marginTop="@dimen/dp25" android:layout_marginStart="@dimen/dp10">
+            <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/noContacts" android:singleLine="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/__f9__main_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hzbhd.common._f9._F9_ImageView android:id="@id/__f9__all_app" android:src="@drawable/__f9__app" style="@style/__f9__main_bottom_item" />
+    <com.hzbhd.common._f9._F9_ImageView android:id="@id/__f9__setting" android:src="@drawable/__f9__setting" style="@style/__f9__main_bottom_item" />
+    <com.hzbhd.common._f9._F9_ImageView android:id="@id/__f9__switch" android:src="@drawable/__f9__switch" style="@style/__f9__main_bottom_item" />
+    <com.hzbhd.common._f9._F9_ImageView android:id="@id/__f9__vol_up" android:src="@drawable/__f9__volume_increase" style="@style/__f9__main_bottom_item" />
+    <com.hzbhd.common._f9._F9_ImageView android:id="@id/__f9__vol_down" android:src="@drawable/__f9__volume_decrease" style="@style/__f9__main_bottom_item" />
+</LinearLayout>

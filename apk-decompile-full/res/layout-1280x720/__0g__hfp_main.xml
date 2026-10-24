@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/view_container_id" android:layout_width="@dimen/dp1150" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/hfp_main_top" android:background="@drawable/__0g__a2dp_bottom_bg" android:layout_width="@dimen/dp130" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_calllog_btn_id" android:background="@drawable/__0g_hfp_calllog_btn_id" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp130" android:button="@null" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:background="@drawable/__0g__left_bg_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp14" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_pb_btn_id" android:background="@drawable/__0g_hfp_pb_btn_id" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp130" android:button="@null" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:background="@drawable/__0g__left_bg_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp14" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_dialpad_btn_id" android:background="@drawable/__0g_hfp_dialpad_btn_id" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp130" android:button="@null" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:background="@drawable/__0g__left_bg_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp14" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_device_btn_id" android:background="@drawable/__0g_hfp_device_btn_id" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp130" android:button="@null" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:background="@drawable/__0g__left_bg_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp14" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <RadioButton android:textSize="@dimen/dp32" android:gravity="center" android:id="@id/hfp_setting_btn_id" android:background="@drawable/__0g_hfp_setting_btn_id" android:layout_width="@dimen/dp130" android:layout_height="@dimen/dp130" android:button="@null" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

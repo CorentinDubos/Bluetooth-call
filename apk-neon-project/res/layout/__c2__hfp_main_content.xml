@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="357.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/__c2__public_bottom_bg_1" android:layout_width="fill_parent" android:layout_height="307.0dip" android:layout_marginTop="50.0dip" />
+    <FrameLayout android:id="@id/root_fl_n54" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="0.0dip" layout="@layout/__c2__hfp_main_title" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/left_menu_bar_id" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_marginStart="10.0dip">
+            <RadioButton android:id="@id/hfp_dialpad_btn_id" android:background="?selector_left_dial_btn" android:button="@null" android:text="@string/btcall_n54" style="?LeftImageButtonStyle" />
+            <RelativeLayout android:background="@drawable/__a4__left_line" android:layout_width="164.0dip" android:layout_height="2.0dip" />
+            <RadioButton android:id="@id/hfp_pb_btn_id" android:background="?selector_left_pb_btn" android:button="@null" android:text="@string/phonebook_n54" style="?LeftImageButtonStyle" />
+            <RelativeLayout android:background="@drawable/__a4__left_line" android:layout_width="164.0dip" android:layout_height="2.0dip" />
+            <RadioButton android:id="@id/hfp_calllog_btn_id" android:background="?selector_left_calllog_btn" android:button="@null" android:text="@string/calllog_n54" style="?LeftImageButtonStyle" />
+            <RelativeLayout android:background="@drawable/__a4__left_line" android:layout_width="164.0dip" android:layout_height="2.0dip" />
+            <RadioButton android:id="@id/hfp_device_btn_id" android:background="?selector_left_device_btn" android:button="@null" android:text="@string/device_n54" style="?LeftImageButtonStyle" />
+            <RelativeLayout android:background="@drawable/__a4__left_line" android:layout_width="164.0dip" android:layout_height="2.0dip" />
+            <RadioButton android:id="@id/hfp_setting_btn_id" android:background="?selector_left_setting_btn" android:button="@null" android:text="@string/setting_n54" style="?LeftImageButtonStyle" />
+            <RelativeLayout android:background="@drawable/__a4__left_line" android:layout_width="164.0dip" android:layout_height="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_marginBottom="5.0dip" android:layout_marginEnd="5.0dip">
+            <View android:id="@id/hfp_main_margin_n54" android:layout_width="184.0dip" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/__a4__bt_right_line_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/view_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/rl_history_n54" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp358" />
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox android:layout_gravity="left|bottom" android:id="@id/ib_radio_n54_ui_height" android:background="@drawable/__54__ui_height" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+    </FrameLayout>
+</RelativeLayout>

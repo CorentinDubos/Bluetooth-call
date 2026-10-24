@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hzbhd.bluetooth.calllog.CallLogListItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__c6__bluetooth_select_item" android:layout_width="fill_parent" android:layout_height="@dimen/dp57"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/call_type_icon_id" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/dp44" android:layout_height="@dimen/dp27" android:contentDescription="@string/image_desc" android:layout_marginStart="@dimen/dp26" />
+    <TextView android:textSize="@dimen/dp26" android:textColor="@android:color/white" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp16" />
+    <TextView android:textSize="@dimen/dp26" android:textColor="@android:color/white" android:id="@id/_a6_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp26" />
+</com.hzbhd.bluetooth.calllog.CallLogListItemView>

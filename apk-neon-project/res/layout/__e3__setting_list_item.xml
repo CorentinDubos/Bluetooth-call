@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__e3__selector_contacts_list_item_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dp72">
+        <TextView android:textSize="@dimen/dp30" android:gravity="start" android:id="@id/title" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" android:layout_marginStart="@dimen/dp16" style="@style/SettingsItemTextStyle" />
+        <RelativeLayout android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <ImageView android:id="@id/switch_id" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:src="?switch_on_icon" android:layout_centerInParent="true" android:contentDescription="@string/image_desc" />
+            <TextView android:gravity="center" android:id="@id/label" android:background="@drawable/__e3__selector_setting_item" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:singleLine="true" android:layout_centerInParent="true" style="@style/ButtonTextStyle" />
+            <EditText android:id="@id/edit_id" android:visibility="visible" android:layout_width="@dimen/dp170" android:layout_height="@dimen/dp54" android:maxLength="8" android:layout_centerInParent="true" android:inputType="text" android:imeOptions="actionDone|flagNoExtractUi" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/setting_list_divider" android:background="@drawable/__e3__contacts_item_division" android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:layout_marginStart="@dimen/dp16" />
+</view>

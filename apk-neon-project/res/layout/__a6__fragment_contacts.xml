@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/_283_fragment_bottom_image" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/leftLinear" android:layout_width="@dimen/dp250" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/_a6_find" android:layout_marginTop="@dimen/dp10" style="@style/_a6_fragment_left_item">
+                <ImageView android:layout_width="@dimen/dp42" android:layout_height="@dimen/dp42" android:src="@drawable/_a6_paired_left_1" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/dp32" />
+                <TextView android:textSize="@dimen/dp28" android:textColor="@drawable/_a6_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_a6_contacts_find" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/_a6_sync" style="@style/_a6_fragment_left_item">
+                <ImageView android:layout_width="@dimen/dp42" android:layout_height="@dimen/dp42" android:src="@drawable/_a6_paired_left_5" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/dp32" />
+                <TextView android:textSize="@dimen/dp28" android:textColor="@drawable/_a6_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_a6_contacts_down" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/_a6_clean" style="@style/_a6_fragment_left_item">
+                <ImageView android:layout_width="@dimen/dp42" android:layout_height="@dimen/dp42" android:src="@drawable/_a6_paired_left_4" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/dp32" />
+                <TextView android:textSize="@dimen/dp28" android:textColor="@drawable/_a6_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_a6_contacts_clean" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/_a6_fragment_left_line" />
+        <FrameLayout android:paddingBottom="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:showDividers="end">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/search_layout_id" android:paddingRight="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <SearchView android:id="@id/search_view_id" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp7" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/hint_findContacts" />
+                </LinearLayout>
+                <ExpandableListView android:id="@id/contact_list_id" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp10" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:paddingStart="@dimen/dp10" android:layout_marginEnd="@dimen/dp10" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/no_contacts_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/contact_tile_list_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/noContacts" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

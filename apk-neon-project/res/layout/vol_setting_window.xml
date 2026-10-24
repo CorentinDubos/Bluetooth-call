@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dp38" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp25" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/min_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dp53" android:id="@id/curr_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/max_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp38" android:src="@drawable/b_volume_left" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:background="@drawable/b_seekbar_bg" android:padding="@dimen/dp7" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp38" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp8" android:layout_weight="1.0">
+            <View android:id="@id/seek_min" android:background="#ff00c1d8" android:layout_width="@dimen/seekbar_themb_size" android:layout_height="@dimen/seekbar_themb_size" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <View android:background="#ff323232" android:layout_width="@dimen/seekbar_themb_size" android:layout_height="@dimen/seekbar_themb_size" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <SeekBar android:id="@id/seekbar" android:paddingLeft="@dimen/seekbar_themb_size_half" android:paddingRight="@dimen/seekbar_themb_size_half" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/seekbar_themb_size" android:progressDrawable="@drawable/b_seekbar_horizontal" android:thumb="@drawable/b_seekbar_thumb" android:thumbOffset="@dimen/seekbar_themb_size_half" />
+        </RelativeLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp38" android:src="@drawable/b_volume_right" />
+    </LinearLayout>
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_vol_setting_ok" android:background="@drawable/selector_vol_setting_ok_button" android:layout_width="@dimen/dp239" android:layout_height="@dimen/dp65" android:layout_marginTop="@dimen/dp38" android:text="@string/key_ok" />
+</LinearLayout>

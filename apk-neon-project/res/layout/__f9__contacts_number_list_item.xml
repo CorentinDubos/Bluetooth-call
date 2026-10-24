@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp71" android:paddingStart="@dimen/dp4" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/primary_action_view" android:background="@drawable/__f9__selector_contacts_list_item_btn" android:layout_width="@dimen/dp732" android:layout_height="@dimen/dp70" android:layout_marginBottom="@dimen/dp4" android:layout_marginStart="@dimen/call_log_outer_margin" android:layout_marginEnd="@dimen/call_detail_contact_name_margin">
+        <TextView android:textSize="@dimen/dp32" android:ellipsize="marquee" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp96" android:layout_alignParentStart="true" style="@style/call_log_secondary_text_color" />
+        <TextView android:textSize="@dimen/dp24" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp32" android:layout_alignParentEnd="true" style="@style/call_log_secondary_text_color" />
+    </RelativeLayout>
+    <View android:background="@color/__f9__line_color" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+</LinearLayout>

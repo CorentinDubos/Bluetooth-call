@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center_horizontal" android:id="@id/dialpad" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:adayo="http://schemas.android.com/apk/res-auto">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_key_1_common" android:background="@drawable/__47__btn_key_1" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_2_common" android:background="@drawable/__47__btn_key_2" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_3_common" android:background="@drawable/__47__btn_key_3" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_del_common" android:background="@drawable/__12__btn_key_del" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_key_4_common" android:background="@drawable/__47__btn_key_4" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_5_common" android:background="@drawable/__47__btn_key_5" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle" />
+        <Button android:id="@id/btn_key_6_common" android:background="@drawable/__47__btn_key_6" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_dail_common" android:background="@drawable/__12__btn_key_dail" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_key_7_common" android:background="@drawable/__47__btn_key_7" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_8_common" android:background="@drawable/__47__btn_key_8" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_9_common" android:background="@drawable/__47__btn_key_9" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_hanpup_common" android:background="@drawable/__12__btn_key_handup" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/ib_key_star_common" android:background="@drawable/__47__btn_key_star" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_0_common" android:background="@drawable/__47__btn_key_0" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/ib_key_well_common" android:background="@drawable/__47__btn_key_well" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+        <Button android:id="@id/btn_key_listener_change_common" android:background="@drawable/__12__btn_key_listener_change" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp11" style="@style/KeyImageButtonStyle_N12" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top_container_id" android:paddingTop="@dimen/dp20" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp44"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_list_default" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp70" android:paddingStart="@dimen/dp16">
+            <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_item" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/dp24" android:gravity="center" android:id="@id/bt_name_edit_id" android:background="@drawable/__e3__selector_setting_item" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:maxLength="8" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionDone|flagNoExtractUi" android:paddingStart="@dimen/dp10" android:paddingEnd="@dimen/dp10" android:layout_alignParentEnd="true" />
+            <ImageView android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:src="@drawable/__e3__contacts_item_division" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btsetting_pincode_item" android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp70" android:paddingStart="@dimen/dp16">
+            <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pincode_item" android:layout_centerVertical="true" />
+            <EditText android:textSize="@dimen/dp24" android:gravity="center" android:id="@id/bt_pincose_edit_id" android:background="@drawable/__e3__selector_setting_item" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:maxLength="4" android:layout_centerVertical="true" android:inputType="number" android:imeOptions="actionDone|flagNoExtractUi" android:layout_alignParentEnd="true" />
+            <ImageView android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:src="@drawable/__e3__contacts_item_division" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp70" android:paddingStart="@dimen/dp16">
+            <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_connect_item" android:layout_centerVertical="true" />
+            <Button android:id="@id/auto_connect_item_switch_id" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:src="?switch_on_icon" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_alignParentEnd="true" />
+            <ImageView android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:src="@drawable/__e3__contacts_item_division" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp70" android:paddingStart="@dimen/dp16">
+            <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auto_answer_item" android:layout_centerVertical="true" />
+            <Button android:id="@id/auto_answer_item_switch_id" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:src="?switch_on_icon" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" android:layout_alignParentEnd="true" />
+            <ImageView android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:src="@drawable/__e3__contacts_item_division" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp70" android:paddingStart="@dimen/dp16">
+            <TextView android:textSize="@dimen/dp30" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phonebook_sync_item" android:layout_centerVertical="true" />
+            <Button android:textSize="@dimen/dp24" android:gravity="center" android:id="@id/setting_phonebook_sync_text_id" android:background="@drawable/__e3__selector_setting_item" android:layout_width="@dimen/dp184" android:layout_height="@dimen/dp54" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ButtonTextStyle" />
+            <ImageView android:layout_width="@dimen/dp722" android:layout_height="@dimen/dp2" android:src="@drawable/__e3__contacts_item_division" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/__12__list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/__12__list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/__12__calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
+</RelativeLayout>

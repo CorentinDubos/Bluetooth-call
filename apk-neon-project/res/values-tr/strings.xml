@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_title">uygulama</string>
+    <string name="atv_title">ATV</string>
+    <string name="aux_title">oksin</string>
+    <string name="auxin">AUX</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_title_2">Bluetooth</string>
+    <string name="bluetooth_title_3">Telefon</string>
+    <string name="browser_title">Tarayıcı</string>
+    <string name="bt_music_title">Bluetooth müzik</string>
+    <string name="car_info_title">Araba bilgisi</string>
+    <string name="car_logo_title">logo</string>
+    <string name="colorled_title">Renkli ışıklar</string>
+    <string name="disc">Disk</string>
+    <string name="driving_pattern_1">Rahat</string>
+    <string name="driving_pattern_10">Yarış pisti</string>
+    <string name="driving_pattern_3">hareket</string>
+    <string name="driving_pattern_8">Yakıt tasarrufu</string>
+    <string name="driving_pattern_9">Orijinal araba</string>
+    <string name="dtv">DTV</string>
+    <string name="dtv_title">DTV</string>
+    <string name="dvd_title">disk</string>
+    <string name="dvr">DVR</string>
+    <string name="dvr_title">dvr</string>
+    <string name="eq_title">ekolayzer</string>
+    <string name="fcarema_title">Ön kamera</string>
+    <string name="light_title">Ortam ışığı</string>
+    <string name="link">Link</string>
+    <string name="music">müzik</string>
+    <string name="music_title">müzik</string>
+    <string name="navi_title">navigasyon</string>
+    <string name="picture_title">resim</string>
+    <string name="radio_title">radyo</string>
+    <string name="radio_title_1">radyo</string>
+    <string name="settings_title">kurmak</string>
+    <string name="smart_title">Akıllı güç</string>
+    <string name="src_list_bt_music">BT Muzik</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="swc_title">SWC</string>
+    <string name="video">Video</string>
+    <string name="video_title">video</string>
+</resources>

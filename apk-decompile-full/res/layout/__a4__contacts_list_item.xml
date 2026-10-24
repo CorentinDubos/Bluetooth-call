@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__54__selector_device_list_item" android:nextFocusLeft="@id/header_title_id" android:nextFocusRight="@id/secondary_action_icon" android:layout_width="fill_parent" android:layout_height="@dimen/dp80">
+        <TextView android:textSize="@dimen/dp32" android:textStyle="bold" android:textColor="@color/__b1__white" android:gravity="left" android:layout_gravity="left|center" android:id="@id/header_title_id" android:background="@drawable/list_header_title_bg" android:paddingLeft="@dimen/dp7" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/dp65" android:layout_height="@dimen/dp65" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp14" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="left|center" android:id="@id/quick_contact_photo" android:nextFocusRight="@id/primary_action_view" android:layout_width="@dimen/dp70" android:layout_height="@dimen/dp70" android:src="@drawable/__a4__ic_contact_picture_holo_dark" android:contentDescription="@string/image_desc" />
+            <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp8" android:singleLine="true" style="@style/__a4__call_log_primary_text_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/contact_list_divider" android:background="@drawable/__54__calllog_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" />
+</view>

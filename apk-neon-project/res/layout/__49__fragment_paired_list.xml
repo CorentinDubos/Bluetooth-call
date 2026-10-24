@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:test="http://schemas.android.com/apk/res-auto">
+    <com.hzbhd.midwareproxy.CommonUI.N49_statusBar android:id="@id/bt_paired_navi_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" test:sourceType="PHONE" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_device_btn_layout_id" android:background="@color/color_49_362919" android:layout_width="fill_parent" android:layout_height="@dimen/dp80">
+        <RelativeLayout android:id="@id/add_device_btn_id" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/add_device_icon_id" android:layout_width="@dimen/dp52" android:layout_height="@dimen/dp52" android:layout_marginLeft="@dimen/dp150" android:src="@drawable/__49__add_device_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/add_device_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp50" android:text="@string/device_list_add_title" android:singleLine="true" android:layout_toRightOf="@id/add_device_icon_id" android:layout_centerVertical="true" style="@style/call_log_primary_text_color_selected" />
+            <ImageView android:id="@id/scanning_pb_id" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="@dimen/dp50" android:src="@drawable/progress_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp394" android:layout_below="@id/add_device_btn_layout_id">
+        <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@id/device_list_id" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp2" android:divider="@null" android:layout_below="@id/add_device_btn_layout_id" android:fadeScrollbars="false" android:layout_marginStart="@dimen/dp220" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ff020508" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerColor="#ff030609"
+                android:endColor="#ff06100f"
+                android:startColor="#ff071012"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/neon_screen_lines" />
+</layer-list>

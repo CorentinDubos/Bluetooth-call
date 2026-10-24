@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apps_title">applications</string>
+    <string name="atv_title">ATV</string>
+    <string name="aux_title">AUX</string>
+    <string name="auxin">AUX</string>
+    <string name="bluetooth_title">Téléphone</string>
+    <string name="bluetooth_title_2">Bluetooth</string>
+    <string name="bluetooth_title_3">Phone</string>
+    <string name="browser_title">Navigateur</string>
+    <string name="bt_music_title">BT La musique</string>
+    <string name="car_info_title">Info</string>
+    <string name="car_logo_title">Sélection du logo</string>
+    <string name="colorled_title">ColorLED</string>
+    <string name="disc">Disque</string>
+    <string name="driving_pattern_1">"À l'aise"</string>
+    <string name="driving_pattern_10">Piste de course</string>
+    <string name="driving_pattern_3">mouvement</string>
+    <string name="driving_pattern_8">Économie de carburant</string>
+    <string name="driving_pattern_9">"Voiture d'origine"</string>
+    <string name="dtv">DTV</string>
+    <string name="dtv_title">DTV</string>
+    <string name="dvd_title">Disque</string>
+    <string name="dvr">Magnétoscope</string>
+    <string name="dvr_title">DVR</string>
+    <string name="eq_title">EQ</string>
+    <string name="fcarema_title">F.Carema</string>
+    <string name="light_title">Lumière ambiante</string>
+    <string name="link">Link</string>
+    <string name="music">Musique</string>
+    <string name="music_title">La musique</string>
+    <string name="navi_title">De navigation</string>
+    <string name="picture_title">Image</string>
+    <string name="radio_title">Radio</string>
+    <string name="radio_title_1">Radio</string>
+    <string name="settings_title">Réglages</string>
+    <string name="smart_title">Puissance intelligente</string>
+    <string name="src_list_bt_music">Streaming</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="swc_title">SWC</string>
+    <string name="video">Video</string>
+    <string name="video_title">Vidéo</string>
+</resources>

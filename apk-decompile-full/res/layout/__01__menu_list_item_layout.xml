@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="?item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_menu_list_item_icon" android:focusable="false" android:layout_width="@dimen/dp374" android:layout_height="?item_height" />
+    <ImageButton android:id="@id/ib_menu_list_item_switch" android:background="@drawable/ic_switch_frame_off" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/dp23" android:textColor="@android:color/white" android:id="@id/tv_menu_list_item_info" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:maxWidth="85.0px" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.hzbhd.common.ui.BlaupunktTextView android:textSize="@dimen/dp26" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="left" android:id="@id/tv_menu_list_item_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp89" android:layout_marginRight="@dimen/dp5" android:maxHeight="?item_height" android:singleLine="true" android:layout_toLeftOf="@id/ib_menu_list_item_switch" android:layout_centerVertical="true" />
+</RelativeLayout>

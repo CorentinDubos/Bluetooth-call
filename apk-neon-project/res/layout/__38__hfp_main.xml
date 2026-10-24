@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/__38__left_menu_bg" android:layout_width="@dimen/dp148" android:layout_height="fill_parent">
+        <RadioButton android:id="@id/hfp_dialpad_btn_id" android:background="?selector_left_dial_btn" android:layout_width="@dimen/dp144" android:layout_height="@dimen/dp76" android:layout_marginTop="@dimen/dp35" android:button="@null" />
+        <View android:layout_width="@dimen/dp1" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_pb_btn_id" android:background="?selector_left_pb_btn" android:layout_width="@dimen/dp144" android:layout_height="@dimen/dp76" android:button="@null" />
+        <View android:layout_width="@dimen/dp1" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_calllog_btn_id" android:background="?selector_left_calllog_btn" android:layout_width="@dimen/dp144" android:layout_height="@dimen/dp76" android:button="@null" />
+        <View android:layout_width="@dimen/dp1" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_device_btn_id" android:background="?selector_left_device_btn" android:layout_width="@dimen/dp144" android:layout_height="@dimen/dp76" android:button="@null" />
+        <View android:layout_width="@dimen/dp1" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_setting_btn_id" android:background="?selector_left_setting_btn" android:layout_width="@dimen/dp144" android:layout_height="@dimen/dp76" android:layout_marginBottom="@dimen/dp20" android:button="@null" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp145" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:background="@drawable/__97__pired_item" android:focusable="true" android:nextFocusRight="@id/set_connected_btn_id" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|center" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp25" android:src="@drawable/device_icon" android:contentDescription="@string/image_desc" />
+            <TextView android:textSize="@dimen/dp28" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/device_name_id" android:layout_width="wrap_content" android:layout_height="@dimen/dp64" android:layout_marginLeft="@dimen/device_list_name_margin" android:singleLine="true" style="?call_log_primary_text_color" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/select_connect_pb_id" android:focusable="false" android:visibility="gone" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginRight="@dimen/dp8" android:src="@drawable/progress_1" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                <TextView android:textSize="@dimen/dp26" android:ellipsize="marquee" android:gravity="right|center" android:id="@id/tip_text_id" android:paddingRight="@dimen/dp19" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/device_list_top_topair_title" android:singleLine="true" style="?call_log_primary_text_color" />
+                <ImageButton android:id="@id/set_connected_btn_id" android:background="@drawable/__97__selector_device_list_checkbox" android:nextFocusLeft="@id/primary_action_view" android:nextFocusRight="@id/set_master_btn_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?checkbox_not_connected" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+                <ImageButton android:id="@id/set_unpair_btn_id" android:background="@drawable/__97__selector_device_list_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/__97__checkbox_not_connected" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/image_desc" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@drawable/__91__division" android:layout_width="fill_parent" android:layout_height="@dimen/dp2" android:layout_marginLeft="@dimen/divider_margin_left" android:layout_marginRight="@dimen/dp8" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</view>

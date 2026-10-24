@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/__f2__hg_bt_call_bg" android:layout_width="@dimen/dp880" android:layout_height="@dimen/dp114">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:layout_gravity="center_vertical" android:id="@id/btn_calllog_incomming" android:background="@drawable/__f2__btn_calllog_incomming" android:layout_width="@dimen/dp210" android:layout_height="@dimen/dp82" android:layout_marginLeft="@dimen/dp80" android:button="@null" />
+                <RadioButton android:layout_gravity="center" android:id="@id/btn_calllog_outcoming" android:background="@drawable/__f2__btn_calllog_outcoming" android:layout_width="@dimen/dp210" android:layout_height="@dimen/dp82" android:layout_marginLeft="@dimen/dp45" android:button="@null" />
+                <RadioButton android:layout_gravity="center_vertical" android:id="@id/btn_calllog_miss" android:background="@drawable/__f2__btn_calllog_miss" android:layout_width="@dimen/dp210" android:layout_height="@dimen/dp82" android:layout_marginLeft="@dimen/dp45" android:button="@null" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:paddingLeft="@dimen/call_log_icon_margin" android:paddingRight="@dimen/call_log_icon_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp5" android:listSelector="@drawable/calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
+        <RelativeLayout android:id="@id/no_calllog_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/empty_text_id" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/recentCalls_empty" android:singleLine="true" android:layout_centerInParent="true" style="@style/PairedDeviceNameStyle" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/calllog_loading_msg_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/calllog_pb_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image_desc" />
+            <TextView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/call_log_sync_title" style="@style/SettingsItemTextStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

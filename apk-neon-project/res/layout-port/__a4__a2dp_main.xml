@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp1344" android:layout_centerInParent="true">
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/dp670" layout="@layout/__a4__a2dp_main_content" />
+        <com.hzbhd.common._a4.CarView android:layout_width="fill_parent" android:layout_height="@dimen/dp674" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

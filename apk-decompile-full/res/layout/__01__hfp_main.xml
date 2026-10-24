@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/left_menu_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/hfp_dialpad_btn_id" android:background="#00000000" android:src="?selector_left_dial_btn" style="@style/LeftImageButtonStyle" />
+        <ImageButton android:id="@id/hfp_pb_btn_id" android:background="#00000000" android:src="?selector_left_pb_btn" style="@style/LeftImageButtonStyle" />
+        <ImageButton android:id="@id/hfp_calllog_btn_id" android:background="#00000000" android:src="?selector_left_calllog_btn" style="@style/LeftImageButtonStyle" />
+        <ImageButton android:id="@id/hfp_device_btn_id" android:background="#00000000" android:src="?selector_left_device_btn" style="@style/LeftImageButtonStyle" />
+        <ImageButton android:id="@id/hfp_setting_btn_id" android:background="#00000000" android:src="?selector_left_setting_btn" style="@style/LeftImageButtonStyle" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id" android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp65"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menubar_button_eq_n54" android:background="@drawable/__54__ic_selector_eq" android:layout_width="@dimen/dp52" android:layout_height="@dimen/dp52" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp10" android:layout_alignParentLeft="true" />
+    <ImageView android:background="@drawable/__54__ding_split" android:layout_width="@dimen/dp2" android:layout_height="@dimen/dp52" android:layout_marginLeft="@dimen/dp105" android:layout_alignBottom="@id/menubar_button_eq_n54" />
+    <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/dp24" android:textColor="@color/__54__selector_list_type_text" android:gravity="center" android:id="@id/bt_call_tv_n54" android:background="@drawable/__54__item_p" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp46" android:text="@string/bt_phone" />
+        <TextView android:textSize="@dimen/dp24" android:textColor="@color/__54__selector_list_type_text" android:gravity="center" android:id="@id/bt_music_tv_n54" android:background="@drawable/__54__selector_item" android:clickable="true" android:layout_width="@dimen/dp162" android:layout_height="@dimen/dp46" android:text="@string/bt_music" />
+    </LinearLayout>
+    <ImageView android:id="@id/fragment_back_n54" android:background="@drawable/__54__selector_back_btn" android:layout_width="@dimen/dp52" android:layout_height="@dimen/dp52" android:layout_marginTop="@dimen/dp10" android:layout_marginRight="@dimen/dp20" android:layout_alignParentRight="true" />
+    <ImageView android:background="@drawable/__54__ding_split" android:layout_width="@dimen/dp2" android:layout_height="@dimen/dp52" android:layout_marginRight="@dimen/dp105" android:layout_alignBottom="@id/menubar_button_eq_n54" android:layout_alignParentRight="true" />
+</RelativeLayout>

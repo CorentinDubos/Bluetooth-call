@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/__e3__left_menu_bg" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp544">
+        <RadioButton android:id="@id/hfp_dialpad_btn_id" android:background="?selector_left_dial_btn" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp100" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <ImageView android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp6" android:src="@drawable/__e3__left_icon_diviler" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_pb_btn_id" android:background="?selector_left_pb_btn" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp100" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <ImageView android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp6" android:src="@drawable/__e3__left_icon_diviler" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_calllog_btn_id" android:background="?selector_left_calllog_btn" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp100" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <ImageView android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp6" android:src="@drawable/__e3__left_icon_diviler" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_device_btn_id" android:background="?selector_left_device_btn" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp100" android:button="@null" style="@style/LeftImageButtonStyle" />
+        <ImageView android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp6" android:src="@drawable/__e3__left_icon_diviler" android:layout_weight="1.0" />
+        <RadioButton android:id="@id/hfp_setting_btn_id" android:background="?selector_left_setting_btn" android:layout_width="@dimen/dp192" android:layout_height="@dimen/dp100" android:button="@null" style="@style/LeftImageButtonStyle" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/view_container_id" android:background="@drawable/__e3__bt_right_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp_2" />
+</LinearLayout>
