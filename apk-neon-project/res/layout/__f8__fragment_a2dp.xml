@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#020406"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/a2dp_controls" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp42" android:layout_marginTop="@dimen/dp30" android:layout_marginEnd="@dimen/dp42" android:layout_marginBottom="@dimen/dp18">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/a2dp_controls" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/dp42" android:layout_marginTop="@dimen/dp30" android:layout_marginEnd="@dimen/dp42" android:layout_marginBottom="@dimen/dp18">
         <TextView android:textSize="@dimen/dp18" android:textColor="#ff45f5de" android:letterSpacing="0.12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AUDIO BLUETOOTH" />
         <View android:background="#ff17383d" android:layout_width="@dimen/dp140" android:layout_height="@dimen/dp2" android:layout_marginTop="@dimen/dp10" />
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_marginTop="@dimen/dp18">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="@dimen/dp18">
             <FrameLayout android:background="@drawable/neon_album_frame" android:padding="@dimen/dp5" android:layout_width="@dimen/dp270" android:layout_height="@dimen/dp270">
                 <ImageView android:id="@id/a2dp_album_view_id" android:src="@drawable/neon_album_placeholder" android:scaleType="fitCenter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image_desc" />
             </FrameLayout>
