@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.hzbhd.bluetooth.calllog.CallLogListItemView"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/primary_action_view" android:background="@drawable/_a6_contack_second_bg" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_contact_photo_size" android:layout_marginStart="@dimen/call_log_outer_margin" android:layout_marginEnd="@dimen/dp50">
-        <TextView android:textSize="@dimen/dp35" android:ellipsize="marquee" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp32" style="@style/call_log_secondary_text_color" />
-        <TextView android:textSize="@dimen/dp31" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp32" style="@style/call_log_secondary_text_color" />
-    </RelativeLayout>
-</view>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.hzbhd.bluetooth.calllog.CallLogListItemView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/primary_action_view" android:background="@drawable/__c6__bluetooth_select_item" android:layout_width="fill_parent" android:layout_height="@dimen/dp90" android:paddingStart="@dimen/dp42" android:paddingEnd="@dimen/dp42">
-        <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <TextView android:textSize="@dimen/dp32" android:textColor="@android:color/white" android:ellipsize="marquee" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-    </RelativeLayout>
-</com.hzbhd.bluetooth.calllog.CallLogListItemView>

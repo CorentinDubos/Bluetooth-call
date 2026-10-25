@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:drawable="@drawable/dz_bt_set_list_selected" />
-    <item android:state_selected="true" android:drawable="@drawable/dz_bt_set_list_selected" />
-    <item android:drawable="@drawable/dz_bt_set_list_not_selected" />
-</selector>

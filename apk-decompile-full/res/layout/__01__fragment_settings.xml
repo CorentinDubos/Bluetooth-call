@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/top_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:scrollbarThumbVertical="@drawable/list_scrollbar_thumb_vertical" android:scrollbarTrackVertical="@drawable/list_scrollbar_track_vertical" android:scrollbarStyle="outsideInset" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp19" android:layout_marginRight="@dimen/dp19" android:listSelector="@drawable/calllog_list_item_btn" android:divider="@null" android:fadeScrollbars="false" />
-</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingLeft="@dimen/dp19" android:paddingTop="@dimen/dp29" android:paddingRight="@dimen/dp19" android:paddingBottom="@dimen/dp19" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/pupup_info_iv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_parking_warning" android:layout_centerHorizontal="true" android:contentDescription="@string/image_desc" />
-    <TextView android:gravity="center" android:id="@id/pupup_info_msg_tv_id" android:layout_width="@dimen/popup_info_text_width" android:layout_height="@dimen/popup_info_text_height" android:layout_below="@id/pupup_info_iv_id" style="@style/PopupInfoTextStyle" />
-</RelativeLayout>

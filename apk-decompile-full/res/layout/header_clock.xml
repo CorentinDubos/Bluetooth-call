@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.hzbhd.common.ui.BlaupunktTextView android:textSize="@dimen/font_size_top_bar_clock" android:textColor="@android:color/white" android:gravity="bottom" android:id="@id/tv_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_date" android:includeFontPadding="false" />
-</RelativeLayout>

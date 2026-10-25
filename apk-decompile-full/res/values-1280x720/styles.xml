@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="ButtonTextStyle">
-        <item name="android:textSize">@dimen/dp26</item>
-        <item name="android:textColor">#fff8f6e7</item>
-    </style>
-</resources>

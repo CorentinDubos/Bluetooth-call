@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.hzbhd.bluetooth.neon.ui2" platformBuildVersionCode="28" platformBuildVersionName="9">
     <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
     <uses-permission android:name="android.permission.READ_CALL_LOG"/>
@@ -15,9 +15,9 @@
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
-    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/ic_launcher_btphone" android:label="BT Phone Neon 2.3" android:name="com.hzbhd.bluetooth.Bluetooth" android:networkSecurityConfig="@xml/network_security_config" android:theme="@style/config_style">
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/ic_launcher_btphone" android:label="BT Phone Neon 2.4" android:name="com.hzbhd.bluetooth.Bluetooth" android:networkSecurityConfig="@xml/network_security_config" android:theme="@style/config_style">
         <meta-data android:name="hzbhdApp" android:value="true"/>
-        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|fontScale" android:icon="@drawable/ic_launcher_btphone" android:label="BT Phone Neon 2.3" android:launchMode="singleTask" android:name="com.hzbhd.bluetooth.hfp.HfpMainActivity" android:resizeableActivity="@bool/resizeableActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|fontScale" android:icon="@drawable/ic_launcher_btphone" android:label="BT Phone Neon 2.4" android:launchMode="singleTask" android:name="com.hzbhd.bluetooth.hfp.HfpMainActivity" android:resizeableActivity="@bool/resizeableActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
             <intent-filter>
                 <action android:name="com.hzbhd.intent.action.btuiphone"/>
                 <action android:name="android.intent.action.MAIN"/>
@@ -55,7 +55,7 @@
             </intent-filter>
             <meta-data android:name="hzbhdAction" android:value="com.hzbhd.intent.action.btuiphone"/>
         </activity>
-        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|fontScale" android:icon="@drawable/ic_launcher_btaudio" android:label="BT Music Neon 2.3" android:launchMode="singleTask" android:name="com.hzbhd.bluetooth.a2dp.A2dpMainActivity" android:resizeableActivity="true" android:taskAffinity="com.driver.bluetooth.a2dp" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|fontScale" android:icon="@drawable/ic_launcher_btaudio" android:label="BT Music Neon 2.4" android:launchMode="singleTask" android:name="com.hzbhd.bluetooth.a2dp.A2dpMainActivity" android:resizeableActivity="true" android:taskAffinity="com.driver.bluetooth.a2dp" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
             <intent-filter>
                 <action android:name="com.hzbhd.intent.action.btaudio"/>
                 <action android:name="android.intent.action.MAIN"/>
@@ -82,3 +82,4 @@
         <activity android:excludeFromRecents="true" android:name="com.hzbhd.bluetooth.ui._h1.CallActivity"/>
     </application>
 </manifest>
+

@@ -2575,3 +2575,28 @@
 
         return-void
     .end method
+
+    .method public openWaze(Landroid/view/View;)V
+        .locals 2
+
+        invoke-virtual {p0}, Lcom/hzbhd/bluetooth/a2dp/A2dpMainActivity;->getPackageManager()Landroid/content/pm/PackageManager;
+
+        move-result-object p1
+
+        const-string v0, "com.waze"
+
+        invoke-virtual {p1, v0}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+
+        move-result-object p1
+
+        if-eqz p1, :cond_nowaze
+
+        const v0, 0x10001000
+
+        invoke-virtual {p1, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+        invoke-virtual {p0, p1}, Lcom/hzbhd/bluetooth/a2dp/A2dpMainActivity;->startActivity(Landroid/content/Intent;)V
+
+        :cond_nowaze
+        return-void
+    .end method

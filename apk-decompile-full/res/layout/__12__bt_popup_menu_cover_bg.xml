@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/rl_keyboard_middle_area" android:background="@color/bg_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dp572" android:layout_marginTop="@dimen/dp71" />
-</RelativeLayout>

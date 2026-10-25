@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/popup_msg_view_id" android:background="#b0000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:background="@drawable/parking_warning_bg" android:layout_width="@dimen/dp638" android:layout_height="@dimen/dp398" android:layout_centerInParent="true">
-        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp14" android:src="@drawable/ic_parking_warning" />
-        <com.hzbhd.common.ui.BlaupunktTextView android:textSize="@dimen/dp25" android:textColor="@android:color/white" android:textColorHint="#ffcccccc" android:gravity="center" android:paddingLeft="@dimen/dp19" android:paddingTop="@dimen/dp8" android:paddingRight="@dimen/dp19" android:paddingBottom="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/parking_warning_content" />
-        <Button android:layout_gravity="center_horizontal" android:id="@id/confirm_yes_btn_id" android:background="@drawable/selector_vol_setting_ok_button" android:layout_width="wrap_content" android:layout_height="@dimen/dp68" android:text="@string/key_ok" />
-    </LinearLayout>
-</RelativeLayout>

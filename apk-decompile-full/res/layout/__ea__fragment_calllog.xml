@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="@dimen/dp1247" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp71" android:layout_marginBottom="@dimen/dp30" android:divider="@null" android:layout_centerHorizontal="true" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/calllog_loading_msg_id" android:paddingTop="@dimen/dp125" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/calllog_pb_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image_desc" />
-        <TextView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/text_margin_top" android:text="@string/call_log_sync_title" style="@style/SettingsItemTextStyle" />
-    </LinearLayout>
-</RelativeLayout>

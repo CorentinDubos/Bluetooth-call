@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/rl_keyboard_middle_area" android:background="@color/bg_transparent" android:paddingTop="@dimen/bottom_bar_divider_width" android:layout_width="fill_parent" android:layout_height="@dimen/middle_area_height" android:layout_centerVertical="true" />
-    <TextView android:id="@id/tv_keyboard_bottom_bar_area" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_height" android:layout_below="@id/rl_keyboard_middle_area" />
-</RelativeLayout>

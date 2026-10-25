@@ -9,8 +9,8 @@ sdkInfo:
 packageInfo:
   forcedPackageId: 127
 versionInfo:
-  versionCode: 20261026
-  versionName: 2.3.0 Neon
+  versionCode: 20261027
+  versionName: 2.4.0 Neon
 doNotCompress:
 - arsc
 - jpg

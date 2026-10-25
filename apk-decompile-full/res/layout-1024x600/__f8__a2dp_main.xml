@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:paddingTop="@dimen/systemui_height" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActivityStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/left_menu_bar_id" android:background="@drawable/__f8__bt_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp82" android:layout_alignParentBottom="true">
-        <RadioButton android:id="@id/a2dp_device_btn_id" android:background="?selector_left_device_btn" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp76" android:button="@null" />
-        <RadioButton android:id="@id/a2dp_setting_btn_id" android:background="?selector_left_setting_btn" android:layout_width="@dimen/dp152" android:layout_height="@dimen/dp76" android:button="@null" android:layout_marginStart="@dimen/dp50" />
-    </LinearLayout>
-    <FrameLayout android:id="@id/view_container_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dp82" android:layout_weight="1.0" />
-</RelativeLayout>
