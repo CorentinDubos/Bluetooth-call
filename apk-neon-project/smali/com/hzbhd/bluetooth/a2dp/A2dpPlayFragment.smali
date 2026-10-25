@@ -1114,7 +1114,15 @@
 .end method
 
 .method public setId3Info(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 0
+    .locals 2
+
+    invoke-virtual {p0}, Lcom/hzbhd/bluetooth/a2dp/A2dpPlayFragment;->getActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/hzbhd/bluetooth/a2dp/A2dpPlayFragment;->a2dp_album_view_id:Landroid/widget/ImageView;
+
+    invoke-static {v0, p1, p2, p3, v1}, Lcom/hzbhd/bluetooth/neon/NeonKit;->onTrack(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/widget/ImageView;)V
 
     .line 224
     invoke-virtual {p0, p1}, Lcom/hzbhd/bluetooth/a2dp/A2dpPlayFragment;->setSongTitle(Ljava/lang/String;)V

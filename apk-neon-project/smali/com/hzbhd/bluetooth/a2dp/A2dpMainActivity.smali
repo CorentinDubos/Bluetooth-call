@@ -2600,3 +2600,39 @@
         :cond_nowaze
         return-void
     .end method
+
+    .method public openPlaylist(Landroid/view/View;)V
+        .locals 1
+
+        const-string v0, "tracks"
+
+        invoke-static {p0, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->openList(Landroid/content/Context;Ljava/lang/String;)V
+
+        return-void
+    .end method
+
+    .method public openSms(Landroid/view/View;)V
+        .locals 1
+
+        const-string v0, "sms"
+
+        invoke-static {p0, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->openList(Landroid/content/Context;Ljava/lang/String;)V
+
+        return-void
+    .end method
+
+    .method public toggleShuffle(Landroid/view/View;)V
+        .locals 0
+
+        invoke-static {p0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->toggleShuffle(Landroid/content/Context;)V
+
+        return-void
+    .end method
+
+    .method public toggleRepeat(Landroid/view/View;)V
+        .locals 0
+
+        invoke-static {p0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->toggleRepeat(Landroid/content/Context;)V
+
+        return-void
+    .end method

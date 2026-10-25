@@ -641,6 +641,35 @@
 
     .line 687
     :goto_1
+    iget-object v1, p1, Lcom/hzbhd/bluetooth/contacts/ContactsTreeCursorAdapter$ViewContactsHolder;->image:Landroid/widget/ImageView;
+
+    if-eqz v1, :cond_nophoto
+
+    sget-object v2, Landroid/provider/ContactsContract$Contacts;->CONTENT_URI:Landroid/net/Uri;
+
+    invoke-interface {p3, v0}, Landroid/database/Cursor;->getLong(I)J
+
+    move-result-wide v3
+
+    invoke-static {v2, v3, v4}, Landroid/content/ContentUris;->withAppendedId(Landroid/net/Uri;J)Landroid/net/Uri;
+
+    move-result-object v2
+
+    const-string v3, "photo"
+
+    invoke-static {v2, v3}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/hzbhd/bluetooth/contacts/ContactsTreeCursorAdapter;->mContactPhotoManager:Lcom/hzbhd/bluetooth/ContactPhotoManager;
+
+    const/16 v4, 0x100
+
+    const/4 v5, 0x1
+
+    invoke-virtual {v3, v1, v2, v4, v5}, Lcom/hzbhd/bluetooth/ContactPhotoManager;->loadPhoto(Landroid/widget/ImageView;Landroid/net/Uri;IZ)V
+
+    :cond_nophoto
     iget-object p1, p1, Lcom/hzbhd/bluetooth/contacts/ContactsTreeCursorAdapter$ViewContactsHolder;->name:Landroid/widget/TextView;
 
     invoke-interface {p3, v0}, Landroid/database/Cursor;->getLong(I)J

@@ -3572,21 +3572,21 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 290
-    iget-object v0, p0, Lcom/hzbhd/bluetooth/call/CallFragment;->dialBtnView:Landroid/view/View;
+    const/16 v1, 0x8
 
-    const/4 v1, 0x0
+    iget-object v0, p0, Lcom/hzbhd/bluetooth/call/CallFragment;->dialBtnView:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 291
     iget-object v0, p0, Lcom/hzbhd/bluetooth/call/CallFragment;->incomBtnView:Landroid/view/View;
 
-    const/16 v1, 0x8
-
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 292
     iget-object v0, p0, Lcom/hzbhd/bluetooth/call/CallFragment;->activeBtnView:Landroid/view/View;
+
+    const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 

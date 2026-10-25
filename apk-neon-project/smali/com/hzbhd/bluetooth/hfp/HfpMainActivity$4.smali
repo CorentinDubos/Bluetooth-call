@@ -100,6 +100,28 @@
 
     const/4 v6, 0x0
 
+    invoke-static {}, Lcom/hzbhd/midwareproxy/bluetooth/BluetoothServiceManager;->getBluetoothManager()Lcom/hzbhd/midwareproxy/bluetooth/BluetoothServiceManager;
+
+    move-result-object v7
+
+    invoke-virtual {v7}, Lcom/hzbhd/midwareproxy/bluetooth/BluetoothServiceManager;->getCurrentSyncType()I
+
+    move-result v7
+
+    if-ne v7, v5, :cond_notcalllog
+
+    if-eq p5, p1, :cond_skipnotif
+
+    const/4 v7, 0x2
+
+    if-eq p5, v7, :cond_skipnotif
+
+    if-ne p5, v5, :cond_notcalllog
+
+    :cond_skipnotif
+    goto :goto_0
+
+    :cond_notcalllog
     if-eq p5, p1, :cond_6
 
     const/4 p1, 0x2

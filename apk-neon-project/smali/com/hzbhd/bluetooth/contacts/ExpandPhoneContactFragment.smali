@@ -72,7 +72,7 @@
 
 .field private mOnNameAndPhoneResultListener:Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment$OnNameAndPhoneResultListener;
 
-.field private mLastPbapDownloadAddress:Ljava/lang/String;
+.field public static sLastPbapAddress:Ljava/lang/String;
 
 .field private final mPhoneSearchCloseListener:Landroid/widget/SearchView$OnCloseListener;
 
@@ -3316,7 +3316,7 @@
 
     if-nez v2, :cond_2
 
-    iget-object v2, p0, Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment;->mLastPbapDownloadAddress:Ljava/lang/String;
+    sget-object v2, Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment;->sLastPbapAddress:Ljava/lang/String;
 
     invoke-static {v1, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
@@ -3332,7 +3332,7 @@
 
     if-eqz v0, :cond_2
 
-    iput-object v1, p0, Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment;->mLastPbapDownloadAddress:Ljava/lang/String;
+    sput-object v1, Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment;->sLastPbapAddress:Ljava/lang/String;
 
     :cond_2
     return-void

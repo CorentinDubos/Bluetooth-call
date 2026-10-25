@@ -125,5 +125,7 @@
 
     invoke-static {v0}, Lcom/hzbhd/midwareproxy/utils/CrashReportUtils;->init(Landroid/content/Context;)V
 
+    invoke-static {p0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->startSms(Landroid/content/Context;)V
+
     return-void
 .end method

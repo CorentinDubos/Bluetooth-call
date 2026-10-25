@@ -1195,6 +1195,13 @@
 
     const/4 v5, 0x2
 
+    if-ge p3, v4, :cond_pbap_keep
+
+    const/4 v6, 0x0
+
+    sput-object v6, Lcom/hzbhd/bluetooth/contacts/ExpandPhoneContactFragment;->sLastPbapAddress:Ljava/lang/String;
+
+    :cond_pbap_keep
     if-lt p3, v4, :cond_1
 
     .line 999
