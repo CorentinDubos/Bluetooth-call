@@ -839,6 +839,8 @@
     .line 131
     invoke-direct {p0, p1}, Lcom/hzbhd/bluetooth/a2dp/A2dpPlayFragment;->initNM6(Landroid/view/View;)V
 
+    invoke-static {p1}, Lcom/hzbhd/bluetooth/neon/NeonKit;->bind(Landroid/view/View;)V
+
     return-object p1
 .end method
 
