@@ -100,6 +100,62 @@
     return-object v0
 .end method
 
+.method public static bind(Landroid/view/View;)V
+    .locals 5
+
+    .line 164
+    const-string v0, "neon_repeat"
+
+    const-string v1, "neon_sms"
+
+    const-string v2, "neon_tracks"
+
+    const-string v3, "neon_shuffle"
+
+    filled-new-array {v2, v3, v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 165
+    const/4 v1, 0x0
+
+    :goto_0
+    const/4 v2, 0x4
+
+    if-ge v1, v2, :cond_1
+
+    aget-object v2, v0, v1
+
+    .line 166
+    invoke-virtual {p0, v2}, Landroid/view/View;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
+
+    move-result-object v3
+
+    .line 167
+    if-nez v3, :cond_0
+
+    .line 168
+    goto :goto_1
+
+    .line 170
+    :cond_0
+    new-instance v4, Lcom/hzbhd/bluetooth/neon/NeonKit$2;
+
+    invoke-direct {v4, v2}, Lcom/hzbhd/bluetooth/neon/NeonKit$2;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 165
+    :goto_1
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    .line 189
+    :cond_1
+    return-void
+.end method
+
 .method static fetch(Ljava/lang/String;Ljava/lang/String;)Landroid/graphics/Bitmap;
     .locals 2
 
@@ -416,33 +472,33 @@
 .method public static openList(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    .line 164
+    .line 192
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/hzbhd/bluetooth/neon/NeonListActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 165
+    .line 193
     const-string v1, "mode"
 
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 166
+    .line 194
     instance-of p1, p0, Landroid/app/Activity;
 
     if-nez p1, :cond_0
 
-    .line 167
+    .line 195
     const/high16 p1, 0x10000000
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 169
+    .line 197
     :cond_0
     invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 170
+    .line 198
     return-void
 .end method
 
@@ -679,40 +735,40 @@
 .method public static startSms(Landroid/content/Context;)V
     .locals 2
 
-    .line 173
+    .line 201
     sget-boolean v0, Lcom/hzbhd/bluetooth/neon/NeonKit;->smsStarted:Z
 
     if-eqz v0, :cond_0
 
-    .line 174
+    .line 202
     return-void
 
-    .line 176
+    .line 204
     :cond_0
     const/4 v0, 0x1
 
     sput-boolean v0, Lcom/hzbhd/bluetooth/neon/NeonKit;->smsStarted:Z
 
-    .line 177
+    .line 205
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 178
-    new-instance v0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;
+    .line 206
+    new-instance v0, Lcom/hzbhd/bluetooth/neon/NeonKit$3;
 
-    invoke-direct {v0, p0}, Lcom/hzbhd/bluetooth/neon/NeonKit$2;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/hzbhd/bluetooth/neon/NeonKit$3;-><init>(Landroid/content/Context;)V
 
-    .line 213
+    .line 241
     sget-object p0, Lcom/hzbhd/bluetooth/neon/NeonKit;->UI:Landroid/os/Handler;
 
-    new-instance v1, Lcom/hzbhd/bluetooth/neon/NeonKit$3;
+    new-instance v1, Lcom/hzbhd/bluetooth/neon/NeonKit$4;
 
-    invoke-direct {v1, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit$3;-><init>(Lnfore/android/bt/servicemanager/UiMapCallback$Stub;)V
+    invoke-direct {v1, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit$4;-><init>(Lnfore/android/bt/servicemanager/UiMapCallback$Stub;)V
 
     invoke-virtual {p0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 236
+    .line 264
     return-void
 .end method
 

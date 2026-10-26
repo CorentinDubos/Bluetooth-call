@@ -1,11 +1,14 @@
 .class Lcom/hzbhd/bluetooth/neon/NeonKit$2;
-.super Lnfore/android/bt/servicemanager/UiMapCallback$Stub;
+.super Ljava/lang/Object;
 .source "NeonKit.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/hzbhd/bluetooth/neon/NeonKit;->startSms(Landroid/content/Context;)V
+    value = Lcom/hzbhd/bluetooth/neon/NeonKit;->bind(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,143 +18,133 @@
 
 
 # instance fields
-.field final synthetic val$ctx:Landroid/content/Context;
+.field final synthetic val$tag:Ljava/lang/String;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;)V
+.method constructor <init>(Ljava/lang/String;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
 
-    .line 178
-    iput-object p1, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$ctx:Landroid/content/Context;
+    .line 170
+    iput-object p1, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$tag:Ljava/lang/String;
 
-    invoke-direct {p0}, Lnfore/android/bt/servicemanager/UiMapCallback$Stub;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onMapDownloadNotify(Ljava/lang/String;II)V
-    .locals 0
+.method public onClick(Landroid/view/View;)V
+    .locals 3
 
-    .line 180
-    return-void
-.end method
-
-.method public onMapNewMessageReceived(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 2
-
-    .line 184
-    :try_start_0
-    new-instance p1, Lorg/json/JSONObject;
-
-    invoke-direct {p1}, Lorg/json/JSONObject;-><init>()V
-
-    .line 185
-    const-string p2, "a"
-
-    if-nez p3, :cond_0
-
-    const-string v0, "?"
-
-    goto :goto_0
-
-    :cond_0
-    move-object v0, p3
-
-    :goto_0
-    invoke-virtual {p1, p2, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-
-    .line 186
-    const-string p2, "b"
-
-    if-nez p4, :cond_1
-
-    const-string v0, ""
-
-    goto :goto_1
-
-    :cond_1
-    move-object v0, p4
-
-    :goto_1
-    invoke-virtual {p1, p2, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-
-    .line 187
-    const-string p2, "t"
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v0
-
-    invoke-virtual {p1, p2, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
-
-    .line 188
-    iget-object p2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$ctx:Landroid/content/Context;
-
-    const-string v0, "sms"
-
-    const/16 v1, 0x64
-
-    invoke-static {p2, v0, p1, v1}, Lcom/hzbhd/bluetooth/neon/NeonKit;->push(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONObject;I)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 190
-    goto :goto_2
-
-    .line 189
-    :catchall_0
-    move-exception p1
-
-    .line 191
-    :goto_2
-    invoke-static {}, Lcom/hzbhd/bluetooth/neon/NeonKit;->access$200()Landroid/os/Handler;
+    .line 172
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    new-instance p2, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;
+    .line 174
+    :try_start_0
+    iget-object v0, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$tag:Ljava/lang/String;
 
-    invoke-direct {p2, p0, p3, p4}, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;-><init>(Lcom/hzbhd/bluetooth/neon/NeonKit$2;Ljava/lang/String;Ljava/lang/String;)V
+    const-string v1, "neon_tracks"
 
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 196
-    return-void
-.end method
+    move-result v0
 
-.method public onMapNotificationStateChanged(Ljava/lang/String;Ljava/lang/String;III)V
-    .locals 0
+    if-eqz v0, :cond_0
 
-    .line 199
-    return-void
-.end method
+    .line 175
+    const-string v0, "tracks"
 
-.method public onMapStateChanged(Ljava/lang/String;Ljava/lang/String;IIII)V
-    .locals 0
+    invoke-static {p1, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->openList(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 202
-    return-void
-.end method
+    goto :goto_0
 
-.method public retMapCleanDatabaseCompleted(Z)V
-    .locals 0
+    .line 176
+    :cond_0
+    iget-object v0, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$tag:Ljava/lang/String;
 
-    .line 205
-    return-void
-.end method
+    const-string v1, "neon_sms"
 
-.method public retMapDatabaseAvailable(Ljava/lang/String;)V
-    .locals 0
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 208
-    return-void
-.end method
+    move-result v0
 
-.method public retMapDeleteDatabaseByAddressCompleted(Ljava/lang/String;Z)V
-    .locals 0
+    if-eqz v0, :cond_1
 
-    .line 211
+    .line 177
+    const-string v0, "sms"
+
+    invoke-static {p1, v0}, Lcom/hzbhd/bluetooth/neon/NeonKit;->openList(Landroid/content/Context;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 178
+    :cond_1
+    iget-object v0, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$tag:Ljava/lang/String;
+
+    const-string v1, "neon_shuffle"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    .line 179
+    invoke-static {p1}, Lcom/hzbhd/bluetooth/neon/NeonKit;->toggleShuffle(Landroid/content/Context;)V
+
+    goto :goto_0
+
+    .line 181
+    :cond_2
+    invoke-static {p1}, Lcom/hzbhd/bluetooth/neon/NeonKit;->toggleRepeat(Landroid/content/Context;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 185
+    :goto_0
+    goto :goto_1
+
+    .line 183
+    :catchall_0
+    move-exception v0
+
+    .line 184
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Erreur : "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-static {p1, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
+
+    .line 186
+    :goto_1
     return-void
 .end method

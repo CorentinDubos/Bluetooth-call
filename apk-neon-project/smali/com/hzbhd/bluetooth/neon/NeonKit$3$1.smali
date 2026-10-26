@@ -1,4 +1,4 @@
-.class Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;
+.class Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;
 .super Ljava/lang/Object;
 .source "NeonKit.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/hzbhd/bluetooth/neon/NeonKit$2;->onMapNewMessageReceived(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    value = Lcom/hzbhd/bluetooth/neon/NeonKit$3;->onMapNewMessageReceived(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$2;
+.field final synthetic this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$3;
 
 .field final synthetic val$message:Ljava/lang/String;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/hzbhd/bluetooth/neon/NeonKit$2;Ljava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(Lcom/hzbhd/bluetooth/neon/NeonKit$3;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -34,12 +34,12 @@
         }
     .end annotation
 
-    .line 191
-    iput-object p1, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$2;
+    .line 219
+    iput-object p1, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$3;
 
-    iput-object p2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->val$sender:Ljava/lang/String;
+    iput-object p2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->val$sender:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->val$message:Ljava/lang/String;
+    iput-object p3, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->val$message:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,10 +51,10 @@
 .method public run()V
     .locals 3
 
-    .line 193
-    iget-object v0, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$2;
+    .line 221
+    iget-object v0, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->this$0:Lcom/hzbhd/bluetooth/neon/NeonKit$3;
 
-    iget-object v0, v0, Lcom/hzbhd/bluetooth/neon/NeonKit$2;->val$ctx:Landroid/content/Context;
+    iget-object v0, v0, Lcom/hzbhd/bluetooth/neon/NeonKit$3;->val$ctx:Landroid/content/Context;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -66,7 +66,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->val$sender:Ljava/lang/String;
+    iget-object v2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->val$sender:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -78,7 +78,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$2$1;->val$message:Ljava/lang/String;
+    iget-object v2, p0, Lcom/hzbhd/bluetooth/neon/NeonKit$3$1;->val$message:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -96,6 +96,6 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 194
+    .line 222
     return-void
 .end method
